@@ -17,7 +17,7 @@
 
   var BASE_EN = {
     flag: '🇬🇧',
-    metaTitle: 'Entre Palmeras y Lavandas - Design Units in Colonia, Uruguay',
+    metaTitle: 'Alma en Movimiento - Biodanza Academy in Mendoza, Argentina',
     metaDescription: 'Design units among century-old palms and lavender fields in Colonia, Uruguay. Three independent units where nature and comfort meet.',
     preloaderDetecting: 'Detecting country and language...',
     preloaderReady: 'Welcome, guest from {country}.',
@@ -35,7 +35,7 @@
     about: {
       label: 'Our story',
       title: 'Where <em>nature</em> embraces you.',
-      p1: 'Entre Palmeras y Lavandas was born from its creator\'s dream: a place where design does not compete with nature, but celebrates it. In Colonia, Uruguay, we transformed contemporary design units to blend into the landscape.',
+      p1: 'Alma en Movimiento was born from its creator\'s dream: a place where design does not compete with nature, but celebrates it. In Colonia, Uruguay, we transformed contemporary design units to blend into the landscape.',
       p2: 'Surrounded by century-old palms, lavender fields and star-filled skies, every detail is curated so your only concern is choosing whether to watch the sunset from the hammock or from the pool.',
       features: [
         { title: 'Sustainable design', desc: 'Contemporary design units with curated interiors and noble materials, created to integrate naturally with the environment.' },
@@ -103,45 +103,45 @@
       unitLinks: ['Las Rosas Unit', 'El Jardin Unit', 'Las Glicinas Unit'],
       rights: 'All rights reserved.'
     },
-    whatsapp: { tooltip: 'Chat with us', message: 'Hi! I would like to check availability at Entre Palmeras y Lavandas' }
+    whatsapp: { tooltip: 'Chat with us', message: 'Hi! I would like to check availability at Alma en Movimiento' }
   };
 
   var TRANSLATIONS = {
     es: {
       flag: '🇪🇸',
-      metaTitle: 'Entre Palmeras y Lavandas - Unidades de Diseño en Colonia, Uruguay',
-      metaDescription: 'Unidades de diseño entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres unidades independientes donde la naturaleza y el confort se encuentran.',
+      metaTitle: 'Alma en Movimiento - Talleres de Diseño en Colonia, Uruguay',
+      metaDescription: 'Talleres de Biodanza entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres talleres independientes donde la naturaleza y el confort se encuentran.',
       preloaderDetecting: 'Detectando país e idioma...',
       preloaderReady: 'Bienvenido, huésped de {country}.',
-      brandSub: 'Unidades de diseño',
-      nav: { home: 'Inicio', about: 'Nosotros', units: 'Unidades', experiences: 'Experiencias', gallery: 'Galería', contact: 'Contacto', book: 'Reservar', menuAria: 'Abrir menú de navegación', langAria: 'Seleccionar idioma' },
+      brandSub: 'Talleres de Biodanza',
+      nav: { home: 'Inicio', about: 'Nosotros', units: 'Talleres', experiences: 'Experiencias', gallery: 'Galería', contact: 'Contacto', book: 'Reservar', menuAria: 'Abrir menú de navegación', langAria: 'Seleccionar idioma' },
       hero: {
         badge: 'Experiencia exclusiva',
         title: 'Desconecta para <em>reconectarte</em>',
-        subtitle: 'Unidades de diseño entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres unidades independientes donde la naturaleza y el confort se encuentran.',
+        subtitle: 'Talleres de Biodanza entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres talleres independientes donde la naturaleza y el confort se encuentran.',
         primary: 'Reservar estadia',
         secondary: 'Conocer mas',
         scroll: 'Descubri mas'
       },
-      stats: { units: 'Unidades independientes', guests: 'Hectáreas soñadas', rating: 'Rating en Google', nature: 'Naturaleza' }
+      stats: { units: 'Talleres independientes', guests: 'Hectáreas soñadas', rating: 'Rating en Google', nature: 'Naturaleza' }
     },
     pt: {
       flag: '🇧🇷',
-      metaTitle: 'Entre Palmeras y Lavandas - Unidades de Design em Colonia, Uruguai',
-      metaDescription: 'Unidades de design entre palmeiras centenarias e lavandas em Colonia, Uruguai. Tres unidades independentes onde natureza e conforto se encontram.',
+      metaTitle: 'Alma en Movimiento - Talleres de Design em Colonia, Uruguai',
+      metaDescription: 'Talleres de design entre palmeiras centenarias e lavandas em Colonia, Uruguai. Tres talleres independentes onde natureza e conforto se encontram.',
       preloaderDetecting: 'Detectando país e idioma...',
       preloaderReady: 'Bem-vindo, hóspede de {country}.',
-      brandSub: 'Unidades de design',
-      nav: { home: 'Inicio', about: 'Sobre', units: 'Unidades', experiences: 'Experiencias', gallery: 'Galería', contact: 'Contato', book: 'Reservar', menuAria: 'Abrir menu de navegação', langAria: 'Selecionar idioma' },
+      brandSub: 'Talleres de design',
+      nav: { home: 'Inicio', about: 'Sobre', units: 'Talleres', experiences: 'Experiencias', gallery: 'Galería', contact: 'Contato', book: 'Reservar', menuAria: 'Abrir menu de navegação', langAria: 'Selecionar idioma' },
       hero: {
         badge: 'Experiencia exclusiva',
         title: 'Desconecte para <em>se reconectar</em>',
-        subtitle: 'Unidades de design entre palmeiras centenarias e lavandas em Colonia, Uruguai. Tres unidades independentes onde natureza e conforto se encontram.',
+        subtitle: 'Talleres de design entre palmeiras centenarias e lavandas em Colonia, Uruguai. Tres talleres independentes onde natureza e conforto se encontram.',
         primary: 'Reservar estadia',
         secondary: 'Conhecer mais',
         scroll: 'Descobrir mais'
       },
-      stats: { units: 'Unidades independentes', guests: 'Hectares de sonho', rating: 'Avaliacao no Google', nature: 'Natureza' }
+      stats: { units: 'Talleres independentes', guests: 'Hectares de sonho', rating: 'Avaliacao no Google', nature: 'Natureza' }
     },
     it: {
       flag: '🇮🇹',
@@ -215,17 +215,17 @@
   TRANSLATIONS.es.about = {
     label: 'Nuestra historia',
     title: 'Donde la <em>naturaleza</em> abraza.',
-    p1: 'Entre Palmeras y Lavandas nació del sueño de su creadora: dar vida a un espacio donde el diseño no compita con la naturaleza, sino que la celebre. En Colonia, Uruguay, transformamos unidades de diseño contemporáneo pensadas para integrarse al entorno.',
+    p1: 'Alma en Movimiento nació del sueño de su creadora: dar vida a un espacio donde el diseño no compita con la naturaleza, sino que la celebre. En Colonia, Uruguay, transformamos talleres de diseño contemporáneo pensadas para integrarse al entorno.',
     p2: 'Rodeadas de palmeras centenarias, campos de lavanda y cielos estrellados, cada detalle está cuidado para que tu única preocupación sea decidir si el atardecer lo mirás desde la hamaca o desde la pileta.',
     features: [
-      { title: 'Diseño sustentable', desc: 'Unidades de diseño contemporáneo, transformadas con interiorismo cuidado y materiales nobles, pensadas para integrarse al entorno.' },
+      { title: 'Diseño sustentable', desc: 'Talleres de Biodanza contemporáneo, transformadas con interiorismo cuidado y materiales nobles, pensadas para integrarse al entorno.' },
       { title: 'Naturaleza inmersa', desc: 'Rodeadas de flores y fauna autóctona, palmeras centenarias y cielos infinitos que invitan a bajar el ritmo.' },
-      { title: 'Privacidad total', desc: 'Solo tres unidades independientes, pensadas para disfrutar de máxima tranquilidad y una experiencia sin interferencias.' }
+      { title: 'Privacidad total', desc: 'Solo tres talleres independientes, pensadas para disfrutar de máxima tranquilidad y una experiencia sin interferencias.' }
     ]
   };
   TRANSLATIONS.es.units = {
     label: 'Nuestros espacios',
-    title: 'Tres unidades de <em>diseño</em>',
+    title: 'Tres talleres de <em>diseño</em>',
     subtitle: 'Cada unidad fue transformada con mimo artesanal en un espacio único, donde la arquitectura contemporánea se fusiona con la calidez del campo uruguayo.',
     cards: [
       { name: 'Unidad Las Rosas', desc: 'Rodeada de rosas Iceberg, esta unidad ofrece todo el confort para una estadía íntima y tranquila. Cuenta con parrilla privada, vistas al camino de palmeras centenarias iluminadas y a un delicado camino de agua con piedras y plantas, atravesado por un pequeño puente que enamora. Pensada para dos personas, está totalmente equipada y dispone de cochera techada y privada.', cap: 'Capacidad: 2 personas' },
@@ -246,7 +246,7 @@
   TRANSLATIONS.es.process = {
     label: 'Tu escapada',
     title: 'Como <em>reservar</em>',
-    subtitle: 'En cuatro simples pasos estás disfrutando de la experiencia en unidades de diseño más exclusiva de Colonia.',
+    subtitle: 'En cuatro simples pasos estás disfrutando de la experiencia en talleres de diseño más exclusiva de Colonia.',
     steps: [
       { title: 'Elegí tu fecha', desc: 'Consulta disponibilidad y elegí la escapada ideal para vos. Fines de semana, semanas completas o lo que necesites.' },
       { title: 'Reserva online', desc: 'Confirmá tu reserva con una seña del 50% por transferencia bancaria o en efectivo al hacer el check-in.' },
@@ -266,28 +266,28 @@
     infoTitle: 'Información de contacto', infoLabels: ['Ubicación', 'WhatsApp', 'Email', 'Horarios']
   };
   TRANSLATIONS.es.footer = {
-    desc: 'Unidades de diseño entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres unidades independientes donde la naturaleza y el confort se encuentran.',
-    navHeading: 'Navegación', unitsHeading: 'Unidades', contactHeading: 'Contacto',
-    navLinks: ['Inicio', 'Nosotros', 'Unidades', 'Experiencias', 'Galería', 'Contacto'],
+    desc: 'Talleres de Biodanza entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres talleres independientes donde la naturaleza y el confort se encuentran.',
+    navHeading: 'Navegación', unitsHeading: 'Talleres', contactHeading: 'Contacto',
+    navLinks: ['Inicio', 'Nosotros', 'Talleres', 'Experiencias', 'Galería', 'Contacto'],
     unitLinks: ['Unidad Las Rosas', 'Unidad El Jardín', 'Unidad Las Glicinas'],
     rights: 'Todos los derechos reservados.'
   };
-  TRANSLATIONS.es.whatsapp = { tooltip: 'Chatea con nosotros', message: 'Hola! Quiero consultar disponibilidad en Entre Palmeras y Lavandas' };
+  TRANSLATIONS.es.whatsapp = { tooltip: 'Chatea con nosotros', message: 'Hola! Quiero consultar disponibilidad en Alma en Movimiento' };
 
   TRANSLATIONS.pt.about = {
     label: 'Nossa história',
     title: 'Onde a <em>natureza</em> abraça.',
-    p1: 'Entre Palmeras y Lavandas nasceu do sonho de sua criadora: criar um espaço onde o design não compete com a natureza, mas a celebra. Em Colonia, Uruguai, transformamos unidades contemporâneas para integrar-se ao entorno.',
+    p1: 'Alma en Movimiento nasceu do sonho de sua criadora: criar um espaço onde o design não compete com a natureza, mas a celebra. Em Colonia, Uruguai, transformamos talleres contemporâneas para integrar-se ao entorno.',
     p2: 'Cercadas por palmeiras centenárias, campos de lavanda e céus estrelados, cada detalhe é cuidado para que sua única preocupação seja escolher se verá o pôr do sol na rede ou na piscina.',
     features: [
-      { title: 'Design sustentável', desc: 'Unidades de design contemporâneo com interiores cuidados e materiais nobres, pensadas para integrar-se ao ambiente.' },
+      { title: 'Design sustentável', desc: 'Talleres de design contemporâneo com interiores cuidados e materiais nobres, pensadas para integrar-se ao ambiente.' },
       { title: 'Natureza imersiva', desc: 'Flores e fauna nativa, palmeiras centenárias e céus infinitos convidam você a desacelerar.' },
-      { title: 'Privacidade total', desc: 'Apenas três unidades independentes para máxima tranquilidade.' }
+      { title: 'Privacidade total', desc: 'Apenas três talleres independentes para máxima tranquilidade.' }
     ]
   };
   TRANSLATIONS.pt.units = {
     label: 'Nossos espaços',
-    title: 'Três unidades de <em>design</em>',
+    title: 'Três talleres de <em>design</em>',
     subtitle: 'Cada unidade foi transformada com cuidado artesanal em um espaço único.',
     cards: [
       { name: 'Unidade Las Rosas', desc: 'Cercada por rosas Iceberg, com churrasqueira privada, vista para o caminho de palmeiras iluminadas e para um delicado caminho de água com pequena ponte. Totalmente equipada para duas pessoas e com garagem coberta privada.', cap: 'Capacidade: 2 pessoas' },
@@ -328,17 +328,17 @@
     infoTitle: 'Informações de contato', infoLabels: ['Localização', 'WhatsApp', 'Email', 'Horários']
   };
   TRANSLATIONS.pt.footer = {
-    desc: 'Unidades de design entre palmeiras centenárias e lavandas em Colonia, Uruguai. Três unidades independentes onde natureza e conforto se encontram.',
-    navHeading: 'Navegação', unitsHeading: 'Unidades', contactHeading: 'Contato',
-    navLinks: ['Início', 'Sobre', 'Unidades', 'Experiências', 'Galería', 'Contato'],
+    desc: 'Talleres de design entre palmeiras centenárias e lavandas em Colonia, Uruguai. Três talleres independentes onde natureza e conforto se encontram.',
+    navHeading: 'Navegação', unitsHeading: 'Talleres', contactHeading: 'Contato',
+    navLinks: ['Início', 'Sobre', 'Talleres', 'Experiências', 'Galería', 'Contato'],
     unitLinks: ['Unidade Las Rosas', 'Unidade El Jardín', 'Unidade Las Glicinas'],
     rights: 'Todos os direitos reservados.'
   };
-  TRANSLATIONS.pt.whatsapp = { tooltip: 'Fale com a gente', message: 'Olá! Quero consultar disponibilidade em Entre Palmeras y Lavandas' };
+  TRANSLATIONS.pt.whatsapp = { tooltip: 'Fale com a gente', message: 'Olá! Quero consultar disponibilidade em Alma en Movimiento' };
 
   TRANSLATIONS.fr = {
     flag: '🇫🇷',
-    metaTitle: 'Entre Palmeras y Lavandas - Unités design à Colonia, Uruguay',
+    metaTitle: 'Alma en Movimiento - Unités design à Colonia, Uruguay',
     metaDescription: 'Unités design parmi des palmiers centenaires et la lavande à Colonia, Uruguay. Trois unités indépendantes où la nature et le confort se rencontrent.',
     preloaderDetecting: 'Détection du pays et de la langue...',
     preloaderReady: 'Bienvenue, hôte de {country}.',
@@ -359,7 +359,7 @@
     about: {
       label: 'Notre histoire',
       title: 'Là où la <em>nature</em> vous enlace.',
-      p1: 'Entre Palmeras y Lavandas est né du rêve de sa créatrice : donner vie à un espace où le design ne rivalise pas avec la nature, mais la célèbre. À Colonia, en Uruguay, nous avons transformé des unités de design contemporain pensées pour s\'intégrer au paysage.',
+      p1: 'Alma en Movimiento est né du rêve de sa créatrice : donner vie à un espace où le design ne rivalise pas avec la nature, mais la célèbre. À Colonia, en Uruguay, nous avons transformé des unités de design contemporain pensées pour s\'intégrer au paysage.',
       p2: 'Entouré de palmiers centenaires, de champs de lavande et de ciels étoilés, chaque détail est soigné pour que votre seule préoccupation soit de choisir où admirer le coucher du soleil : depuis le hamac ou depuis la piscine.',
       features: [
         { title: 'Design durable', desc: 'Unités de design contemporain, avec un intérieur soigné et des matériaux nobles, pensées pour s\'intégrer à l\'environnement.' },
@@ -428,16 +428,16 @@
       unitLinks: ['Unité Las Rosas', 'Unité El Jardín', 'Unité Las Glicinas'],
       rights: 'Tous droits réservés.'
     },
-    whatsapp: { tooltip: 'Discutez avec nous', message: 'Bonjour ! Je souhaite vérifier la disponibilité à Entre Palmeras y Lavandas' }
+    whatsapp: { tooltip: 'Discutez avec nous', message: 'Bonjour ! Je souhaite vérifier la disponibilité à Alma en Movimiento' }
   };
 
-  TRANSLATIONS.it.metaTitle = 'Entre Palmeras y Lavandas - Unita di Design a Colonia, Uruguay';
+  TRANSLATIONS.it.metaTitle = 'Alma en Movimiento - Unita di Design a Colonia, Uruguay';
   TRANSLATIONS.it.metaDescription = 'Unita di design tra palme secolari e lavande a Colonia, Uruguay. Tre unita indipendenti dove natura e comfort si incontrano.';
   TRANSLATIONS.it.preloaderDetecting = 'Rilevamento paese e lingua...';
   TRANSLATIONS.it.about = {
     label: 'La nostra storia',
     title: 'Dove la <em>natura</em> abbraccia.',
-    p1: 'Entre Palmeras y Lavandas nasce dal sogno della sua creatrice: dare vita a uno spazio dove il design non compete con la natura, ma la celebra. A Colonia, in Uruguay, abbiamo trasformato unità contemporanee pensate per integrarsi nel paesaggio.',
+    p1: 'Alma en Movimiento nasce dal sogno della sua creatrice: dare vita a uno spazio dove il design non compete con la natura, ma la celebra. A Colonia, in Uruguay, abbiamo trasformato unità contemporanee pensate per integrarsi nel paesaggio.',
     p2: 'Circondate da palme secolari, campi di lavanda e cieli stellati, ogni dettaglio è curato perché la tua unica preoccupazione sia scegliere se guardare il tramonto dall\'amaca o dalla piscina.',
     features: [
       { title: 'Design sostenibile', desc: 'Unità di design contemporaneo, con interior curato e materiali nobili, pensate per integrarsi con l\'ambiente.' },
@@ -494,15 +494,15 @@
     unitLinks: ['Unità Las Rosas', 'Unità El Jardín', 'Unità Las Glicinas'],
     rights: 'Tutti i diritti riservati.'
   };
-  TRANSLATIONS.it.whatsapp = { tooltip: 'Chatta con noi', message: 'Ciao! Vorrei verificare la disponibilità in Entre Palmeras y Lavandas' };
+  TRANSLATIONS.it.whatsapp = { tooltip: 'Chatta con noi', message: 'Ciao! Vorrei verificare la disponibilità in Alma en Movimiento' };
 
-  TRANSLATIONS.de.metaTitle = 'Entre Palmeras y Lavandas - Design-Unterkünfte in Colonia, Uruguay';
+  TRANSLATIONS.de.metaTitle = 'Alma en Movimiento - Design-Unterkünfte in Colonia, Uruguay';
   TRANSLATIONS.de.metaDescription = 'Design-Unterkünfte zwischen alten Palmen und Lavendel in Colonia, Uruguay. Drei unabhängige Einheiten, in denen Natur und Komfort zusammenfinden.';
   TRANSLATIONS.de.preloaderDetecting = 'Land und Sprache werden erkannt...';
   TRANSLATIONS.de.about = {
     label: 'Unsere Geschichte',
     title: 'Wo die <em>Natur</em> dich umarmt.',
-    p1: 'Entre Palmeras y Lavandas entstand aus dem Traum seiner Gründerin: einen Ort zu schaffen, an dem Design nicht mit der Natur konkurriert, sondern sie feiert. In Colonia, Uruguay, haben wir moderne Einheiten geschaffen, die sich in die Landschaft integrieren.',
+    p1: 'Alma en Movimiento entstand aus dem Traum seiner Gründerin: einen Ort zu schaffen, an dem Design nicht mit der Natur konkurriert, sondern sie feiert. In Colonia, Uruguay, haben wir moderne Einheiten geschaffen, die sich in die Landschaft integrieren.',
     p2: 'Umgeben von alten Palmen, Lavendelfeldern und sternklarem Himmel ist jedes Detail so gestaltet, dass nur eine Frage bleibt: Sonnenuntergang in der Hängematte oder am Pool?',
     features: [
       { title: 'Nachhaltiges Design', desc: 'Zeitgenössische Einheiten mit sorgfältigem Interior und hochwertigen Materialien.' },
@@ -559,16 +559,16 @@
     unitLinks: ['Einheit Las Rosas', 'Einheit El Jardín', 'Einheit Las Glicinas'],
     rights: 'Alle Rechte vorbehalten.'
   };
-  TRANSLATIONS.de.whatsapp = { tooltip: 'Chatte mit uns', message: 'Hallo! Ich möchte die Verfügbarkeit bei Entre Palmeras y Lavandas prüfen' };
+  TRANSLATIONS.de.whatsapp = { tooltip: 'Chatte mit uns', message: 'Hallo! Ich möchte die Verfügbarkeit bei Alma en Movimiento prüfen' };
 
-  TRANSLATIONS.sv.metaTitle = 'Entre Palmeras y Lavandas - Designboenden i Colonia, Uruguay';
+  TRANSLATIONS.sv.metaTitle = 'Alma en Movimiento - Designboenden i Colonia, Uruguay';
   TRANSLATIONS.sv.metaDescription = 'Designboenden bland hundraåriga palmer och lavendel i Colonia, Uruguay. Tre fristående enheter där natur och komfort möts.';
   TRANSLATIONS.sv.preloaderDetecting = 'Identifierar land och språk...';
   TRANSLATIONS.sv.preloaderReady = 'Välkommen, gäst från {country}.';
   TRANSLATIONS.sv.about = {
     label: 'Vår historia',
     title: 'Där <em>naturen</em> omfamnar.',
-    p1: 'Entre Palmeras y Lavandas föddes ur en dröm: en plats där design inte konkurrerar med naturen utan hyllar den. I Colonia, Uruguay, skapade vi moderna enheter som smälter in i landskapet.',
+    p1: 'Alma en Movimiento föddes ur en dröm: en plats där design inte konkurrerar med naturen utan hyllar den. I Colonia, Uruguay, skapade vi moderna enheter som smälter in i landskapet.',
     p2: 'Omgivna av hundraåriga palmer, lavendelfält och stjärnklara himlar är varje detalj utformad för total ro.',
     features: [
       { title: 'Hållbar design', desc: 'Samtida enheter med genomtänkt inredning och naturmaterial.' },
@@ -625,15 +625,15 @@
     unitLinks: ['Enhet Las Rosas', 'Enhet El Jardín', 'Enhet Las Glicinas'],
     rights: 'Alla rättigheter förbehållna.'
   };
-  TRANSLATIONS.sv.whatsapp = { tooltip: 'Chatta med oss', message: 'Hej! Jag vill kontrollera tillgänglighet hos Entre Palmeras y Lavandas' };
+  TRANSLATIONS.sv.whatsapp = { tooltip: 'Chatta med oss', message: 'Hej! Jag vill kontrollera tillgänglighet hos Alma en Movimiento' };
 
-  TRANSLATIONS.da.metaTitle = 'Entre Palmeras y Lavandas - Designenheder i Colonia, Uruguay';
+  TRANSLATIONS.da.metaTitle = 'Alma en Movimiento - Designenheder i Colonia, Uruguay';
   TRANSLATIONS.da.metaDescription = 'Designenheder mellem gamle palmer og lavendel i Colonia, Uruguay. Tre uafhængige enheder hvor natur og komfort mødes.';
   TRANSLATIONS.da.preloaderDetecting = 'Finder land og sprog...';
   TRANSLATIONS.da.about = {
     label: 'Vores historie',
     title: 'Hvor <em>naturen</em> omfavner.',
-    p1: 'Entre Palmeras y Lavandas blev skabt ud fra en drøm: et sted hvor design ikke konkurrerer med naturen, men fejrer den. I Colonia, Uruguay, skabte vi moderne enheder i harmoni med omgivelserne.',
+    p1: 'Alma en Movimiento blev skabt ud fra en drøm: et sted hvor design ikke konkurrerer med naturen, men fejrer den. I Colonia, Uruguay, skabte vi moderne enheder i harmoni med omgivelserne.',
     p2: 'Omringet af gamle palmer, lavendelmarker og stjernehimmel er alt designet til ro og nærvær.',
     features: [
       { title: 'Bæredygtigt design', desc: 'Moderne enheder med nøje udvalgt indretning og naturlige materialer.' },
@@ -690,15 +690,15 @@
     unitLinks: ['Enhed Las Rosas', 'Enhed El Jardín', 'Enhed Las Glicinas'],
     rights: 'Alle rettigheder forbeholdes.'
   };
-  TRANSLATIONS.da.whatsapp = { tooltip: 'Chat med os', message: 'Hej! Jeg vil gerne tjekke tilgængelighed hos Entre Palmeras y Lavandas' };
+  TRANSLATIONS.da.whatsapp = { tooltip: 'Chat med os', message: 'Hej! Jeg vil gerne tjekke tilgængelighed hos Alma en Movimiento' };
 
-  TRANSLATIONS.ru.metaTitle = 'Entre Palmeras y Lavandas - Дизайнерские дома в Колонии, Уругвай';
+  TRANSLATIONS.ru.metaTitle = 'Alma en Movimiento - Дизайнерские дома в Колонии, Уругвай';
   TRANSLATIONS.ru.metaDescription = 'Дизайнерские дома среди вековых пальм и лаванды в Колонии, Уругвай. Три независимых дома, где встречаются природа и комфорт.';
   TRANSLATIONS.ru.preloaderDetecting = 'Определяем страну и язык...';
   TRANSLATIONS.ru.about = {
     label: 'Наша история',
     title: 'Где <em>природа</em> обнимает.',
-    p1: 'Entre Palmeras y Lavandas родился из мечты создательницы: создать место, где дизайн не спорит с природой, а подчеркивает ее. В Колонии, Уругвай, мы создали современные дома, гармонично встроенные в окружение.',
+    p1: 'Alma en Movimiento родился из мечты создательницы: создать место, где дизайн не спорит с природой, а подчеркивает ее. В Колонии, Уругвай, мы создали современные дома, гармонично встроенные в окружение.',
     p2: 'Вековые пальмы, поля лаванды и звездное небо создают атмосферу, где можно замедлиться и восстановиться.',
     features: [
       { title: 'Устойчивый дизайн', desc: 'Современные дома с продуманным интерьером и благородными материалами.' },
@@ -755,15 +755,15 @@
     unitLinks: ['Дом Las Rosas', 'Дом El Jardín', 'Дом Las Glicinas'],
     rights: 'Все права защищены.'
   };
-  TRANSLATIONS.ru.whatsapp = { tooltip: 'Напишите нам', message: 'Здравствуйте! Хочу уточнить доступность в Entre Palmeras y Lavandas' };
+  TRANSLATIONS.ru.whatsapp = { tooltip: 'Напишите нам', message: 'Здравствуйте! Хочу уточнить доступность в Alma en Movimiento' };
 
-  TRANSLATIONS.zh.metaTitle = 'Entre Palmeras y Lavandas - 乌拉圭科洛尼亚设计独栋';
+  TRANSLATIONS.zh.metaTitle = 'Alma en Movimiento - 乌拉圭科洛尼亚设计独栋';
   TRANSLATIONS.zh.metaDescription = '位于乌拉圭科洛尼亚，百年棕榈与薰衣草之间的设计独栋。三套独立单元，让自然与舒适相遇。';
   TRANSLATIONS.zh.preloaderDetecting = '正在识别国家与语言...';
   TRANSLATIONS.zh.about = {
     label: '我们的故事',
     title: '<em>自然</em>拥抱你的地方。',
-    p1: 'Entre Palmeras y Lavandas 源于创始人的梦想：打造一个让设计与自然共生、彼此成就的空间。我们在乌拉圭科洛尼亚，将当代设计单元与环境和谐融合。',
+    p1: 'Alma en Movimiento 源于创始人的梦想：打造一个让设计与自然共生、彼此成就的空间。我们在乌拉圭科洛尼亚，将当代设计单元与环境和谐融合。',
     p2: '百年棕榈、薰衣草田与星空环绕，每一个细节都被细致打磨，让你只需决定：在吊床还是泳池边看日落。',
     features: [
       { title: '可持续设计', desc: '当代设计单元，精选材质与精心室内设计，融入自然环境。' },
@@ -820,15 +820,15 @@
     unitLinks: ['Las Rosas 单元', 'El Jardín 单元', 'Las Glicinas 单元'],
     rights: '保留所有权利。'
   };
-  TRANSLATIONS.zh.whatsapp = { tooltip: '与我们聊天', message: '你好！我想咨询 Entre Palmeras y Lavandas 的可订日期' };
+  TRANSLATIONS.zh.whatsapp = { tooltip: '与我们聊天', message: '你好！我想咨询 Alma en Movimiento 的可订日期' };
 
-  TRANSLATIONS.ja.metaTitle = 'Entre Palmeras y Lavandas - ウルグアイ・コロニアのデザインユニット';
+  TRANSLATIONS.ja.metaTitle = 'Alma en Movimiento - ウルグアイ・コロニアのデザインユニット';
   TRANSLATIONS.ja.metaDescription = 'ウルグアイ・コロニア、樹齢あるヤシとラベンダーに囲まれたデザインユニット。自然と快適さが調和する独立型3ユニット。';
   TRANSLATIONS.ja.preloaderDetecting = '国と言語を判定しています...';
   TRANSLATIONS.ja.about = {
     label: '私たちの物語',
     title: '<em>自然</em>に抱かれる場所。',
-    p1: 'Entre Palmeras y Lavandas は、デザインが自然と競うのではなく称える場所をつくりたいという想いから生まれました。ウルグアイ・コロニアで、環境に調和する現代的なユニットを整えました。',
+    p1: 'Alma en Movimiento は、デザインが自然と競うのではなく称える場所をつくりたいという想いから生まれました。ウルグアイ・コロニアで、環境に調和する現代的なユニットを整えました。',
     p2: '樹齢あるヤシ、ラベンダー畑、星空に囲まれ、細部まで丁寧に整えています。',
     features: [
       { title: 'サステナブルデザイン', desc: '上質な素材と丁寧なインテリアで、環境に溶け込む現代的なユニット。' },
@@ -885,7 +885,7 @@
     unitLinks: ['Las Rosas ユニット', 'El Jardín ユニット', 'Las Glicinas ユニット'],
     rights: 'All rights reserved.'
   };
-  TRANSLATIONS.ja.whatsapp = { tooltip: 'チャットで相談', message: 'こんにちは。Entre Palmeras y Lavandas の空き状況を確認したいです' };
+  TRANSLATIONS.ja.whatsapp = { tooltip: 'チャットで相談', message: 'こんにちは。Alma en Movimiento の空き状況を確認したいです' };
 
   var COUNTRY_TO_LANG = {
     AR: 'es', BO: 'es', CL: 'es', CO: 'es', CR: 'es', CU: 'es', DO: 'es', EC: 'es', ES: 'es', GT: 'es', HN: 'es', MX: 'es', NI: 'es', PA: 'es', PE: 'es', PR: 'es', PY: 'es', SV: 'es', UY: 'es', VE: 'es',
@@ -1381,7 +1381,7 @@
     if (footerHeadings[2]) footerHeadings[2].textContent = pack.footer.contactHeading;
     setListText('.footer-grid > div:nth-child(2) .footer-link', pack.footer.navLinks);
     setListText('.footer-grid > div:nth-child(3) .footer-link', pack.footer.unitLinks);
-    setText('.footer-bottom span', '© 2026 Entre Palmeras y Lavandas. ' + pack.footer.rights);
+    setText('.footer-bottom span', '© 2026 Alma en Movimiento. ' + pack.footer.rights);
 
     setText('.whatsapp-tooltip', pack.whatsapp.tooltip);
     setWhatsAppMessage(pack.whatsapp.message);
