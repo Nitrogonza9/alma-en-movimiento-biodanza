@@ -5,6 +5,11 @@ _site_*/
 # Compressed images backup
 img-compressed/
 
+# Python scripts and cache
+*.py
+__pycache__/
+*.pyc
+
 # OS files
 .DS_Store
 Thumbs.db
