@@ -1,0 +1,6 @@
+name = "alma-en-movimiento-biodanza"
+compatibility_date = "2026-02-14"
+
+# Configuración para sitio estático
+[assets]
+directory = "."
