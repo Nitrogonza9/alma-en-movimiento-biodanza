@@ -1,0 +1,23 @@
+# Build directories
+_site_*/
+.wrangler/
+
+# Compressed images backup
+img-compressed/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local

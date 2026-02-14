@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wrangler --version:*)",
+      "Bash(wrangler pages project:*)",
+      "Bash(wrangler pages deploy:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(wrangler r2 bucket list:*)",
+      "Bash(wrangler r2 bucket create:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"Comprimiendo $file...\")",
+      "Bash(convert:*)",
+      "Bash(done)",
+      "Bash(do echo \"Subiendo $file a R2...\")",
+      "Bash(wrangler r2 object put:*)",
+      "Bash(npx wrangler pages deploy:*)",
+      "Bash(do if [ ! -f \"img/pool/$img\" ])",
+      "Bash(then echo \"FALTA: $img\")",
+      "Bash(else echo \"OK: $img\")",
+      "Bash(fi)",
+      "Bash(wrangler pages publish:*)",
+      "Bash(npx wrangler pages:*)",
+      "Bash(curl:*)",
+      "Bash(findstr:*)",
+      "Bash(dir:*)",
+      "Bash(npx wrangler@latest pages deploy:*)"
+    ]
+  }
+}
