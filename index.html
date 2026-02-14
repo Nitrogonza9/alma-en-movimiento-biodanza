@@ -113,8 +113,8 @@
 <script>
 (function() {
   try {
-    var LEGACY_THEME_KEY = 'epl_theme_pref_v1';
-    var THEME_STATE_KEY = 'epl_theme_state_v2';
+    var LEGACY_THEME_KEY = 'aem_theme_pref_v1';
+    var THEME_STATE_KEY = 'aem_theme_state_v2';
 
     function hourToTheme(hour) {
       return (hour >= 7 && hour < 19) ? 'light' : 'dark';
@@ -162,7 +162,7 @@
     };
     var countryCode = '';
     try {
-      var geo = JSON.parse(localStorage.getItem('epl_geo_cache_v1') || 'null');
+      var geo = JSON.parse(localStorage.getItem('aem_geo_cache_v1') || 'null');
       if (geo && geo.countryCode) countryCode = String(geo.countryCode).toUpperCase();
     } catch (e) {}
     var tz = countryToTz[countryCode] || '';
