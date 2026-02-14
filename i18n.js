@@ -17,277 +17,277 @@
 
   var BASE_EN = {
     flag: '🇬🇧',
-    metaTitle: 'Alma en Movimiento - Biodanza Academy in Mendoza, Argentina',
-    metaDescription: 'Biodanza academy in Mendoza Capital, Argentina. Awaken your essence through dance, music and connection. Weekly classes, intensive workshops and biodanza for children with Florencia Serruya.',
+    metaTitle: 'Entre Palmeras y Lavandas - Biodanza System in Mendoza, Argentina',
+    metaDescription: 'Design units among century-old palms and lavender fields in Colonia, Uruguay. Three independent units where nature and comfort meet.',
     preloaderDetecting: 'Detecting country and language...',
     preloaderReady: 'Welcome, guest from {country}.',
-    brandSub: 'Biodanza',
-    nav: { home: 'Home', about: 'About', units: 'Workshops', experiences: 'Benefits', gallery: 'Gallery', contact: 'Contact', book: 'Contact', menuAria: 'Open navigation menu', langAria: 'Select language' },
+    brandSub: 'Design units',
+    nav: { home: 'Home', about: 'About', units: 'Units', experiences: 'Experiences', gallery: 'Gallery', contact: 'Contact', book: 'Book', menuAria: 'Open navigation menu', langAria: 'Select language' },
     hero: {
-      badge: 'Transformation through movement',
-      title: 'Awaken your essence with <em>Biodanza</em>',
-      subtitle: 'Biodanza academy in Mendoza Capital, Argentina. A space of authentic connection where music, movement and community invite you to live fully.',
-      primary: 'Explore classes',
-      secondary: 'What is Biodanza',
+      badge: 'Exclusive experience',
+      title: 'Disconnect to <em>reconnect</em>',
+      subtitle: 'Design units among century-old palms and lavender fields in Colonia, Uruguay. Three independent units where nature and comfort meet.',
+      primary: 'Book your stay',
+      secondary: 'Learn more',
       scroll: 'Discover more'
     },
-    stats: { units: 'Years of experience', guests: 'Transformed students', rating: 'Average rating', nature: 'Passion & connection' },
+    stats: { units: 'Independent units', guests: 'Dreamy hectares', rating: 'Google rating', nature: 'Nature' },
     about: {
       label: 'Our story',
-      title: 'Where the <em>soul</em> finds itself.',
-      p1: 'Alma en Movimiento was born from Florencia Serruya\'s deep love for Biodanza and its transformative power. As a certified facilitator with over 8 years of experience, Florencia has created a space where each person can reconnect with their most authentic essence through movement, music and human connection.',
-      p2: 'In Mendoza Capital, our academy has become a refuge for those seeking more than a dance class: a path towards vitality, genuine expression and belonging to a community that celebrates life in all its forms.',
+      title: 'Where <em>nature</em> embraces you.',
+      p1: 'Entre Palmeras y Lavandas was born from its creator\'s dream: a place where design does not compete with nature, but celebrates it. In Colonia, Uruguay, we transformed contemporary design units to blend into the landscape.',
+      p2: 'Surrounded by century-old palms, lavender fields and star-filled skies, every detail is curated so your only concern is choosing whether to watch the sunset from the hammock or from the pool.',
       features: [
-        { title: 'Authentic connection', desc: 'We create safe spaces where you can be yourself, express yourself freely and connect from the heart with others and with your deepest essence.' },
-        { title: 'Personal transformation', desc: 'Biodanza is a human development system that integrates music, movement and encounter to awaken your potential for life and expression.' },
-        { title: 'Loving community', desc: 'You become part of a warm and welcoming group that celebrates each process, respects each timing and shares the joy of living fully.' }
+        { title: 'Sustainable design', desc: 'Contemporary design units with curated interiors and noble materials, created to integrate naturally with the environment.' },
+        { title: 'Immersive nature', desc: 'Native flowers and wildlife, ancient palms and endless skies invite you to slow down.' },
+        { title: 'Total privacy', desc: 'Only three independent units, designed for complete tranquility and a no-distraction experience.' }
       ]
     },
     units: {
-      label: 'Our modalities',
-      title: 'Ways to <em>experience</em>',
-      subtitle: 'We offer different spaces to encounter Biodanza, adapted to your needs and life rhythms. Each workshop is a gateway to your transformation.',
+      label: 'Our spaces',
+      title: 'Three <em>design</em> units',
+      subtitle: 'Each unit was transformed with artisanal care into a unique space, where contemporary architecture meets the warmth of the Uruguayan countryside.',
       cards: [
         {
-          name: 'Weekly Classes',
-          desc: 'Our regular meeting space where each week we experience Biodanza as a group. Through movement exercises, carefully selected music and the warmth of the group, we travel a progressive path of self-knowledge and transformation. Ideal for those seeking sustained commitment to their personal development.',
-          cap: 'Duration: 2 hours weekly'
+          name: 'Las Rosas Unit',
+          desc: 'Surrounded by Iceberg roses, this unit offers full comfort for an intimate and peaceful stay. It includes a private grill, views to the lit palm-lined path and a delicate water path crossed by a charming bridge. Designed for two guests, fully equipped, with private covered parking.',
+          cap: 'Capacity: 2 guests'
         },
         {
-          name: 'Intensive Workshops',
-          desc: 'Deep immersion experiences in specific Biodanza themes. These special half-day or full-day gatherings allow us to explore with greater depth aspects such as creativity, affectivity, vitality or identity. An opportunity to experience significant transformations in a short time.',
-          cap: 'Frequency: Once a month'
+          name: 'El Jardin Unit',
+          desc: 'Known for its spacious galleries with private grill and panoramic windows over open fields. An ideal private setting to enjoy Colonia sunsets in calm and nature. Perfect for couples or small groups.',
+          cap: 'Capacity: 2 to 3 guests'
         },
         {
-          name: 'Biodanza for Children',
-          desc: 'A space specially designed for children to explore movement, creativity and connection with others in a playful and affectionate way. Through play and music, we accompany their emotional development, spontaneous expression and ability to bond with joy and respect. Children discover their own vitality in a safe and loving environment.',
-          cap: 'Ages: 5 to 12 years'
+          name: 'Las Glicinas Unit',
+          desc: 'Large windows overlook the lit palm path, plus an elevated private terrace with a 360 degrees view of the lake, waterfall and pergolas covered in wisteria. The most romantic unit on the property, ideal for couples or small groups.',
+          cap: 'Capacity: 2 to 4 guests'
         }
       ]
     },
     experiences: {
-      label: 'Benefits of Biodanza',
-      title: 'What you will <em>experience</em>',
-      subtitle: 'Biodanza invites you to discover deep aspects of yourself and develop your human potential in all its dimensions.',
+      label: 'Why choose us',
+      title: 'Experiences that <em>transform</em>',
+      subtitle: 'Every moment is designed so you can live something you will not find anywhere else.',
       cards: [
-        { title: 'Deep connection', desc: 'Learn to connect authentically with yourself and with others. Biodanza creates safe spaces where you can be who you really are, without masks or judgments, strengthening genuine and meaningful bonds.' },
-        { title: 'Vitality and well-being', desc: 'Awaken your vital energy through conscious movement. Improve your physical and emotional health, reduce stress and recover the pleasure of inhabiting your body with joy and fullness.' },
-        { title: 'Community and belonging', desc: 'Become part of a warm and welcoming group where each person is valued. Share a growth path with others who, like you, seek to live with more authenticity, joy and love.' },
-        { title: 'Creative expression', desc: 'Free your creativity and personal expression through spontaneous movement. Discover new ways to communicate, feel and manifest your uniqueness in the world.' }
+        { title: 'Pool with countryside views', desc: 'Seasonal heated pool with a natural wooden deck integrated into the landscape and panoramic countryside views.' },
+        { title: 'Outdoor activities', desc: 'Walks among palms, night bonfires, birdwatching and countryside strolls at your own pace.' },
+        { title: 'True disconnection', desc: 'No noise, no rush, just you and nature. Optional Wi-Fi so you decide when to reconnect.' }
       ]
     },
     process: {
-      label: 'Your path',
-      title: 'How to <em>begin</em>',
-      subtitle: 'In four simple steps you begin your transformation journey with Biodanza in Mendoza.',
+      label: 'Your escape',
+      title: 'How to <em>book</em>',
+      subtitle: 'In four simple steps you are enjoying Colonia\'s most exclusive design units experience.',
       steps: [
-        { title: 'Learn about Biodanza', desc: 'Contact us via WhatsApp, Instagram or email. We tell you all about Biodanza, our modalities and answer all your questions.' },
-        { title: 'Try a free class', desc: 'Your first class is free. Come experience Biodanza, meet the group and feel the energy of the encounter. No commitment.' },
-        { title: 'Enroll and begin', desc: 'If you feel it\'s for you, choose the workshop that best suits your rhythm and complete your enrollment. We accompany you at every step.' },
-        { title: 'Experience and transform', desc: 'Begin your process of self-knowledge and transformation. Each class is an opportunity to connect with your essence and celebrate life.' }
+        { title: 'Choose your date', desc: 'Check availability and pick the perfect escape for you.' },
+        { title: 'Book online', desc: 'Confirm with a 50% deposit by bank transfer or cash at check-in.' },
+        { title: 'We prepare everything', desc: 'We tailor your experience, from unit ambiance to every detail of your stay.' },
+        { title: 'Enjoy', desc: 'Check-in, relax and pure nature. We handle everything so you can simply enjoy.' }
       ]
     },
     form: {
-      title: 'Contact us',
-      name: 'Full name', email: 'Email', phone: 'Phone / WhatsApp', checkin: 'Modality of interest', nights: 'Modality of interest', unit: 'Modality of interest', message: 'Message (optional)',
-      phName: 'Your name', phEmail: 'you@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Tell us about your interest in Biodanza, questions or comments...',
-      errName: 'Please enter your name', errEmail: 'Please enter a valid email', errPhone: 'Please enter a valid phone', errCheckin: 'Please select a workshop', errNights: 'Please select a workshop',
-      nightsOptions: ['Select...', 'Weekly Classes', 'Intensive Workshops', 'Biodanza for Children', 'General inquiry'],
-      unitOptions: ['Select...', 'Weekly Classes', 'Intensive Workshops', 'Biodanza for Children', 'General inquiry'],
-      submit: 'Send inquiry', sending: 'Sending...', successTitle: 'Inquiry sent', successText: 'Thank you for your interest in Biodanza. We will reply shortly by email or WhatsApp.',
+      title: 'Check availability',
+      name: 'Full name', email: 'Email', phone: 'Phone / WhatsApp', checkin: 'Check-in date', nights: 'Number of nights', unit: 'Preferred unit', message: 'Message (optional)',
+      phName: 'Your name', phEmail: 'you@email.com', phPhone: '+1 555 123 4567', phMessage: 'Tell us about your ideal getaway...',
+      errName: 'Please enter your name', errEmail: 'Please enter a valid email', errPhone: 'Please enter a valid phone number', errCheckin: 'Please select a date', errNights: 'Please select nights',
+      nightsOptions: ['Select...', '1 night', '2 nights', '3 nights', '4 nights', '5 nights', '6 nights', '7 nights'],
+      unitOptions: ['No preference', 'Las Rosas Unit', 'El Jardin Unit', 'Las Glicinas Unit'],
+      submit: 'Send inquiry', sending: 'Sending...', successTitle: 'Inquiry sent', successText: 'Thank you for your interest. We will reply shortly by email or WhatsApp.',
       infoTitle: 'Contact information', infoLabels: ['Location', 'WhatsApp', 'Email', 'Schedule']
     },
     footer: {
-      desc: 'Biodanza academy in Mendoza Capital, Argentina. A space of authentic connection where music, movement and community invite you to live fully.',
-      navHeading: 'Navigation', unitsHeading: 'Workshops', contactHeading: 'Contact',
-      navLinks: ['Home', 'About', 'Workshops', 'Benefits', 'Gallery', 'Contact'],
-      unitLinks: ['Weekly Classes', 'Intensive Workshops', 'Biodanza for Children'],
+      desc: 'Design units among century-old palms and lavender fields, Colonia, Uruguay. Three independent units where nature and comfort meet.',
+      navHeading: 'Navigation', unitsHeading: 'Units', contactHeading: 'Contact',
+      navLinks: ['Home', 'About', 'Units', 'Experiences', 'Gallery', 'Contact'],
+      unitLinks: ['Las Rosas Unit', 'El Jardin Unit', 'Las Glicinas Unit'],
       rights: 'All rights reserved.'
     },
-    whatsapp: { tooltip: 'Contact us on WhatsApp', message: 'Hi! I would like to learn more about Biodanza at Alma en Movimiento' }
+    whatsapp: { tooltip: 'Chat with us', message: 'Hi! I would like to check availability at Entre Palmeras y Lavandas' }
   };
 
   var TRANSLATIONS = {
     es: {
-      flag: '🇦🇷',
-      metaTitle: 'Alma en Movimiento - Academia de Biodanza en Mendoza, Argentina',
-      metaDescription: 'Academia de Biodanza en Mendoza Capital, Argentina. Despertá tu esencia a través de la danza, la música y la conexión. Clases semanales, talleres y biodanza para niños con Florencia Serruya.',
+      flag: '🇪🇸',
+      metaTitle: 'Entre Palmeras y Lavandas - Unidades de Diseño en Colonia, Uruguay',
+      metaDescription: 'Unidades de diseño entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres unidades independientes donde la naturaleza y el confort se encuentran.',
       preloaderDetecting: 'Detectando país e idioma...',
-      preloaderReady: 'Bienvenido, visitante de {country}.',
-      brandSub: 'Biodanza',
-      nav: { home: 'Inicio', about: 'Nosotros', units: 'Talleres', experiences: 'Beneficios', gallery: 'Galería', contact: 'Contacto', book: 'Contacto', menuAria: 'Abrir menú de navegación', langAria: 'Seleccionar idioma' },
+      preloaderReady: 'Bienvenido, huésped de {country}.',
+      brandSub: 'Unidades de diseño',
+      nav: { home: 'Inicio', about: 'Nosotros', units: 'Unidades', experiences: 'Experiencias', gallery: 'Galería', contact: 'Contacto', book: 'Reservar', menuAria: 'Abrir menú de navegación', langAria: 'Seleccionar idioma' },
       hero: {
-        badge: 'Transformación a través del movimiento',
-        title: 'Despertá tu esencia con <em>Biodanza</em>',
-        subtitle: 'Academia de Biodanza en Mendoza Capital, Argentina. Un espacio de conexión auténtica donde la música, el movimiento y la comunidad te invitan a vivir plenamente.',
-        primary: 'Conocer las clases',
-        secondary: 'Qué es Biodanza',
-        scroll: 'Descubrí más'
+        badge: 'Experiencia exclusiva',
+        title: 'Desconecta para <em>reconectarte</em>',
+        subtitle: 'Unidades de diseño entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres unidades independientes donde la naturaleza y el confort se encuentran.',
+        primary: 'Reservar estadia',
+        secondary: 'Conocer mas',
+        scroll: 'Descubri mas'
       },
-      stats: { units: 'Años de experiencia', guests: 'Alumnos transformados', rating: 'Valoración promedio', nature: 'Pasión y conexión' }
+      stats: { units: 'Unidades independientes', guests: 'Hectáreas soñadas', rating: 'Rating en Google', nature: 'Naturaleza' }
     },
     pt: {
       flag: '🇧🇷',
-      metaTitle: 'Alma en Movimiento - Academia de Biodança em Mendoza, Argentina',
-      metaDescription: 'Academia de Biodança em Mendoza Capital, Argentina. Desperte sua essência através da dança, música e conexão. Aulas semanais, workshops e biodança para crianças com Florencia Serruya.',
+      metaTitle: 'Entre Palmeras y Lavandas - Unidades de Design em Colonia, Uruguai',
+      metaDescription: 'Unidades de design entre palmeiras centenarias e lavandas em Colonia, Uruguai. Tres unidades independentes onde natureza e conforto se encontram.',
       preloaderDetecting: 'Detectando país e idioma...',
-      preloaderReady: 'Bem-vindo, visitante de {country}.',
-      brandSub: 'Biodança',
-      nav: { home: 'Início', about: 'Sobre', units: 'Talleres', experiences: 'Benefícios', gallery: 'Galeria', contact: 'Contato', book: 'Contato', menuAria: 'Abrir menu de navegação', langAria: 'Selecionar idioma' },
+      preloaderReady: 'Bem-vindo, hóspede de {country}.',
+      brandSub: 'Unidades de design',
+      nav: { home: 'Inicio', about: 'Sobre', units: 'Unidades', experiences: 'Experiencias', gallery: 'Galería', contact: 'Contato', book: 'Reservar', menuAria: 'Abrir menu de navegação', langAria: 'Selecionar idioma' },
       hero: {
-        badge: 'Transformação através do movimento',
-        title: 'Desperte sua essência com <em>Biodança</em>',
-        subtitle: 'Academia de Biodança em Mendoza Capital, Argentina. Um espaço de conexão autêntica onde a música, o movimento e a comunidade convidam você a viver plenamente.',
-        primary: 'Conhecer as aulas',
-        secondary: 'O que é Biodança',
-        scroll: 'Descubra mais'
+        badge: 'Experiencia exclusiva',
+        title: 'Desconecte para <em>se reconectar</em>',
+        subtitle: 'Unidades de design entre palmeiras centenarias e lavandas em Colonia, Uruguai. Tres unidades independentes onde natureza e conforto se encontram.',
+        primary: 'Reservar estadia',
+        secondary: 'Conhecer mais',
+        scroll: 'Descobrir mais'
       },
-      stats: { units: 'Anos de experiência', guests: 'Alunos transformados', rating: 'Avaliação média', nature: 'Paixão e conexão' }
+      stats: { units: 'Unidades independentes', guests: 'Hectares de sonho', rating: 'Avaliacao no Google', nature: 'Natureza' }
+    },
+    it: {
+      flag: '🇮🇹',
+      preloaderReady: 'Benvenuto, ospite da {country}.',
+      brandSub: 'Unita di design',
+      nav: { home: 'Home', about: 'Chi siamo', units: 'Unita', experiences: 'Esperienze', gallery: 'Galleria', contact: 'Contatto', book: 'Prenota' },
+      hero: { badge: 'Esperienza esclusiva', title: 'Disconnettiti per <em>ritrovarti</em>', primary: 'Prenota soggiorno', secondary: 'Scopri di piu', scroll: 'Scopri di piu' },
+      stats: { units: 'Unita indipendenti', guests: 'Ettari da sogno', rating: 'Valutazione Google', nature: 'Natura' },
+      form: { title: 'Verifica disponibilita', submit: 'Invia richiesta', sending: 'Invio...' },
+      footer: { navHeading: 'Navigazione', unitsHeading: 'Unita', contactHeading: 'Contatto', rights: 'Tutti i diritti riservati.' },
+      whatsapp: { tooltip: 'Chatta con noi', message: 'Ciao! Vorrei verificare la disponibilita.' }
+    },
+    de: {
+      flag: '🇩🇪',
+      preloaderReady: 'Willkommen, Gast aus {country}.',
+      brandSub: 'Design-Unterkunfte',
+      nav: { home: 'Start', about: 'Uber uns', units: 'Einheiten', experiences: 'Erlebnisse', gallery: 'Galerie', contact: 'Kontakt', book: 'Buchen' },
+      hero: { badge: 'Exklusives Erlebnis', title: 'Abschalten, um dich <em>neu zu verbinden</em>', primary: 'Aufenthalt buchen', secondary: 'Mehr erfahren', scroll: 'Mehr entdecken' },
+      stats: { units: 'Unabhangige Einheiten', guests: 'Traumhafte Hektar', rating: 'Google-Bewertung', nature: 'Natur' },
+      form: { title: 'Verfugbarkeit anfragen', submit: 'Anfrage senden', sending: 'Wird gesendet...' },
+      footer: { navHeading: 'Navigation', unitsHeading: 'Einheiten', contactHeading: 'Kontakt', rights: 'Alle Rechte vorbehalten.' },
+      whatsapp: { tooltip: 'Chatte mit uns', message: 'Hallo! Ich mochte die Verfugbarkeit prufen.' }
+    },
+    sv: {
+      flag: '🇸🇪',
+      preloaderReady: 'Välkommen, gäst från {country}.',
+      brandSub: 'Designboenden',
+      nav: { home: 'Hem', about: 'Om oss', units: 'Enheter', experiences: 'Upplevelser', gallery: 'Galleri', contact: 'Kontakt', book: 'Boka' },
+      hero: { badge: 'Exklusiv upplevelse', title: 'Koppla bort for att <em>hitta tillbaka</em>', primary: 'Boka vistelse', secondary: 'Las mer', scroll: 'Upptack mer' },
+      footer: { navHeading: 'Navigering', unitsHeading: 'Enheter', contactHeading: 'Kontakt' },
+      whatsapp: { tooltip: 'Chatta med oss', message: 'Hej! Jag vill kontrollera tillganglighet.' }
+    },
+    da: {
+      flag: '🇩🇰',
+      preloaderReady: 'Velkommen, gæst fra {country}.',
+      brandSub: 'Designenheder',
+      nav: { home: 'Hjem', about: 'Om os', units: 'Enheder', experiences: 'Oplevelser', gallery: 'Galleri', contact: 'Kontakt', book: 'Book' },
+      hero: { badge: 'Eksklusiv oplevelse', title: 'Kobl af for at <em>finde tilbage</em>', primary: 'Book ophold', secondary: 'Las mere', scroll: 'Opdag mere' },
+      footer: { navHeading: 'Navigation', unitsHeading: 'Enheder', contactHeading: 'Kontakt' },
+      whatsapp: { tooltip: 'Chat med os', message: 'Hej! Jeg vil gerne tjekke tilgaengelighed.' }
+    },
+    ru: {
+      flag: '🇷🇺',
+      preloaderReady: 'Добро пожаловать, гость из {country}.',
+      brandSub: 'Дизайнерские дома',
+      nav: { home: 'Главная', about: 'О нас', units: 'Дома', experiences: 'Впечатления', gallery: 'Галерея', contact: 'Контакт', book: 'Забронировать' },
+      hero: { badge: 'Эксклюзивный опыт', title: 'Отключитесь, чтобы <em>снова почувствовать связь</em>', primary: 'Забронировать', secondary: 'Подробнее', scroll: 'Смотреть больше' },
+      footer: { navHeading: 'Навигация', unitsHeading: 'Дома', contactHeading: 'Контакт' },
+      whatsapp: { tooltip: 'Напишите нам', message: 'Здравствуйте! Хочу уточнить доступность.' }
+    },
+    zh: {
+      flag: '🇨🇳',
+      preloaderReady: '欢迎来自 {country} 的住客。',
+      brandSub: '设计独栋单元',
+      nav: { home: '首页', about: '关于我们', units: '房型', experiences: '体验', gallery: '画廊', contact: '联系', book: '预订' },
+      hero: { badge: '专属体验', title: '暂别喧嚣，<em>重新连接自己</em>', primary: '预订入住', secondary: '了解更多', scroll: '继续探索' },
+      footer: { navHeading: '导航', unitsHeading: '房型', contactHeading: '联系' },
+      whatsapp: { tooltip: '与我们聊天', message: '你好！我想咨询可订日期。' }
+    },
+    ja: {
+      flag: '🇯🇵',
+      preloaderReady: '{country} からのゲストの皆さま、ようこそ。',
+      brandSub: 'デザインユニット',
+      nav: { home: 'ホーム', about: '私たちについて', units: 'ユニット', experiences: '体験', gallery: 'ギャラリー', contact: 'お問い合わせ', book: '予約する' },
+      hero: { badge: '特別な体験', title: 'いったん離れて、<em>本当の自分とつながる</em>', primary: '宿泊を予約', secondary: 'もっと見る', scroll: 'さらに見る' },
+      footer: { navHeading: 'ナビゲーション', unitsHeading: 'ユニット', contactHeading: 'お問い合わせ' },
+      whatsapp: { tooltip: 'チャットで相談', message: 'こんにちは。空き状況を確認したいです。' }
     }
   };
 
   TRANSLATIONS.es.about = {
     label: 'Nuestra historia',
-    title: 'Donde el <em>alma</em> se encuentra.',
-    p1: 'Alma en Movimiento nació del profundo amor de Florencia Serruya por la Biodanza y su poder transformador. Como facilitadora certificada con más de 8 años de experiencia, Florencia ha creado un espacio donde cada persona puede reconectarse con su esencia más auténtica a través del movimiento, la música y la conexión humana.',
-    p2: 'En Mendoza Capital, nuestra academia se ha convertido en un refugio para quienes buscan más que una clase de danza: un camino hacia la vitalidad, la expresión genuina y la pertenencia a una comunidad que celebra la vida en todas sus formas.',
+    title: 'Donde la <em>naturaleza</em> abraza.',
+    p1: 'Entre Palmeras y Lavandas nació del sueño de su creadora: dar vida a un espacio donde el diseño no compita con la naturaleza, sino que la celebre. En Colonia, Uruguay, transformamos unidades de diseño contemporáneo pensadas para integrarse al entorno.',
+    p2: 'Rodeadas de palmeras centenarias, campos de lavanda y cielos estrellados, cada detalle está cuidado para que tu única preocupación sea decidir si el atardecer lo mirás desde la hamaca o desde la pileta.',
     features: [
-      { title: 'Conexión auténtica', desc: 'Creamos espacios seguros donde podés ser vos mismo, expresarte libremente y conectar desde el corazón con otros y con tu esencia más profunda.' },
-      { title: 'Transformación personal', desc: 'La Biodanza es un sistema de desarrollo humano que integra música, movimiento y encuentro para despertar tu potencial de vida y expresión.' },
-      { title: 'Comunidad amorosa', desc: 'Formás parte de un grupo cálido y acogedor que celebra cada proceso, respeta cada tiempo y comparte la alegría de vivir en plenitud.' }
+      { title: 'Diseño sustentable', desc: 'Unidades de diseño contemporáneo, transformadas con interiorismo cuidado y materiales nobles, pensadas para integrarse al entorno.' },
+      { title: 'Naturaleza inmersa', desc: 'Rodeadas de flores y fauna autóctona, palmeras centenarias y cielos infinitos que invitan a bajar el ritmo.' },
+      { title: 'Privacidad total', desc: 'Solo tres unidades independientes, pensadas para disfrutar de máxima tranquilidad y una experiencia sin interferencias.' }
     ]
   };
   TRANSLATIONS.es.units = {
-    label: 'Nuestras talleres',
-    title: 'Formas de <em>vivenciar</em>',
-    subtitle: 'Ofrecemos diferentes espacios de encuentro con la Biodanza, adaptados a tus necesidades y ritmos de vida. Cada taller es una puerta de entrada a tu transformación.',
+    label: 'Nuestros espacios',
+    title: 'Tres unidades de <em>diseño</em>',
+    subtitle: 'Cada unidad fue transformada con mimo artesanal en un espacio único, donde la arquitectura contemporánea se fusiona con la calidez del campo uruguayo.',
     cards: [
-      { name: 'Clases Semanales', desc: 'Nuestro espacio regular de encuentro donde cada semana vivenciamos la Biodanza en grupo. A través de ejercicios de movimiento, música cuidadosamente seleccionada y la calidez del grupo, transitamos un camino progresivo de autoconocimiento y transformación. Ideal para quienes buscan un compromiso sostenido con su desarrollo personal.', cap: 'Duración: 2 horas semanales' },
-      { name: 'Talleres Intensivos', desc: 'Experiencias profundas de inmersión en temáticas específicas de Biodanza. Estos encuentros especiales de medio día o día completo nos permiten explorar con mayor profundidad aspectos como la creatividad, la afectividad, la vitalidad o la identidad. Una oportunidad para vivir transformaciones significativas en poco tiempo.', cap: 'Frecuencia: Una vez al mes' },
-      { name: 'Biodanza para Niños', desc: 'Un espacio especialmente diseñado para que niños y niñas exploren el movimiento, la creatividad y la conexión con otros de forma lúdica y afectuosa. A través del juego y la música, acompañamos su desarrollo emocional, su expresión espontánea y su capacidad de vincularse con alegría y respeto. Los niños descubren su propia vitalidad en un ambiente seguro y amoroso.', cap: 'Edades: 5 a 12 años' }
+      { name: 'Unidad Las Rosas', desc: 'Rodeada de rosas Iceberg, esta unidad ofrece todo el confort para una estadía íntima y tranquila. Cuenta con parrilla privada, vistas al camino de palmeras centenarias iluminadas y a un delicado camino de agua con piedras y plantas, atravesado por un pequeño puente que enamora. Pensada para dos personas, está totalmente equipada y dispone de cochera techada y privada.', cap: 'Capacidad: 2 personas' },
+      { name: 'Unidad El Jardín', desc: 'Destaca por sus amplias galerías con parrilla propia y ventanales con vistas panorámicas al campo abierto. Un espacio ideal para disfrutar en privado los atardeceres de Colonia, rodeados de calma y naturaleza. Pensada para parejas o pequeños grupos, combina comodidad, amplitud y una conexión directa con el entorno.', cap: 'Capacidad: 2 a 3 personas' },
+      { name: 'Unidad Las Glicinas', desc: 'Grandes ventanales con vistas al camino de palmeras iluminadas y una terraza privada elevada que ofrece una vista 360° al lago con cascada y a las pérgolas cubiertas de glicinas. Una unidad pensada para disfrutar de una experiencia íntima y especial, considerada la más romántica del lugar, ideal para parejas o pequeños grupos.', cap: 'Capacidad: 2 a 4 personas' }
     ]
   };
   TRANSLATIONS.es.experiences = {
-    label: 'Beneficios de Biodanza',
-    title: 'Lo que <em>vas a vivir</em>',
-    subtitle: 'La Biodanza te invita a descubrir aspectos profundos de vos mismo y a desarrollar tu potencial humano en todas sus dimensiones.',
+    label: 'Por que elegirnos',
+    title: 'Experiencias que <em>transforman</em>',
+    subtitle: 'Cada momento esta disenado para que vivas algo que no encontrás en ningún otro lugar.',
     cards: [
-      { title: 'Conexión profunda', desc: 'Aprendé a conectarte auténticamente con vos mismo y con los demás. La Biodanza crea espacios seguros donde podés ser quien realmente sos, sin máscaras ni juicios, fortaleciendo vínculos genuinos y significativos.' },
-      { title: 'Vitalidad y bienestar', desc: 'Despertá tu energía vital a través del movimiento consciente. Mejorá tu salud física y emocional, reducí el estrés y recuperá el placer de habitar tu cuerpo con alegría y plenitud.' },
-      { title: 'Comunidad y pertenencia', desc: 'Formá parte de un grupo cálido y acogedor donde cada persona es valorada. Compartí un camino de crecimiento con otros que, como vos, buscan vivir con más autenticidad, alegría y amor.' },
-      { title: 'Expresión creativa', desc: 'Liberá tu creatividad y expresión personal a través del movimiento espontáneo. Descubrí nuevas formas de comunicarte, de sentir y de manifestar tu singularidad en el mundo.' }
+      { title: 'Pileta con vista al campo', desc: 'Pileta climatizada en temporada con deck de madera natural integrada al paisaje, con vista panorámica al campo uruguayo. Reposeras, sombrillas y todo el relax que necesitás.' },
+      { title: 'Actividades al aire libre', desc: 'Caminatas entre palmeras, fogones nocturnos con guitarra, avistaje de aves y paseos por el campo. Cada día trae una aventura nueva a tu ritmo.' },
+      { title: 'Desconexión real', desc: 'Sin ruido, sin apuro, solo vos y la naturaleza. WiFi opcional para que decidas vos cuando volver a conectarte. Hamacas, lectura y atardeceres infinitos.' }
     ]
   };
   TRANSLATIONS.es.process = {
-    label: 'Tu camino',
-    title: 'Cómo <em>comenzar</em>',
-    subtitle: 'En cuatro simples pasos comenzás tu viaje de transformación con Biodanza en Mendoza.',
+    label: 'Tu escapada',
+    title: 'Como <em>reservar</em>',
+    subtitle: 'En cuatro simples pasos estás disfrutando de la experiencia en unidades de diseño más exclusiva de Colonia.',
     steps: [
-      { title: 'Conocé la Biodanza', desc: 'Contactanos por WhatsApp, Instagram o email. Te contamos todo sobre la Biodanza, nuestras talleres y respondemos todas tus dudas.' },
-      { title: 'Probá una clase gratuita', desc: 'Tu primera clase es sin cargo. Vení a vivenciar la Biodanza, conocé al grupo y sentí la energía del encuentro. Sin compromiso.' },
-      { title: 'Inscribite y comenzá', desc: 'Si sentís que es para vos, elegí la taller que mejor se adapte a tu ritmo y hacé tu inscripción. Te acompañamos en cada paso.' },
-      { title: 'Vivenciá y transformate', desc: 'Empezá tu proceso de autoconocimiento y transformación. Cada clase es una oportunidad para conectar con tu esencia y celebrar la vida.' }
+      { title: 'Elegí tu fecha', desc: 'Consulta disponibilidad y elegí la escapada ideal para vos. Fines de semana, semanas completas o lo que necesites.' },
+      { title: 'Reserva online', desc: 'Confirmá tu reserva con una seña del 50% por transferencia bancaria o en efectivo al hacer el check-in.' },
+      { title: 'Preparamos todo', desc: 'Armamos tu experiencia personalizada: desde la ambientación de la unidad hasta cada detalle para que tu estadía sea perfecta.' },
+      { title: 'Disfruta', desc: 'Check-in, relax y naturaleza pura. Nosotros nos encargamos de todo para que vos solo disfrutes.' }
     ]
   };
   TRANSLATIONS.es.form = {
-    title: 'Contactate con nosotros',
-    name: 'Nombre completo', email: 'Email', phone: 'Teléfono / WhatsApp', checkin: 'Taller de interés', nights: 'Taller de interés', unit: 'Taller de interés', message: 'Mensaje (opcional)',
-    phName: 'Tu nombre', phEmail: 'tu@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Contanos sobre tu interés en Biodanza, dudas o comentarios...',
-    errName: 'Ingresá tu nombre', errEmail: 'Ingresá un email válido', errPhone: 'Ingresá un teléfono válido', errCheckin: 'Seleccioná una taller', errNights: 'Seleccioná una taller',
-    nightsOptions: ['Seleccionar...', 'Clases Semanales', 'Talleres Intensivos', 'Biodanza para Niños', 'Consulta General'],
-    unitOptions: ['Seleccionar...', 'Clases Semanales', 'Talleres Intensivos', 'Biodanza para Niños', 'Consulta General'],
+    title: 'Consulta disponibilidad',
+    name: 'Nombre completo', email: 'Email', phone: 'Telefono / WhatsApp', checkin: 'Fecha de check-in', nights: 'Cantidad de noches', unit: 'Unidad preferida', message: 'Mensaje (opcional)',
+    phName: 'Tu nombre', phEmail: 'tu@email.com', phPhone: '+598 99 123 456', phMessage: 'Conta nos algo sobre tu escapada ideal...',
+    errName: 'Ingresa tu nombre', errEmail: 'Ingresa un email valido', errPhone: 'Ingresa un telefono valido', errCheckin: 'Selecciona una fecha', errNights: 'Selecciona las noches',
+    nightsOptions: ['Seleccionar...', '1 noche', '2 noches', '3 noches', '4 noches', '5 noches', '6 noches', '7 noches'],
+    unitOptions: ['Sin preferencia', 'Unidad Las Rosas', 'Unidad El Jardín', 'Unidad Las Glicinas'],
     submit: 'Enviar consulta', sending: 'Enviando...',
-    successTitle: 'Consulta enviada', successText: 'Gracias por tu interés en Biodanza. Te responderemos a la brevedad por email o WhatsApp.',
-    infoTitle: 'Información de contacto', infoLabels: ['Ubicación', 'WhatsApp', 'Email', 'Instagram']
+    successTitle: 'Consulta enviada', successText: 'Gracias por tu interes. Te responderemos a la brevedad por email o WhatsApp.',
+    infoTitle: 'Información de contacto', infoLabels: ['Ubicación', 'WhatsApp', 'Email', 'Horarios']
   };
   TRANSLATIONS.es.footer = {
-    desc: 'Academia de Biodanza en Mendoza Capital, Argentina. Un espacio de conexión auténtica donde la música, el movimiento y la comunidad te invitan a vivir plenamente.',
-    navHeading: 'Navegación', unitsHeading: 'Talleres', contactHeading: 'Contacto',
-    navLinks: ['Inicio', 'Nosotros', 'Talleres', 'Beneficios', 'Galería', 'Contacto'],
-    unitLinks: ['Clases Semanales', 'Talleres Intensivos', 'Biodanza para Niños'],
+    desc: 'Unidades de diseño entre palmeras centenarias y lavandas, Colonia, Uruguay. Tres unidades independientes donde la naturaleza y el confort se encuentran.',
+    navHeading: 'Navegación', unitsHeading: 'Unidades', contactHeading: 'Contacto',
+    navLinks: ['Inicio', 'Nosotros', 'Unidades', 'Experiencias', 'Galería', 'Contacto'],
+    unitLinks: ['Unidad Las Rosas', 'Unidad El Jardín', 'Unidad Las Glicinas'],
     rights: 'Todos los derechos reservados.'
   };
-  TRANSLATIONS.es.whatsapp = { tooltip: 'Contactanos por WhatsApp', message: 'Hola! Quiero conocer más sobre Biodanza en Alma en Movimiento' };
-
-  TRANSLATIONS.pt.about = {
-    label: 'Nossa história',
-    title: 'Onde a <em>alma</em> se encontra.',
-    p1: 'Alma en Movimiento nasceu do profundo amor de Florencia Serruya pela Biodança e seu poder transformador. Como facilitadora certificada com mais de 8 anos de experiência, Florencia criou um espaço onde cada pessoa pode se reconectar com sua essência mais autêntica através do movimento, música e conexão humana.',
-    p2: 'Em Mendoza Capital, nossa academia se tornou um refúgio para aqueles que buscam mais do que uma aula de dança: um caminho para a vitalidade, expressão genuína e pertencimento a uma comunidade que celebra a vida em todas as suas formas.',
-    features: [
-      { title: 'Conexão autêntica', desc: 'Criamos espaços seguros onde você pode ser você mesmo, se expressar livremente e conectar do coração com outros e com sua essência mais profunda.' },
-      { title: 'Transformação pessoal', desc: 'A Biodança é um sistema de desenvolvimento humano que integra música, movimento e encontro para despertar seu potencial de vida e expressão.' },
-      { title: 'Comunidade amorosa', desc: 'Você faz parte de um grupo caloroso e acolhedor que celebra cada processo, respeita cada tempo e compartilha a alegria de viver plenamente.' }
-    ]
-  };
-  TRANSLATIONS.pt.units = {
-    label: 'Nossas talleres',
-    title: 'Formas de <em>vivenciar</em>',
-    subtitle: 'Oferecemos diferentes espaços de encontro com a Biodança, adaptados às suas necessidades e ritmos de vida. Cada tallere é uma porta de entrada para sua transformação.',
-    cards: [
-      { name: 'Aulas Semanais', desc: 'Nosso espaço regular de encontro onde cada semana vivenciamos a Biodança em grupo. Através de exercícios de movimento, música cuidadosamente selecionada e o calor do grupo, percorremos um caminho progressivo de autoconhecimento e transformação. Ideal para quem busca um compromisso sustentado com seu desenvolvimento pessoal.', cap: 'Duração: 2 horas semanais' },
-      { name: 'Workshops Intensivos', desc: 'Experiências profundas de imersão em temas específicos de Biodança. Estes encontros especiais de meio dia ou dia completo nos permitem explorar com maior profundidade aspectos como criatividade, afetividade, vitalidade ou identidade. Uma oportunidade para viver transformações significativas em pouco tempo.', cap: 'Frequência: Uma vez por mês' },
-      { name: 'Biodança para Crianças', desc: 'Um espaço especialmente projetado para que meninos e meninas explorem o movimento, criatividade e conexão com outros de forma lúdica e afetuosa. Através do jogo e música, acompanhamos seu desenvolvimento emocional, expressão espontânea e capacidade de se vincular com alegria e respeito. As crianças descobrem sua própria vitalidade em um ambiente seguro e amoroso.', cap: 'Idades: 5 a 12 anos' }
-    ]
-  };
-  TRANSLATIONS.pt.experiences = {
-    label: 'Benefícios da Biodança',
-    title: 'O que você <em>vai viver</em>',
-    subtitle: 'A Biodança convida você a descobrir aspectos profundos de si mesmo e desenvolver seu potencial humano em todas as suas dimensões.',
-    cards: [
-      { title: 'Conexão profunda', desc: 'Aprenda a se conectar autenticamente consigo mesmo e com os outros. A Biodança cria espaços seguros onde você pode ser quem realmente é, sem máscaras ou julgamentos, fortalecendo vínculos genuínos e significativos.' },
-      { title: 'Vitalidade e bem-estar', desc: 'Desperte sua energia vital através do movimento consciente. Melhore sua saúde física e emocional, reduza o estresse e recupere o prazer de habitar seu corpo com alegria e plenitude.' },
-      { title: 'Comunidade e pertencimento', desc: 'Faça parte de um grupo caloroso e acolhedor onde cada pessoa é valorizada. Compartilhe um caminho de crescimento com outros que, como você, buscam viver com mais autenticidade, alegria e amor.' },
-      { title: 'Expressão criativa', desc: 'Libere sua criatividade e expressão pessoal através do movimento espontâneo. Descubra novas formas de se comunicar, sentir e manifestar sua singularidade no mundo.' }
-    ]
-  };
-  TRANSLATIONS.pt.process = {
-    label: 'Seu caminho',
-    title: 'Como <em>começar</em>',
-    subtitle: 'Em quatro passos simples você começa sua jornada de transformação com Biodança em Mendoza.',
-    steps: [
-      { title: 'Conheça a Biodança', desc: 'Entre em contato por WhatsApp, Instagram ou email. Contamos tudo sobre a Biodança, nossas talleres e respondemos todas as suas dúvidas.' },
-      { title: 'Experimente uma aula gratuita', desc: 'Sua primeira aula é sem custo. Venha vivenciar a Biodança, conheça o grupo e sinta a energia do encontro. Sem compromisso.' },
-      { title: 'Inscreva-se e comece', desc: 'Se sentir que é para você, escolha a tallere que melhor se adapta ao seu ritmo e faça sua inscrição. Acompanhamos você em cada passo.' },
-      { title: 'Vivencie e transforme-se', desc: 'Comece seu processo de autoconhecimento e transformação. Cada aula é uma oportunidade para conectar com sua essência e celebrar a vida.' }
-    ]
-  };
-  TRANSLATIONS.pt.form = {
-    title: 'Entre em contato conosco',
-    name: 'Nome completo', email: 'Email', phone: 'Telefone / WhatsApp', checkin: 'Tallere de interesse', nights: 'Tallere de interesse', unit: 'Tallere de interesse', message: 'Mensagem (opcional)',
-    phName: 'Seu nome', phEmail: 'seu@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Conte-nos sobre seu interesse na Biodança, dúvidas ou comentários...',
-    errName: 'Informe seu nome', errEmail: 'Informe um email válido', errPhone: 'Informe um telefone válido', errCheckin: 'Selecione uma tallere', errNights: 'Selecione uma tallere',
-    nightsOptions: ['Selecionar...', 'Aulas Semanais', 'Workshops Intensivos', 'Biodança para Crianças', 'Consulta Geral'],
-    unitOptions: ['Selecionar...', 'Aulas Semanais', 'Workshops Intensivos', 'Biodança para Crianças', 'Consulta Geral'],
-    submit: 'Enviar consulta', sending: 'Enviando...',
-    successTitle: 'Consulta enviada', successText: 'Obrigado pelo seu interesse na Biodança. Responderemos em breve por email ou WhatsApp.',
-    infoTitle: 'Informações de contato', infoLabels: ['Localização', 'WhatsApp', 'Email', 'Instagram']
-  };
-  TRANSLATIONS.pt.footer = {
-    desc: 'Academia de Biodança em Mendoza Capital, Argentina. Um espaço de conexão autêntica onde a música, o movimento e a comunidade convidam você a viver plenamente.',
-    navHeading: 'Navegação', unitsHeading: 'Talleres', contactHeading: 'Contato',
-    navLinks: ['Início', 'Sobre', 'Talleres', 'Benefícios', 'Galeria', 'Contato'],
-    unitLinks: ['Aulas Semanais', 'Workshops Intensivos', 'Biodança para Crianças'],
-    rights: 'Todos os direitos reservados.'
-  };
-  TRANSLATIONS.pt.whatsapp = { tooltip: 'Entre em contato pelo WhatsApp', message: 'Olá! Quero saber mais sobre Biodança no Alma en Movimiento' };
-
-  // ===== REST OF THE i18n SYSTEM (unchanged logic) =====
+  TRANSLATIONS.es.whatsapp = { tooltip: 'Chatea con nosotros', message: 'Hola! Quiero consultar disponibilidad en Entre Palmeras y Lavandas' };
 
   TRANSLATIONS.pt.about = {
     label: 'Nossa história',
     title: 'Onde a <em>natureza</em> abraça.',
-    p1: 'Alma en Movimiento nasceu do sonho de sua criadora: criar um espaço onde o design não compete com a natureza, mas a celebra. Em Colonia, Uruguai, transformamos talleres contemporâneas para integrar-se ao entorno.',
+    p1: 'Entre Palmeras y Lavandas nasceu do sonho de sua criadora: criar um espaço onde o design não compete com a natureza, mas a celebra. Em Colonia, Uruguai, transformamos unidades contemporâneas para integrar-se ao entorno.',
     p2: 'Cercadas por palmeiras centenárias, campos de lavanda e céus estrelados, cada detalhe é cuidado para que sua única preocupação seja escolher se verá o pôr do sol na rede ou na piscina.',
     features: [
-      { title: 'Design sustentável', desc: 'Talleres de design contemporâneo com interiores cuidados e materiais nobres, pensadas para integrar-se ao ambiente.' },
+      { title: 'Design sustentável', desc: 'Unidades de design contemporâneo com interiores cuidados e materiais nobres, pensadas para integrar-se ao ambiente.' },
       { title: 'Natureza imersiva', desc: 'Flores e fauna nativa, palmeiras centenárias e céus infinitos convidam você a desacelerar.' },
-      { title: 'Privacidade total', desc: 'Apenas três talleres independentes para máxima tranquilidade.' }
+      { title: 'Privacidade total', desc: 'Apenas três unidades independentes para máxima tranquilidade.' }
     ]
   };
   TRANSLATIONS.pt.units = {
     label: 'Nossos espaços',
-    title: 'Três talleres de <em>design</em>',
+    title: 'Três unidades de <em>design</em>',
     subtitle: 'Cada unidade foi transformada com cuidado artesanal em um espaço único.',
     cards: [
       { name: 'Unidade Las Rosas', desc: 'Cercada por rosas Iceberg, com churrasqueira privada, vista para o caminho de palmeiras iluminadas e para um delicado caminho de água com pequena ponte. Totalmente equipada para duas pessoas e com garagem coberta privada.', cap: 'Capacidade: 2 pessoas' },
@@ -328,17 +328,17 @@
     infoTitle: 'Informações de contato', infoLabels: ['Localização', 'WhatsApp', 'Email', 'Horários']
   };
   TRANSLATIONS.pt.footer = {
-    desc: 'Talleres de design entre palmeiras centenárias e lavandas em Colonia, Uruguai. Três talleres independentes onde natureza e conforto se encontram.',
-    navHeading: 'Navegação', unitsHeading: 'Talleres', contactHeading: 'Contato',
-    navLinks: ['Início', 'Sobre', 'Talleres', 'Experiências', 'Galería', 'Contato'],
+    desc: 'Unidades de design entre palmeiras centenárias e lavandas em Colonia, Uruguai. Três unidades independentes onde natureza e conforto se encontram.',
+    navHeading: 'Navegação', unitsHeading: 'Unidades', contactHeading: 'Contato',
+    navLinks: ['Início', 'Sobre', 'Unidades', 'Experiências', 'Galería', 'Contato'],
     unitLinks: ['Unidade Las Rosas', 'Unidade El Jardín', 'Unidade Las Glicinas'],
     rights: 'Todos os direitos reservados.'
   };
-  TRANSLATIONS.pt.whatsapp = { tooltip: 'Fale com a gente', message: 'Olá! Quero consultar disponibilidade em Alma en Movimiento' };
+  TRANSLATIONS.pt.whatsapp = { tooltip: 'Fale com a gente', message: 'Olá! Quero consultar disponibilidade em Entre Palmeras y Lavandas' };
 
   TRANSLATIONS.fr = {
     flag: '🇫🇷',
-    metaTitle: 'Alma en Movimiento - Unités design à Colonia, Uruguay',
+    metaTitle: 'Entre Palmeras y Lavandas - Unités design à Colonia, Uruguay',
     metaDescription: 'Unités design parmi des palmiers centenaires et la lavande à Colonia, Uruguay. Trois unités indépendantes où la nature et le confort se rencontrent.',
     preloaderDetecting: 'Détection du pays et de la langue...',
     preloaderReady: 'Bienvenue, hôte de {country}.',
@@ -359,7 +359,7 @@
     about: {
       label: 'Notre histoire',
       title: 'Là où la <em>nature</em> vous enlace.',
-      p1: 'Alma en Movimiento est né du rêve de sa créatrice : donner vie à un espace où le design ne rivalise pas avec la nature, mais la célèbre. À Colonia, en Uruguay, nous avons transformé des unités de design contemporain pensées pour s\'intégrer au paysage.',
+      p1: 'Entre Palmeras y Lavandas est né du rêve de sa créatrice : donner vie à un espace où le design ne rivalise pas avec la nature, mais la célèbre. À Colonia, en Uruguay, nous avons transformé des unités de design contemporain pensées pour s\'intégrer au paysage.',
       p2: 'Entouré de palmiers centenaires, de champs de lavande et de ciels étoilés, chaque détail est soigné pour que votre seule préoccupation soit de choisir où admirer le coucher du soleil : depuis le hamac ou depuis la piscine.',
       features: [
         { title: 'Design durable', desc: 'Unités de design contemporain, avec un intérieur soigné et des matériaux nobles, pensées pour s\'intégrer à l\'environnement.' },
@@ -428,16 +428,16 @@
       unitLinks: ['Unité Las Rosas', 'Unité El Jardín', 'Unité Las Glicinas'],
       rights: 'Tous droits réservés.'
     },
-    whatsapp: { tooltip: 'Discutez avec nous', message: 'Bonjour ! Je souhaite vérifier la disponibilité à Alma en Movimiento' }
+    whatsapp: { tooltip: 'Discutez avec nous', message: 'Bonjour ! Je souhaite vérifier la disponibilité à Entre Palmeras y Lavandas' }
   };
 
-  TRANSLATIONS.it.metaTitle = 'Alma en Movimiento - Unita di Design a Colonia, Uruguay';
+  TRANSLATIONS.it.metaTitle = 'Entre Palmeras y Lavandas - Unita di Design a Colonia, Uruguay';
   TRANSLATIONS.it.metaDescription = 'Unita di design tra palme secolari e lavande a Colonia, Uruguay. Tre unita indipendenti dove natura e comfort si incontrano.';
   TRANSLATIONS.it.preloaderDetecting = 'Rilevamento paese e lingua...';
   TRANSLATIONS.it.about = {
     label: 'La nostra storia',
     title: 'Dove la <em>natura</em> abbraccia.',
-    p1: 'Alma en Movimiento nasce dal sogno della sua creatrice: dare vita a uno spazio dove il design non compete con la natura, ma la celebra. A Colonia, in Uruguay, abbiamo trasformato unità contemporanee pensate per integrarsi nel paesaggio.',
+    p1: 'Entre Palmeras y Lavandas nasce dal sogno della sua creatrice: dare vita a uno spazio dove il design non compete con la natura, ma la celebra. A Colonia, in Uruguay, abbiamo trasformato unità contemporanee pensate per integrarsi nel paesaggio.',
     p2: 'Circondate da palme secolari, campi di lavanda e cieli stellati, ogni dettaglio è curato perché la tua unica preoccupazione sia scegliere se guardare il tramonto dall\'amaca o dalla piscina.',
     features: [
       { title: 'Design sostenibile', desc: 'Unità di design contemporaneo, con interior curato e materiali nobili, pensate per integrarsi con l\'ambiente.' },
@@ -494,15 +494,15 @@
     unitLinks: ['Unità Las Rosas', 'Unità El Jardín', 'Unità Las Glicinas'],
     rights: 'Tutti i diritti riservati.'
   };
-  TRANSLATIONS.it.whatsapp = { tooltip: 'Chatta con noi', message: 'Ciao! Vorrei verificare la disponibilità in Alma en Movimiento' };
+  TRANSLATIONS.it.whatsapp = { tooltip: 'Chatta con noi', message: 'Ciao! Vorrei verificare la disponibilità in Entre Palmeras y Lavandas' };
 
-  TRANSLATIONS.de.metaTitle = 'Alma en Movimiento - Design-Unterkünfte in Colonia, Uruguay';
+  TRANSLATIONS.de.metaTitle = 'Entre Palmeras y Lavandas - Design-Unterkünfte in Colonia, Uruguay';
   TRANSLATIONS.de.metaDescription = 'Design-Unterkünfte zwischen alten Palmen und Lavendel in Colonia, Uruguay. Drei unabhängige Einheiten, in denen Natur und Komfort zusammenfinden.';
   TRANSLATIONS.de.preloaderDetecting = 'Land und Sprache werden erkannt...';
   TRANSLATIONS.de.about = {
     label: 'Unsere Geschichte',
     title: 'Wo die <em>Natur</em> dich umarmt.',
-    p1: 'Alma en Movimiento entstand aus dem Traum seiner Gründerin: einen Ort zu schaffen, an dem Design nicht mit der Natur konkurriert, sondern sie feiert. In Colonia, Uruguay, haben wir moderne Einheiten geschaffen, die sich in die Landschaft integrieren.',
+    p1: 'Entre Palmeras y Lavandas entstand aus dem Traum seiner Gründerin: einen Ort zu schaffen, an dem Design nicht mit der Natur konkurriert, sondern sie feiert. In Colonia, Uruguay, haben wir moderne Einheiten geschaffen, die sich in die Landschaft integrieren.',
     p2: 'Umgeben von alten Palmen, Lavendelfeldern und sternklarem Himmel ist jedes Detail so gestaltet, dass nur eine Frage bleibt: Sonnenuntergang in der Hängematte oder am Pool?',
     features: [
       { title: 'Nachhaltiges Design', desc: 'Zeitgenössische Einheiten mit sorgfältigem Interior und hochwertigen Materialien.' },
@@ -559,16 +559,16 @@
     unitLinks: ['Einheit Las Rosas', 'Einheit El Jardín', 'Einheit Las Glicinas'],
     rights: 'Alle Rechte vorbehalten.'
   };
-  TRANSLATIONS.de.whatsapp = { tooltip: 'Chatte mit uns', message: 'Hallo! Ich möchte die Verfügbarkeit bei Alma en Movimiento prüfen' };
+  TRANSLATIONS.de.whatsapp = { tooltip: 'Chatte mit uns', message: 'Hallo! Ich möchte die Verfügbarkeit bei Entre Palmeras y Lavandas prüfen' };
 
-  TRANSLATIONS.sv.metaTitle = 'Alma en Movimiento - Designboenden i Colonia, Uruguay';
+  TRANSLATIONS.sv.metaTitle = 'Entre Palmeras y Lavandas - Designboenden i Colonia, Uruguay';
   TRANSLATIONS.sv.metaDescription = 'Designboenden bland hundraåriga palmer och lavendel i Colonia, Uruguay. Tre fristående enheter där natur och komfort möts.';
   TRANSLATIONS.sv.preloaderDetecting = 'Identifierar land och språk...';
   TRANSLATIONS.sv.preloaderReady = 'Välkommen, gäst från {country}.';
   TRANSLATIONS.sv.about = {
     label: 'Vår historia',
     title: 'Där <em>naturen</em> omfamnar.',
-    p1: 'Alma en Movimiento föddes ur en dröm: en plats där design inte konkurrerar med naturen utan hyllar den. I Colonia, Uruguay, skapade vi moderna enheter som smälter in i landskapet.',
+    p1: 'Entre Palmeras y Lavandas föddes ur en dröm: en plats där design inte konkurrerar med naturen utan hyllar den. I Colonia, Uruguay, skapade vi moderna enheter som smälter in i landskapet.',
     p2: 'Omgivna av hundraåriga palmer, lavendelfält och stjärnklara himlar är varje detalj utformad för total ro.',
     features: [
       { title: 'Hållbar design', desc: 'Samtida enheter med genomtänkt inredning och naturmaterial.' },
@@ -625,15 +625,15 @@
     unitLinks: ['Enhet Las Rosas', 'Enhet El Jardín', 'Enhet Las Glicinas'],
     rights: 'Alla rättigheter förbehållna.'
   };
-  TRANSLATIONS.sv.whatsapp = { tooltip: 'Chatta med oss', message: 'Hej! Jag vill kontrollera tillgänglighet hos Alma en Movimiento' };
+  TRANSLATIONS.sv.whatsapp = { tooltip: 'Chatta med oss', message: 'Hej! Jag vill kontrollera tillgänglighet hos Entre Palmeras y Lavandas' };
 
-  TRANSLATIONS.da.metaTitle = 'Alma en Movimiento - Designenheder i Colonia, Uruguay';
+  TRANSLATIONS.da.metaTitle = 'Entre Palmeras y Lavandas - Designenheder i Colonia, Uruguay';
   TRANSLATIONS.da.metaDescription = 'Designenheder mellem gamle palmer og lavendel i Colonia, Uruguay. Tre uafhængige enheder hvor natur og komfort mødes.';
   TRANSLATIONS.da.preloaderDetecting = 'Finder land og sprog...';
   TRANSLATIONS.da.about = {
     label: 'Vores historie',
     title: 'Hvor <em>naturen</em> omfavner.',
-    p1: 'Alma en Movimiento blev skabt ud fra en drøm: et sted hvor design ikke konkurrerer med naturen, men fejrer den. I Colonia, Uruguay, skabte vi moderne enheder i harmoni med omgivelserne.',
+    p1: 'Entre Palmeras y Lavandas blev skabt ud fra en drøm: et sted hvor design ikke konkurrerer med naturen, men fejrer den. I Colonia, Uruguay, skabte vi moderne enheder i harmoni med omgivelserne.',
     p2: 'Omringet af gamle palmer, lavendelmarker og stjernehimmel er alt designet til ro og nærvær.',
     features: [
       { title: 'Bæredygtigt design', desc: 'Moderne enheder med nøje udvalgt indretning og naturlige materialer.' },
@@ -690,15 +690,15 @@
     unitLinks: ['Enhed Las Rosas', 'Enhed El Jardín', 'Enhed Las Glicinas'],
     rights: 'Alle rettigheder forbeholdes.'
   };
-  TRANSLATIONS.da.whatsapp = { tooltip: 'Chat med os', message: 'Hej! Jeg vil gerne tjekke tilgængelighed hos Alma en Movimiento' };
+  TRANSLATIONS.da.whatsapp = { tooltip: 'Chat med os', message: 'Hej! Jeg vil gerne tjekke tilgængelighed hos Entre Palmeras y Lavandas' };
 
-  TRANSLATIONS.ru.metaTitle = 'Alma en Movimiento - Дизайнерские дома в Колонии, Уругвай';
+  TRANSLATIONS.ru.metaTitle = 'Entre Palmeras y Lavandas - Дизайнерские дома в Колонии, Уругвай';
   TRANSLATIONS.ru.metaDescription = 'Дизайнерские дома среди вековых пальм и лаванды в Колонии, Уругвай. Три независимых дома, где встречаются природа и комфорт.';
   TRANSLATIONS.ru.preloaderDetecting = 'Определяем страну и язык...';
   TRANSLATIONS.ru.about = {
     label: 'Наша история',
     title: 'Где <em>природа</em> обнимает.',
-    p1: 'Alma en Movimiento родился из мечты создательницы: создать место, где дизайн не спорит с природой, а подчеркивает ее. В Колонии, Уругвай, мы создали современные дома, гармонично встроенные в окружение.',
+    p1: 'Entre Palmeras y Lavandas родился из мечты создательницы: создать место, где дизайн не спорит с природой, а подчеркивает ее. В Колонии, Уругвай, мы создали современные дома, гармонично встроенные в окружение.',
     p2: 'Вековые пальмы, поля лаванды и звездное небо создают атмосферу, где можно замедлиться и восстановиться.',
     features: [
       { title: 'Устойчивый дизайн', desc: 'Современные дома с продуманным интерьером и благородными материалами.' },
@@ -755,15 +755,15 @@
     unitLinks: ['Дом Las Rosas', 'Дом El Jardín', 'Дом Las Glicinas'],
     rights: 'Все права защищены.'
   };
-  TRANSLATIONS.ru.whatsapp = { tooltip: 'Напишите нам', message: 'Здравствуйте! Хочу уточнить доступность в Alma en Movimiento' };
+  TRANSLATIONS.ru.whatsapp = { tooltip: 'Напишите нам', message: 'Здравствуйте! Хочу уточнить доступность в Entre Palmeras y Lavandas' };
 
-  TRANSLATIONS.zh.metaTitle = 'Alma en Movimiento - 乌拉圭科洛尼亚设计独栋';
+  TRANSLATIONS.zh.metaTitle = 'Entre Palmeras y Lavandas - 乌拉圭科洛尼亚设计独栋';
   TRANSLATIONS.zh.metaDescription = '位于乌拉圭科洛尼亚，百年棕榈与薰衣草之间的设计独栋。三套独立单元，让自然与舒适相遇。';
   TRANSLATIONS.zh.preloaderDetecting = '正在识别国家与语言...';
   TRANSLATIONS.zh.about = {
     label: '我们的故事',
     title: '<em>自然</em>拥抱你的地方。',
-    p1: 'Alma en Movimiento 源于创始人的梦想：打造一个让设计与自然共生、彼此成就的空间。我们在乌拉圭科洛尼亚，将当代设计单元与环境和谐融合。',
+    p1: 'Entre Palmeras y Lavandas 源于创始人的梦想：打造一个让设计与自然共生、彼此成就的空间。我们在乌拉圭科洛尼亚，将当代设计单元与环境和谐融合。',
     p2: '百年棕榈、薰衣草田与星空环绕，每一个细节都被细致打磨，让你只需决定：在吊床还是泳池边看日落。',
     features: [
       { title: '可持续设计', desc: '当代设计单元，精选材质与精心室内设计，融入自然环境。' },
@@ -820,15 +820,15 @@
     unitLinks: ['Las Rosas 单元', 'El Jardín 单元', 'Las Glicinas 单元'],
     rights: '保留所有权利。'
   };
-  TRANSLATIONS.zh.whatsapp = { tooltip: '与我们聊天', message: '你好！我想咨询 Alma en Movimiento 的可订日期' };
+  TRANSLATIONS.zh.whatsapp = { tooltip: '与我们聊天', message: '你好！我想咨询 Entre Palmeras y Lavandas 的可订日期' };
 
-  TRANSLATIONS.ja.metaTitle = 'Alma en Movimiento - ウルグアイ・コロニアのデザインユニット';
+  TRANSLATIONS.ja.metaTitle = 'Entre Palmeras y Lavandas - ウルグアイ・コロニアのデザインユニット';
   TRANSLATIONS.ja.metaDescription = 'ウルグアイ・コロニア、樹齢あるヤシとラベンダーに囲まれたデザインユニット。自然と快適さが調和する独立型3ユニット。';
   TRANSLATIONS.ja.preloaderDetecting = '国と言語を判定しています...';
   TRANSLATIONS.ja.about = {
     label: '私たちの物語',
     title: '<em>自然</em>に抱かれる場所。',
-    p1: 'Alma en Movimiento は、デザインが自然と競うのではなく称える場所をつくりたいという想いから生まれました。ウルグアイ・コロニアで、環境に調和する現代的なユニットを整えました。',
+    p1: 'Entre Palmeras y Lavandas は、デザインが自然と競うのではなく称える場所をつくりたいという想いから生まれました。ウルグアイ・コロニアで、環境に調和する現代的なユニットを整えました。',
     p2: '樹齢あるヤシ、ラベンダー畑、星空に囲まれ、細部まで丁寧に整えています。',
     features: [
       { title: 'サステナブルデザイン', desc: '上質な素材と丁寧なインテリアで、環境に溶け込む現代的なユニット。' },
@@ -885,7 +885,7 @@
     unitLinks: ['Las Rosas ユニット', 'El Jardín ユニット', 'Las Glicinas ユニット'],
     rights: 'All rights reserved.'
   };
-  TRANSLATIONS.ja.whatsapp = { tooltip: 'チャットで相談', message: 'こんにちは。Alma en Movimiento の空き状況を確認したいです' };
+  TRANSLATIONS.ja.whatsapp = { tooltip: 'チャットで相談', message: 'こんにちは。Entre Palmeras y Lavandas の空き状況を確認したいです' };
 
   var COUNTRY_TO_LANG = {
     AR: 'es', BO: 'es', CL: 'es', CO: 'es', CR: 'es', CU: 'es', DO: 'es', EC: 'es', ES: 'es', GT: 'es', HN: 'es', MX: 'es', NI: 'es', PA: 'es', PE: 'es', PR: 'es', PY: 'es', SV: 'es', UY: 'es', VE: 'es',
@@ -1381,7 +1381,7 @@
     if (footerHeadings[2]) footerHeadings[2].textContent = pack.footer.contactHeading;
     setListText('.footer-grid > div:nth-child(2) .footer-link', pack.footer.navLinks);
     setListText('.footer-grid > div:nth-child(3) .footer-link', pack.footer.unitLinks);
-    setText('.footer-bottom span', '© 2026 Alma en Movimiento. ' + pack.footer.rights);
+    setText('.footer-bottom span', '© 2026 Entre Palmeras y Lavandas. ' + pack.footer.rights);
 
     setText('.whatsapp-tooltip', pack.whatsapp.tooltip);
     setWhatsAppMessage(pack.whatsapp.message);
