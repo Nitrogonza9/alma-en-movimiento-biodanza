@@ -420,14 +420,56 @@
     }
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() {
+  // ===== PRELOADER LOGIC =====
+  var preloader = document.getElementById('preloader');
+  var preloaderCountry = document.getElementById('preloaderCountry');
+  var preloaderStart = Date.now();
+  var loadReady = false;
+  var langReady = false;
+  var hideScheduled = false;
+
+  function maybeHidePreloader() {
+    if (!preloader || hideScheduled || !loadReady || !langReady) return;
+    hideScheduled = true;
+    var remaining = Math.max(0, PRELOADER_MIN_MS - (Date.now() - preloaderStart));
+    setTimeout(function() {
+      preloader.classList.add('hidden');
+    }, remaining);
+  }
+
+  window.addEventListener('load', function() {
+    loadReady = true;
+    maybeHidePreloader();
+  });
+
+  function initLanguage() {
+    // Detectar idioma por navegador
+    var browserLang = 'es'; // Default
+    var navLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    if (navLang.startsWith('pt')) browserLang = 'pt';
+    else if (navLang.startsWith('en')) browserLang = 'en';
+    else if (navLang.startsWith('es')) browserLang = 'es';
+
+    // Actualizar texto del preloader
+    if (preloaderCountry) {
+      var detecting = translate('preloaderDetecting', browserLang);
+      preloaderCountry.textContent = detecting || 'Detectando país e idioma...';
+    }
+
+    // Aplicar idioma detectado
+    setTimeout(function() {
+      saveLang(browserLang);
       applyTranslations();
       buildLangSelector();
-    });
+      langReady = true;
+      maybeHidePreloader();
+    }, 800); // Simular detección
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLanguage);
   } else {
-    applyTranslations();
-    buildLangSelector();
+    initLanguage();
   }
 
   window.__i18n = {
