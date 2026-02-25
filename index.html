@@ -2589,6 +2589,48 @@ textarea.form-input {
   border-radius: var(--radius-md);
   border-left: 3px solid var(--clr-primary);
 }
+.metodo-health-form {
+  margin-top: var(--space-md);
+  padding: var(--space-md);
+  background: linear-gradient(135deg, rgba(123, 44, 191, 0.05), rgba(255, 255, 255, 0.5));
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--clr-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+}
+[data-theme="dark"] .metodo-health-form {
+  background: rgba(157, 78, 221, 0.05);
+}
+.metodo-health-desc {
+  font-weight: 600;
+  color: var(--clr-dark);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.02em;
+}
+.metodo-health-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: var(--fs-xs);
+  color: var(--clr-text);
+  cursor: pointer;
+  user-select: none;
+}
+.metodo-health-check input {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--clr-primary);
+}
+.metodo-health-btn.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  filter: grayscale(1);
+}
 .metodo-inicio {
   display: inline-flex;
   align-items: center;
@@ -2869,6 +2911,19 @@ textarea.form-input {
 
         <div class="metodo-online-note">
           Sesiones online disponibles &mdash; consult&aacute; por mensaje directo
+        </div>
+
+        <div class="metodo-health-form">
+          <div class="metodo-health-desc">Carga de ficha de salud</div>
+          <div class="metodo-health-check">
+            <input type="checkbox" id="humanCheck">
+            <label for="humanCheck">Soy humano</label>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdukWS8dtK5IcybjJQzymCzw7f1L5qVzymxsIX5H2xSzZFZQA/viewform?usp=publish-editor" 
+             class="btn btn-primary metodo-health-btn disabled" id="healthBtn" target="_blank" rel="noopener">
+            <span class="btn-text">Completar ficha</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          </a>
         </div>
       </div>
     </div>
@@ -3602,6 +3657,16 @@ window.scrollTo(0, 0);
     var fSlots = getFlorSlots();
     if (SITE_PHOTOS.length > gSlots.length || FLOR_PHOTOS.length > fSlots.length) {
       startRotation();
+    }
+
+    // Lógica de ficha de salud
+    var hCheck = document.getElementById('humanCheck');
+    var hBtn = document.getElementById('healthBtn');
+    if (hCheck && hBtn) {
+      hCheck.addEventListener('change', function() {
+        if (this.checked) hBtn.classList.remove('disabled');
+        else hBtn.classList.add('disabled');
+      });
     }
   }
 
