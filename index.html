@@ -1114,6 +1114,7 @@ input, textarea, select { font: inherit; }
   position: absolute;
   inset: 0;
   z-index: 0;
+  overflow: hidden;
 }
 .hero-bg img {
   width: 100%;
@@ -1127,14 +1128,12 @@ input, textarea, select { font: inherit; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: 
-    linear-gradient(to bottom, var(--clr-bg) 0%, rgba(255,255,255,0.1) 20%, rgba(255,255,255,0.1) 80%, var(--clr-bg) 100%),
-    linear-gradient(to right, var(--clr-bg) 0%, transparent 15%, transparent 85%, var(--clr-bg) 100%);
+  background: transparent;
   z-index: 1;
 }
 [data-theme="dark"] .hero-overlay,
 .theme-dark .hero-overlay {
-  background: linear-gradient(180deg, rgba(10,15,5,0.4) 0%, rgba(10,15,5,0.6) 50%, rgba(10,15,5,0.8) 100%);
+  background: rgba(10, 15, 5, 0.4);
 }
 .hero-overlay::after {
   content: '';
