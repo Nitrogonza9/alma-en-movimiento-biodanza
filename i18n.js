@@ -16,267 +16,183 @@
   var autoThemeTimer = 0;
 
   // =====================================================
-  // TRADUCCIONES - BIODANZA ALMA EN MOVIMIENTO
+  // TRADUCCIONES - SER EN EL CUERPO
   // =====================================================
 
   var BASE_EN = {
     flag: '\u{1F1EC}\u{1F1E7}',
-    metaTitle: 'Alma en Movimiento - Biodanza Academy in Mendoza, Argentina',
-    metaDescription: 'Biodanza academy in Mendoza Capital, Argentina. Awaken your essence through dance, music and connection. Weekly classes, intensive workshops and biodanza for children with Florencia Serruya.',
+    metaTitle: 'Ser en el Cuerpo \u2014 Florencia Serruya | Movement, Creativity & Transformation',
+    metaDescription: 'Annual journey of movement, creativity and personal transformation with Florencia Serruya in Mendoza, Argentina. Biodanza, contemporary dance, improvisation and creative play.',
     preloaderDetecting: 'Detecting country and language...',
-    preloaderReady: 'Welcome, guest from {country}.',
-    brandSub: 'Biodanza',
-    nav: { home: 'Home', about: 'About', units: 'Modalities', experiences: 'Benefits', gallery: 'Gallery', contact: 'Contact', book: 'Contact', menuAria: 'Open navigation menu', langAria: 'Select language' },
+    preloaderReady: 'Welcome, visitor from {country}.',
+    brandSub: 'Florencia Serruya',
+    nav: { home: 'Home', method: 'Method', about: 'About me', gallery: 'Gallery', projects: 'Projects', contact: 'Contact', book: 'Reserve your spot', menuAria: 'Open navigation menu', langAria: 'Select language' },
     hero: {
-      badge: 'Transformation through movement',
-      title: 'Awaken your essence with <em>Biodanza</em>',
-      subtitle: 'Biodanza academy in Mendoza Capital, Argentina. A space of authentic connection where music, movement and community invite you to live fully.',
-      primary: 'Explore classes',
-      secondary: 'What is Biodanza',
+      badge: 'Florencia Serruya',
+      title: 'Ser en el <em>Cuerpo</em>',
+      subtitle: 'An annual journey of movement, creativity and personal transformation. Contemporary dance teacher, biodanza facilitator and creator of movement and creativity experiences.',
+      primary: 'Reserve your spot',
+      secondary: 'Discover the method',
       scroll: 'Discover more'
     },
-    stats: { units: 'Years of experience', guests: 'Transformed students', rating: 'Average rating', nature: 'Passion & connection' },
     about: {
-      label: 'Our story',
-      title: 'Where the <em>soul</em> finds itself.',
-      p1: 'Alma en Movimiento was born from Florencia Serruya\'s deep love for Biodanza and its transformative power. As a certified facilitator with over 8 years of experience, Florencia has created a space where each person can reconnect with their most authentic essence through movement, music and human connection.',
-      p2: 'In Mendoza Capital, our academy has become a refuge for those seeking more than a dance class: a path towards vitality, genuine expression and belonging to a community that celebrates life in all its forms.',
+      label: 'About me',
+      title: 'Florencia <em>Serruya</em>',
+      p1: 'Contemporary dance teacher and biodanza facilitator. Choreographer, dancer and director of the Intempo company. Creator of the Ser en el Cuerpo method.',
+      p2: 'Director of the award-winning short film "Identidad". My work integrates movement, creativity and human connection as tools for personal and collective transformation.',
       features: [
-        { title: 'Authentic connection', desc: 'We create safe spaces where you can be yourself, express yourself freely and connect from the heart with others and with your deepest essence.' },
-        { title: 'Personal transformation', desc: 'Biodanza is a human development system that integrates music, movement and encounter to awaken your potential for life and expression.' },
-        { title: 'Loving community', desc: 'You become part of a warm and welcoming group that celebrates each process, respects each timing and shares the joy of living fully.' }
+        { title: 'Contemporary dance', desc: 'Trained in contemporary dance techniques, improvisation and choreographic composition.' },
+        { title: 'Biodanza', desc: 'Biodanza facilitator in the Rolando Toro System, integrating music, movement and encounter for human development.' },
+        { title: 'Intempo Company', desc: 'Director and choreographer of the Intempo dance company, with performances at venues and festivals.' }
       ]
     },
-    units: {
-      label: 'Our modalities',
-      title: 'Ways to <em>experience</em>',
-      subtitle: 'We offer different spaces to encounter Biodanza, adapted to your needs and life rhythms. Each modality is a gateway to your transformation.',
+    projects: {
+      label: 'Other work',
+      title: 'Beyond the <em>method</em>',
+      subtitle: 'Workshops, artistic projects and collaborations that nourish my work as a creator and teacher.',
       cards: [
-        {
-          name: 'Weekly Classes',
-          desc: 'Our regular meeting space where each week we experience Biodanza as a group. Through movement exercises, carefully selected music and the warmth of the group, we travel a progressive path of self-knowledge and transformation. Ideal for those seeking sustained commitment to their personal development.',
-          cap: 'Duration: 2 hours weekly'
-        },
-        {
-          name: 'Intensive Workshops',
-          desc: 'Deep immersion experiences in specific Biodanza themes. These special half-day or full-day gatherings allow us to explore with greater depth aspects such as creativity, affectivity, vitality or identity. An opportunity to experience significant transformations in a short time.',
-          cap: 'Frequency: Once a month'
-        },
-        {
-          name: 'Biodanza for Children',
-          desc: 'A space specially designed for children to explore movement, creativity and connection with others in a playful and affectionate way. Through play and music, we accompany their emotional development, spontaneous expression and ability to bond with joy and respect. Children discover their own vitality in a safe and loving environment.',
-          cap: 'Ages: 5 to 12 years'
-        }
-      ]
-    },
-    experiences: {
-      label: 'Benefits of Biodanza',
-      title: 'What you will <em>experience</em>',
-      subtitle: 'Biodanza invites you to discover deep aspects of yourself and develop your human potential in all its dimensions.',
-      cards: [
-        { title: 'Deep connection', desc: 'Learn to connect authentically with yourself and with others. Biodanza creates safe spaces where you can be who you really are, without masks or judgments, strengthening genuine and meaningful bonds.' },
-        { title: 'Vitality and well-being', desc: 'Awaken your vital energy through conscious movement. Improve your physical and emotional health, reduce stress and recover the pleasure of inhabiting your body with joy and fullness.' },
-        { title: 'Community and belonging', desc: 'Become part of a warm and welcoming group where each person is valued. Share a growth path with others who, like you, seek to live with more authenticity, joy and love.' },
-        { title: 'Creative expression', desc: 'Free your creativity and personal expression through spontaneous movement. Discover new ways to communicate, feel and manifest your uniqueness in the world.' }
-      ]
-    },
-    process: {
-      label: 'Your path',
-      title: 'How to <em>begin</em>',
-      subtitle: 'In four simple steps you begin your transformation journey with Biodanza in Mendoza.',
-      steps: [
-        { title: 'Learn about Biodanza', desc: 'Contact us via WhatsApp, Instagram or email. We tell you all about Biodanza, our modalities and answer all your questions.' },
-        { title: 'Try a free class', desc: 'Your first class is free. Come experience Biodanza, meet the group and feel the energy of the encounter. No commitment.' },
-        { title: 'Enroll and begin', desc: 'If you feel it\'s for you, choose the modality that best suits your rhythm and complete your enrollment. We accompany you at every step.' },
-        { title: 'Experience and transform', desc: 'Begin your process of self-knowledge and transformation. Each class is an opportunity to connect with your essence and celebrate life.' }
+        { title: 'Workshops & training', desc: 'Complementary workshops in contemporary dance, conscious movement and improvisation. Intensive training for those who want to deepen the language of the body.' },
+        { title: 'Film & artistic projects', desc: 'Participation in short films and audiovisual projects. Director of the award-winning short film "Identidad", exploring the body as territory of memory and transformation.' },
+        { title: 'Collaborations & events', desc: 'Workshops, special events and collaborations with other artists and spaces. Movement experiences in diverse contexts: festivals, gatherings and wellness events.' }
       ]
     },
     form: {
-      title: 'Contact us',
-      name: 'Full name', email: 'Email', phone: 'Phone / WhatsApp', checkin: 'Modality of interest', nights: 'Modality of interest', unit: 'Modality of interest', message: 'Message (optional)',
-      phName: 'Your name', phEmail: 'you@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Tell us about your interest in Biodanza, questions or comments...',
-      errName: 'Please enter your name', errEmail: 'Please enter a valid email', errPhone: 'Please enter a valid phone', errCheckin: 'Please select a modality', errNights: 'Please select a modality',
-      nightsOptions: ['Select...', 'Weekly Classes', 'Intensive Workshops', 'Biodanza for Children', 'General inquiry'],
-      unitOptions: ['Select...', 'Weekly Classes', 'Intensive Workshops', 'Biodanza for Children', 'General inquiry'],
-      submit: 'Send inquiry', sending: 'Sending...', successTitle: 'Inquiry sent', successText: 'Thank you for your interest in Biodanza. We will reply shortly by email or WhatsApp.',
-      infoTitle: 'Contact information', infoLabels: ['Location', 'WhatsApp', 'Email', 'Instagram']
+      title: 'Reserve your spot',
+      name: 'Full name', email: 'Email', phone: 'Phone / WhatsApp', unit: 'Interest', message: 'Message (optional)',
+      phName: 'Your name', phEmail: 'you@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Tell us about your interest, questions or comments...',
+      errName: 'Please enter your name', errEmail: 'Please enter a valid email', errPhone: 'Please enter a valid phone',
+      unitOptions: ['Select...', 'Ser en el Cuerpo', 'Workshops & training', 'General inquiry'],
+      submit: 'Send inquiry', sending: 'Sending...', successTitle: 'Inquiry sent', successText: 'Thank you for your interest. I will reply shortly by email or WhatsApp.',
+      infoTitle: 'Contact information', infoLabels: ['Location', 'WhatsApp', 'Email', 'Class schedule']
     },
     footer: {
-      desc: 'Biodanza academy in Mendoza Capital, Argentina. A space of authentic connection where music, movement and community invite you to live fully.',
-      navHeading: 'Navigation', unitsHeading: 'Modalities', contactHeading: 'Contact',
-      navLinks: ['Home', 'About', 'Modalities', 'Benefits', 'Gallery', 'Contact'],
-      unitLinks: ['Weekly Classes', 'Intensive Workshops', 'Biodanza for Children'],
+      desc: 'Annual journey of movement, creativity and personal transformation with Florencia Serruya in Mendoza, Argentina.',
+      navHeading: 'Navigation', unitsHeading: 'Spaces', contactHeading: 'Contact',
+      navLinks: ['Home', 'Method', 'About me', 'Gallery', 'Projects', 'Contact'],
+      unitLinks: ['Ser en el Cuerpo', 'Workshops & training', 'Intempo Company'],
       rights: 'All rights reserved.'
     },
-    whatsapp: { tooltip: 'Contact us on WhatsApp', message: 'Hi! I would like to learn more about Biodanza at Alma en Movimiento' }
+    whatsapp: { tooltip: 'Contact on WhatsApp', message: 'Hi! I want to reserve my spot at Ser en el Cuerpo' }
   };
 
   var TRANSLATIONS = {
     es: {
       flag: '\u{1F1E6}\u{1F1F7}',
-      metaTitle: 'Alma en Movimiento - Academia de Biodanza en Mendoza, Argentina',
-      metaDescription: 'Academia de Biodanza en Mendoza Capital, Argentina. Despert\u00e1 tu esencia a trav\u00e9s de la danza, la m\u00fasica y la conexi\u00f3n. Clases semanales, talleres y biodanza para ni\u00f1os con Florencia Serruya.',
+      metaTitle: 'Ser en el Cuerpo \u2014 Florencia Serruya | Movimiento, Creatividad y Transformaci\u00f3n',
+      metaDescription: 'Recorrido anual de movimiento, creatividad y transformaci\u00f3n personal con Florencia Serruya en Mendoza, Argentina. Biodanza, danza contempor\u00e1nea, improvisaci\u00f3n y juego creativo.',
       preloaderDetecting: 'Detectando pa\u00eds e idioma...',
       preloaderReady: 'Bienvenido, visitante de {country}.',
-      brandSub: 'Biodanza',
-      nav: { home: 'Inicio', about: 'Nosotros', units: 'Modalidades', experiences: 'Beneficios', gallery: 'Galer\u00eda', contact: 'Contacto', book: 'Contacto', menuAria: 'Abrir men\u00fa de navegaci\u00f3n', langAria: 'Seleccionar idioma' },
+      brandSub: 'Florencia Serruya',
+      nav: { home: 'Inicio', method: 'M\u00e9todo', about: 'Sobre m\u00ed', gallery: 'Galer\u00eda', projects: 'Proyectos', contact: 'Contacto', book: 'Confirm\u00e1 tu lugar', menuAria: 'Abrir men\u00fa de navegaci\u00f3n', langAria: 'Seleccionar idioma' },
       hero: {
-        badge: 'Transformaci\u00f3n a trav\u00e9s del movimiento',
-        title: 'Despert\u00e1 tu esencia con <em>Biodanza</em>',
-        subtitle: 'Academia de Biodanza en Mendoza Capital, Argentina. Un espacio de conexi\u00f3n aut\u00e9ntica donde la m\u00fasica, el movimiento y la comunidad te invitan a vivir plenamente.',
-        primary: 'Conocer las clases',
-        secondary: 'Qu\u00e9 es Biodanza',
+        badge: 'Florencia Serruya',
+        title: 'Ser en el <em>Cuerpo</em>',
+        subtitle: 'Un recorrido anual de movimiento, creatividad y transformaci\u00f3n personal. Profesora de danza contempor\u00e1nea, facilitadora de biodanza y creadora de experiencias de movimiento y creatividad.',
+        primary: 'Confirm\u00e1 tu lugar',
+        secondary: 'Conocer el m\u00e9todo',
         scroll: 'Descubr\u00ed m\u00e1s'
-      },
-      stats: { units: 'A\u00f1os de experiencia', guests: 'Alumnos transformados', rating: 'Valoraci\u00f3n promedio', nature: 'Pasi\u00f3n y conexi\u00f3n' }
+      }
     },
     pt: {
       flag: '\u{1F1E7}\u{1F1F7}',
-      metaTitle: 'Alma en Movimiento - Academia de Biodan\u00e7a em Mendoza, Argentina',
-      metaDescription: 'Academia de Biodan\u00e7a em Mendoza Capital, Argentina. Desperte sua ess\u00eancia atrav\u00e9s da dan\u00e7a, m\u00fasica e conex\u00e3o. Aulas semanais, workshops e biodan\u00e7a para crian\u00e7as com Florencia Serruya.',
+      metaTitle: 'Ser en el Cuerpo \u2014 Florencia Serruya | Movimento, Criatividade e Transforma\u00e7\u00e3o',
+      metaDescription: 'Jornada anual de movimento, criatividade e transforma\u00e7\u00e3o pessoal com Florencia Serruya em Mendoza, Argentina. Biodan\u00e7a, dan\u00e7a contempor\u00e2nea, improvisa\u00e7\u00e3o e jogo criativo.',
       preloaderDetecting: 'Detectando pa\u00eds e idioma...',
       preloaderReady: 'Bem-vindo, visitante de {country}.',
-      brandSub: 'Biodan\u00e7a',
-      nav: { home: 'In\u00edcio', about: 'Sobre', units: 'Modalidades', experiences: 'Benef\u00edcios', gallery: 'Galeria', contact: 'Contato', book: 'Contato', menuAria: 'Abrir menu de navega\u00e7\u00e3o', langAria: 'Selecionar idioma' },
+      brandSub: 'Florencia Serruya',
+      nav: { home: 'In\u00edcio', method: 'M\u00e9todo', about: 'Sobre mim', gallery: 'Galeria', projects: 'Projetos', contact: 'Contato', book: 'Reserve seu lugar', menuAria: 'Abrir menu de navega\u00e7\u00e3o', langAria: 'Selecionar idioma' },
       hero: {
-        badge: 'Transforma\u00e7\u00e3o atrav\u00e9s do movimento',
-        title: 'Desperte sua ess\u00eancia com <em>Biodan\u00e7a</em>',
-        subtitle: 'Academia de Biodan\u00e7a em Mendoza Capital, Argentina. Um espa\u00e7o de conex\u00e3o aut\u00eantica onde a m\u00fasica, o movimento e a comunidade convidam voc\u00ea a viver plenamente.',
-        primary: 'Conhecer as aulas',
-        secondary: 'O que \u00e9 Biodan\u00e7a',
+        badge: 'Florencia Serruya',
+        title: 'Ser en el <em>Cuerpo</em>',
+        subtitle: 'Uma jornada anual de movimento, criatividade e transforma\u00e7\u00e3o pessoal. Professora de dan\u00e7a contempor\u00e2nea, facilitadora de biodan\u00e7a e criadora de experi\u00eancias de movimento e criatividade.',
+        primary: 'Reserve seu lugar',
+        secondary: 'Conhecer o m\u00e9todo',
         scroll: 'Descubra mais'
-      },
-      stats: { units: 'Anos de experi\u00eancia', guests: 'Alunos transformados', rating: 'Avalia\u00e7\u00e3o m\u00e9dia', nature: 'Paix\u00e3o e conex\u00e3o' }
+      }
     }
   };
 
-  // === TRADUCCIONES EXTENDIDAS - ESPAÑOL ===
+  // === TRADUCCIONES EXTENDIDAS - ESPA\u00d1OL ===
   TRANSLATIONS.es.about = {
-    label: 'Nuestra historia',
-    title: 'Donde el <em>alma</em> se encuentra.',
-    p1: 'Alma en Movimiento naci\u00f3 del profundo amor de Florencia Serruya por la Biodanza y su poder transformador. Como facilitadora certificada con m\u00e1s de 8 a\u00f1os de experiencia, Florencia ha creado un espacio donde cada persona puede reconectarse con su esencia m\u00e1s aut\u00e9ntica a trav\u00e9s del movimiento, la m\u00fasica y la conexi\u00f3n humana.',
-    p2: 'En Mendoza Capital, nuestra academia se ha convertido en un refugio para quienes buscan m\u00e1s que una clase de danza: un camino hacia la vitalidad, la expresi\u00f3n genuina y la pertenencia a una comunidad que celebra la vida en todas sus formas.',
+    label: 'Sobre m\u00ed',
+    title: 'Florencia <em>Serruya</em>',
+    p1: 'Profesora de danza contempor\u00e1nea y facilitadora de biodanza. Core\u00f3grafa, bailarina y directora de la compa\u00f1\u00eda Intempo. Creadora del m\u00e9todo Ser en el Cuerpo.',
+    p2: 'Directora del cortometraje ganador \u201cIdentidad\u201d. Mi trabajo integra el movimiento, la creatividad y la conexi\u00f3n humana como herramientas de transformaci\u00f3n personal y colectiva.',
     features: [
-      { title: 'Conexi\u00f3n aut\u00e9ntica', desc: 'Creamos espacios seguros donde pod\u00e9s ser vos mismo, expresarte libremente y conectar desde el coraz\u00f3n con otros y con tu esencia m\u00e1s profunda.' },
-      { title: 'Transformaci\u00f3n personal', desc: 'La Biodanza es un sistema de desarrollo humano que integra m\u00fasica, movimiento y encuentro para despertar tu potencial de vida y expresi\u00f3n.' },
-      { title: 'Comunidad amorosa', desc: 'Form\u00e1s parte de un grupo c\u00e1lido y acogedor que celebra cada proceso, respeta cada tiempo y comparte la alegr\u00eda de vivir en plenitud.' }
+      { title: 'Danza contempor\u00e1nea', desc: 'Profesora formada en t\u00e9cnicas de danza contempor\u00e1nea, improvisaci\u00f3n y composici\u00f3n coreogr\u00e1fica.' },
+      { title: 'Biodanza', desc: 'Facilitadora de Biodanza Sistema Rolando Toro, integrando m\u00fasica, movimiento y encuentro para el desarrollo humano.' },
+      { title: 'Compa\u00f1\u00eda Intempo', desc: 'Directora y core\u00f3grafa de la compa\u00f1\u00eda de danza Intempo, con presentaciones en escenarios y festivales.' }
     ]
   };
-  TRANSLATIONS.es.units = {
-    label: 'Nuestras modalidades',
-    title: 'Formas de <em>vivenciar</em>',
-    subtitle: 'Ofrecemos diferentes espacios de encuentro con la Biodanza, adaptados a tus necesidades y ritmos de vida. Cada modalidad es una puerta de entrada a tu transformaci\u00f3n.',
+  TRANSLATIONS.es.projects = {
+    label: 'Otros trabajos',
+    title: 'M\u00e1s all\u00e1 del <em>m\u00e9todo</em>',
+    subtitle: 'Talleres, proyectos art\u00edsticos y colaboraciones que nutren mi trabajo como creadora y docente.',
     cards: [
-      { name: 'Clases Semanales', desc: 'Nuestro espacio regular de encuentro donde cada semana vivenciamos la Biodanza en grupo. A trav\u00e9s de ejercicios de movimiento, m\u00fasica cuidadosamente seleccionada y la calidez del grupo, transitamos un camino progresivo de autoconocimiento y transformaci\u00f3n. Ideal para quienes buscan un compromiso sostenido con su desarrollo personal.', cap: 'Duraci\u00f3n: 2 horas semanales' },
-      { name: 'Talleres Intensivos', desc: 'Experiencias profundas de inmersi\u00f3n en tem\u00e1ticas espec\u00edficas de Biodanza. Estos encuentros especiales de medio d\u00eda o d\u00eda completo nos permiten explorar con mayor profundidad aspectos como la creatividad, la afectividad, la vitalidad o la identidad. Una oportunidad para vivir transformaciones significativas en poco tiempo.', cap: 'Frecuencia: Una vez al mes' },
-      { name: 'Biodanza para Ni\u00f1os', desc: 'Un espacio especialmente dise\u00f1ado para que ni\u00f1os y ni\u00f1as exploren el movimiento, la creatividad y la conexi\u00f3n con otros de forma l\u00fadica y afectuosa. A trav\u00e9s del juego y la m\u00fasica, acompa\u00f1amos su desarrollo emocional, su expresi\u00f3n espont\u00e1nea y su capacidad de vincularse con alegr\u00eda y respeto. Los ni\u00f1os descubren su propia vitalidad en un ambiente seguro y amoroso.', cap: 'Edades: 5 a 12 a\u00f1os' }
-    ]
-  };
-  TRANSLATIONS.es.experiences = {
-    label: 'Beneficios de Biodanza',
-    title: 'Lo que <em>vas a vivir</em>',
-    subtitle: 'La Biodanza te invita a descubrir aspectos profundos de vos mismo y a desarrollar tu potencial humano en todas sus dimensiones.',
-    cards: [
-      { title: 'Conexi\u00f3n profunda', desc: 'Aprend\u00e9 a conectarte aut\u00e9nticamente con vos mismo y con los dem\u00e1s. La Biodanza crea espacios seguros donde pod\u00e9s ser quien realmente sos, sin m\u00e1scaras ni juicios, fortaleciendo v\u00ednculos genuinos y significativos.' },
-      { title: 'Vitalidad y bienestar', desc: 'Despert\u00e1 tu energ\u00eda vital a trav\u00e9s del movimiento consciente. Mejor\u00e1 tu salud f\u00edsica y emocional, reduc\u00ed el estr\u00e9s y recuper\u00e1 el placer de habitar tu cuerpo con alegr\u00eda y plenitud.' },
-      { title: 'Comunidad y pertenencia', desc: 'Form\u00e1 parte de un grupo c\u00e1lido y acogedor donde cada persona es valorada. Compart\u00ed un camino de crecimiento con otros que, como vos, buscan vivir con m\u00e1s autenticidad, alegr\u00eda y amor.' },
-      { title: 'Expresi\u00f3n creativa', desc: 'Liber\u00e1 tu creatividad y expresi\u00f3n personal a trav\u00e9s del movimiento espont\u00e1neo. Descubr\u00ed nuevas formas de comunicarte, de sentir y de manifestar tu singularidad en el mundo.' }
-    ]
-  };
-  TRANSLATIONS.es.process = {
-    label: 'Tu camino',
-    title: 'C\u00f3mo <em>comenzar</em>',
-    subtitle: 'En cuatro simples pasos comenz\u00e1s tu viaje de transformaci\u00f3n con Biodanza en Mendoza.',
-    steps: [
-      { title: 'Conoc\u00e9 la Biodanza', desc: 'Contactanos por WhatsApp, Instagram o email. Te contamos todo sobre la Biodanza, nuestras modalidades y respondemos todas tus dudas.' },
-      { title: 'Prob\u00e1 una clase gratuita', desc: 'Tu primera clase es sin cargo. Ven\u00ed a vivenciar la Biodanza, conoc\u00e9 al grupo y sent\u00ed la energ\u00eda del encuentro. Sin compromiso.' },
-      { title: 'Inscribite y comenz\u00e1', desc: 'Si sent\u00eds que es para vos, eleg\u00ed la modalidad que mejor se adapte a tu ritmo y hac\u00e9 tu inscripci\u00f3n. Te acompa\u00f1amos en cada paso.' },
-      { title: 'Vivenci\u00e1 y transformate', desc: 'Empez\u00e1 tu proceso de autoconocimiento y transformaci\u00f3n. Cada clase es una oportunidad para conectar con tu esencia y celebrar la vida.' }
+      { title: 'Talleres y formaciones', desc: 'Talleres complementarios de danza contempor\u00e1nea, movimiento consciente e improvisaci\u00f3n. Formaciones intensivas para quienes quieren profundizar en el lenguaje del cuerpo.' },
+      { title: 'Cine y proyectos art\u00edsticos', desc: 'Participaci\u00f3n en cortometrajes y proyectos audiovisuales. Directora del cortometraje ganador \u201cIdentidad\u201d, que explora el cuerpo como territorio de memoria y transformaci\u00f3n.' },
+      { title: 'Colaboraciones y eventos', desc: 'Workshops, eventos especiales y colaboraciones con otros artistas y espacios. Experiencias de movimiento en contextos diversos: festivales, encuentros y jornadas de bienestar.' }
     ]
   };
   TRANSLATIONS.es.form = {
-    title: 'Contactate con nosotros',
-    name: 'Nombre completo', email: 'Email', phone: 'Tel\u00e9fono / WhatsApp', checkin: 'Modalidad de inter\u00e9s', nights: 'Modalidad de inter\u00e9s', unit: 'Modalidad de inter\u00e9s', message: 'Mensaje (opcional)',
-    phName: 'Tu nombre', phEmail: 'tu@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Contanos sobre tu inter\u00e9s en Biodanza, dudas o comentarios...',
-    errName: 'Ingres\u00e1 tu nombre', errEmail: 'Ingres\u00e1 un email v\u00e1lido', errPhone: 'Ingres\u00e1 un tel\u00e9fono v\u00e1lido', errCheckin: 'Seleccion\u00e1 una modalidad', errNights: 'Seleccion\u00e1 una modalidad',
-    nightsOptions: ['Seleccionar...', 'Clases Semanales', 'Talleres Intensivos', 'Biodanza para Ni\u00f1os', 'Consulta General'],
-    unitOptions: ['Seleccionar...', 'Clases Semanales', 'Talleres Intensivos', 'Biodanza para Ni\u00f1os', 'Consulta General'],
+    title: 'Confirm\u00e1 tu lugar',
+    name: 'Nombre completo', email: 'Email', phone: 'Tel\u00e9fono / WhatsApp', unit: 'Inter\u00e9s', message: 'Mensaje (opcional)',
+    phName: 'Tu nombre', phEmail: 'tu@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Cont\u00e1 tu inter\u00e9s, dudas o comentarios...',
+    errName: 'Ingres\u00e1 tu nombre', errEmail: 'Ingres\u00e1 un email v\u00e1lido', errPhone: 'Ingres\u00e1 un tel\u00e9fono v\u00e1lido',
+    unitOptions: ['Seleccionar...', 'Ser en el Cuerpo', 'Talleres y formaciones', 'Consulta general'],
     submit: 'Enviar consulta', sending: 'Enviando...',
-    successTitle: 'Consulta enviada', successText: 'Gracias por tu inter\u00e9s en Biodanza. Te responderemos a la brevedad por email o WhatsApp.',
-    infoTitle: 'Informaci\u00f3n de contacto', infoLabels: ['Ubicaci\u00f3n', 'WhatsApp', 'Email', 'Instagram']
+    successTitle: 'Consulta enviada', successText: 'Gracias por tu inter\u00e9s. Te responder\u00e9 a la brevedad por email o WhatsApp.',
+    infoTitle: 'Informaci\u00f3n de contacto', infoLabels: ['Ubicaci\u00f3n', 'WhatsApp', 'Email', 'Horarios de clases']
   };
   TRANSLATIONS.es.footer = {
-    desc: 'Academia de Biodanza en Mendoza Capital, Argentina. Un espacio de conexi\u00f3n aut\u00e9ntica donde la m\u00fasica, el movimiento y la comunidad te invitan a vivir plenamente.',
-    navHeading: 'Navegaci\u00f3n', unitsHeading: 'Modalidades', contactHeading: 'Contacto',
-    navLinks: ['Inicio', 'Nosotros', 'Modalidades', 'Beneficios', 'Galer\u00eda', 'Contacto'],
-    unitLinks: ['Clases Semanales', 'Talleres Intensivos', 'Biodanza para Ni\u00f1os'],
+    desc: 'Recorrido anual de movimiento, creatividad y transformaci\u00f3n personal con Florencia Serruya en Mendoza, Argentina.',
+    navHeading: 'Navegaci\u00f3n', unitsHeading: 'Espacios', contactHeading: 'Contacto',
+    navLinks: ['Inicio', 'M\u00e9todo', 'Sobre m\u00ed', 'Galer\u00eda', 'Proyectos', 'Contacto'],
+    unitLinks: ['Ser en el Cuerpo', 'Talleres y formaciones', 'Compa\u00f1\u00eda Intempo'],
     rights: 'Todos los derechos reservados.'
   };
-  TRANSLATIONS.es.whatsapp = { tooltip: 'Contactanos por WhatsApp', message: 'Hola! Quiero conocer m\u00e1s sobre Biodanza en Alma en Movimiento' };
+  TRANSLATIONS.es.whatsapp = { tooltip: 'Contactame por WhatsApp', message: 'Hola! Quiero confirmar mi lugar en Ser en el Cuerpo' };
 
-  // === TRADUCCIONES EXTENDIDAS - PORTUGUÉS ===
+  // === TRADUCCIONES EXTENDIDAS - PORTUGU\u00c9S ===
   TRANSLATIONS.pt.about = {
-    label: 'Nossa hist\u00f3ria',
-    title: 'Onde a <em>alma</em> se encontra.',
-    p1: 'Alma en Movimiento nasceu do profundo amor de Florencia Serruya pela Biodan\u00e7a e seu poder transformador. Como facilitadora certificada com mais de 8 anos de experi\u00eancia, Florencia criou um espa\u00e7o onde cada pessoa pode se reconectar com sua ess\u00eancia mais aut\u00eantica atrav\u00e9s do movimento, m\u00fasica e conex\u00e3o humana.',
-    p2: 'Em Mendoza Capital, nossa academia se tornou um ref\u00fagio para aqueles que buscam mais do que uma aula de dan\u00e7a: um caminho para a vitalidade, express\u00e3o genu\u00edna e pertencimento a uma comunidade que celebra a vida em todas as suas formas.',
+    label: 'Sobre mim',
+    title: 'Florencia <em>Serruya</em>',
+    p1: 'Professora de dan\u00e7a contempor\u00e2nea e facilitadora de biodan\u00e7a. Core\u00f3grafa, bailarina e diretora da companhia Intempo. Criadora do m\u00e9todo Ser en el Cuerpo.',
+    p2: 'Diretora do curta-metragem premiado \u201cIdentidad\u201d. Meu trabalho integra o movimento, a criatividade e a conex\u00e3o humana como ferramentas de transforma\u00e7\u00e3o pessoal e coletiva.',
     features: [
-      { title: 'Conex\u00e3o aut\u00eantica', desc: 'Criamos espa\u00e7os seguros onde voc\u00ea pode ser voc\u00ea mesmo, se expressar livremente e conectar do cora\u00e7\u00e3o com outros e com sua ess\u00eancia mais profunda.' },
-      { title: 'Transforma\u00e7\u00e3o pessoal', desc: 'A Biodan\u00e7a \u00e9 um sistema de desenvolvimento humano que integra m\u00fasica, movimento e encontro para despertar seu potencial de vida e express\u00e3o.' },
-      { title: 'Comunidade amorosa', desc: 'Voc\u00ea faz parte de um grupo caloroso e acolhedor que celebra cada processo, respeita cada tempo e compartilha a alegria de viver plenamente.' }
+      { title: 'Dan\u00e7a contempor\u00e2nea', desc: 'Professora formada em t\u00e9cnicas de dan\u00e7a contempor\u00e2nea, improvisa\u00e7\u00e3o e composi\u00e7\u00e3o coreogr\u00e1fica.' },
+      { title: 'Biodan\u00e7a', desc: 'Facilitadora de Biodan\u00e7a Sistema Rolando Toro, integrando m\u00fasica, movimento e encontro para o desenvolvimento humano.' },
+      { title: 'Companhia Intempo', desc: 'Diretora e core\u00f3grafa da companhia de dan\u00e7a Intempo, com apresenta\u00e7\u00f5es em palcos e festivais.' }
     ]
   };
-  TRANSLATIONS.pt.units = {
-    label: 'Nossas modalidades',
-    title: 'Formas de <em>vivenciar</em>',
-    subtitle: 'Oferecemos diferentes espa\u00e7os de encontro com a Biodan\u00e7a, adaptados \u00e0s suas necessidades e ritmos de vida. Cada modalidade \u00e9 uma porta de entrada para sua transforma\u00e7\u00e3o.',
+  TRANSLATIONS.pt.projects = {
+    label: 'Outros trabalhos',
+    title: 'Al\u00e9m do <em>m\u00e9todo</em>',
+    subtitle: 'Workshops, projetos art\u00edsticos e colabora\u00e7\u00f5es que nutrem meu trabalho como criadora e docente.',
     cards: [
-      { name: 'Aulas Semanais', desc: 'Nosso espa\u00e7o regular de encontro onde cada semana vivenciamos a Biodan\u00e7a em grupo. Atrav\u00e9s de exerc\u00edcios de movimento, m\u00fasica cuidadosamente selecionada e o calor do grupo, percorremos um caminho progressivo de autoconhecimento e transforma\u00e7\u00e3o. Ideal para quem busca um compromisso sustentado com seu desenvolvimento pessoal.', cap: 'Dura\u00e7\u00e3o: 2 horas semanais' },
-      { name: 'Workshops Intensivos', desc: 'Experi\u00eancias profundas de imers\u00e3o em temas espec\u00edficos de Biodan\u00e7a. Estes encontros especiais de meio dia ou dia completo nos permitem explorar com maior profundidade aspectos como criatividade, afetividade, vitalidade ou identidade. Uma oportunidade para viver transforma\u00e7\u00f5es significativas em pouco tempo.', cap: 'Frequ\u00eancia: Uma vez por m\u00eas' },
-      { name: 'Biodan\u00e7a para Crian\u00e7as', desc: 'Um espa\u00e7o especialmente projetado para que meninos e meninas explorem o movimento, criatividade e conex\u00e3o com outros de forma l\u00fadica e afetuosa. Atrav\u00e9s do jogo e m\u00fasica, acompanhamos seu desenvolvimento emocional, express\u00e3o espont\u00e2nea e capacidade de se vincular com alegria e respeito. As crian\u00e7as descobrem sua pr\u00f3pria vitalidade em um ambiente seguro e amoroso.', cap: 'Idades: 5 a 12 anos' }
-    ]
-  };
-  TRANSLATIONS.pt.experiences = {
-    label: 'Benef\u00edcios da Biodan\u00e7a',
-    title: 'O que voc\u00ea <em>vai viver</em>',
-    subtitle: 'A Biodan\u00e7a convida voc\u00ea a descobrir aspectos profundos de si mesmo e desenvolver seu potencial humano em todas as suas dimens\u00f5es.',
-    cards: [
-      { title: 'Conex\u00e3o profunda', desc: 'Aprenda a se conectar autenticamente consigo mesmo e com os outros. A Biodan\u00e7a cria espa\u00e7os seguros onde voc\u00ea pode ser quem realmente \u00e9, sem m\u00e1scaras ou julgamentos, fortalecendo v\u00ednculos genu\u00ednos e significativos.' },
-      { title: 'Vitalidade e bem-estar', desc: 'Desperte sua energia vital atrav\u00e9s do movimento consciente. Melhore sua sa\u00fade f\u00edsica e emocional, reduza o estresse e recupere o prazer de habitar seu corpo com alegria e plenitude.' },
-      { title: 'Comunidade e pertencimento', desc: 'Fa\u00e7a parte de um grupo caloroso e acolhedor onde cada pessoa \u00e9 valorizada. Compartilhe um caminho de crescimento com outros que, como voc\u00ea, buscam viver com mais autenticidade, alegria e amor.' },
-      { title: 'Express\u00e3o criativa', desc: 'Libere sua criatividade e express\u00e3o pessoal atrav\u00e9s do movimento espont\u00e2neo. Descubra novas formas de se comunicar, sentir e manifestar sua singularidade no mundo.' }
-    ]
-  };
-  TRANSLATIONS.pt.process = {
-    label: 'Seu caminho',
-    title: 'Como <em>come\u00e7ar</em>',
-    subtitle: 'Em quatro passos simples voc\u00ea come\u00e7a sua jornada de transforma\u00e7\u00e3o com Biodan\u00e7a em Mendoza.',
-    steps: [
-      { title: 'Conhe\u00e7a a Biodan\u00e7a', desc: 'Entre em contato por WhatsApp, Instagram ou email. Contamos tudo sobre a Biodan\u00e7a, nossas modalidades e respondemos todas as suas d\u00favidas.' },
-      { title: 'Experimente uma aula gratuita', desc: 'Sua primeira aula \u00e9 sem custo. Venha vivenciar a Biodan\u00e7a, conhe\u00e7a o grupo e sinta a energia do encontro. Sem compromisso.' },
-      { title: 'Inscreva-se e comece', desc: 'Se sentir que \u00e9 para voc\u00ea, escolha a modalidade que melhor se adapta ao seu ritmo e fa\u00e7a sua inscri\u00e7\u00e3o. Acompanhamos voc\u00ea em cada passo.' },
-      { title: 'Vivencie e transforme-se', desc: 'Comece seu processo de autoconhecimento e transforma\u00e7\u00e3o. Cada aula \u00e9 uma oportunidade para conectar com sua ess\u00eancia e celebrar a vida.' }
+      { title: 'Workshops e forma\u00e7\u00f5es', desc: 'Workshops complementares de dan\u00e7a contempor\u00e2nea, movimento consciente e improvisa\u00e7\u00e3o. Forma\u00e7\u00f5es intensivas para quem quer aprofundar a linguagem do corpo.' },
+      { title: 'Cinema e projetos art\u00edsticos', desc: 'Participa\u00e7\u00e3o em curtas-metragens e projetos audiovisuais. Diretora do curta premiado \u201cIdentidad\u201d, que explora o corpo como territ\u00f3rio de mem\u00f3ria e transforma\u00e7\u00e3o.' },
+      { title: 'Colabora\u00e7\u00f5es e eventos', desc: 'Workshops, eventos especiais e colabora\u00e7\u00f5es com outros artistas e espa\u00e7os. Experi\u00eancias de movimento em contextos diversos: festivais, encontros e jornadas de bem-estar.' }
     ]
   };
   TRANSLATIONS.pt.form = {
-    title: 'Entre em contato conosco',
-    name: 'Nome completo', email: 'Email', phone: 'Telefone / WhatsApp', checkin: 'Modalidade de interesse', nights: 'Modalidade de interesse', unit: 'Modalidade de interesse', message: 'Mensagem (opcional)',
-    phName: 'Seu nome', phEmail: 'seu@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Conte-nos sobre seu interesse na Biodan\u00e7a, d\u00favidas ou coment\u00e1rios...',
-    errName: 'Informe seu nome', errEmail: 'Informe um email v\u00e1lido', errPhone: 'Informe um telefone v\u00e1lido', errCheckin: 'Selecione uma modalidade', errNights: 'Selecione uma modalidade',
-    nightsOptions: ['Selecionar...', 'Aulas Semanais', 'Workshops Intensivos', 'Biodan\u00e7a para Crian\u00e7as', 'Consulta Geral'],
-    unitOptions: ['Selecionar...', 'Aulas Semanais', 'Workshops Intensivos', 'Biodan\u00e7a para Crian\u00e7as', 'Consulta Geral'],
+    title: 'Reserve seu lugar',
+    name: 'Nome completo', email: 'Email', phone: 'Telefone / WhatsApp', unit: 'Interesse', message: 'Mensagem (opcional)',
+    phName: 'Seu nome', phEmail: 'seu@email.com', phPhone: '+54 9 261 123 4567', phMessage: 'Conte seu interesse, d\u00favidas ou coment\u00e1rios...',
+    errName: 'Informe seu nome', errEmail: 'Informe um email v\u00e1lido', errPhone: 'Informe um telefone v\u00e1lido',
+    unitOptions: ['Selecionar...', 'Ser en el Cuerpo', 'Workshops e forma\u00e7\u00f5es', 'Consulta geral'],
     submit: 'Enviar consulta', sending: 'Enviando...',
-    successTitle: 'Consulta enviada', successText: 'Obrigado pelo seu interesse na Biodan\u00e7a. Responderemos em breve por email ou WhatsApp.',
-    infoTitle: 'Informa\u00e7\u00f5es de contato', infoLabels: ['Localiza\u00e7\u00e3o', 'WhatsApp', 'Email', 'Instagram']
+    successTitle: 'Consulta enviada', successText: 'Obrigado pelo seu interesse. Responderei em breve por email ou WhatsApp.',
+    infoTitle: 'Informa\u00e7\u00f5es de contato', infoLabels: ['Localiza\u00e7\u00e3o', 'WhatsApp', 'Email', 'Hor\u00e1rios das aulas']
   };
   TRANSLATIONS.pt.footer = {
-    desc: 'Academia de Biodan\u00e7a em Mendoza Capital, Argentina. Um espa\u00e7o de conex\u00e3o aut\u00eantica onde a m\u00fasica, o movimento e a comunidade convidam voc\u00ea a viver plenamente.',
-    navHeading: 'Navega\u00e7\u00e3o', unitsHeading: 'Modalidades', contactHeading: 'Contato',
-    navLinks: ['In\u00edcio', 'Sobre', 'Modalidades', 'Benef\u00edcios', 'Galeria', 'Contato'],
-    unitLinks: ['Aulas Semanais', 'Workshops Intensivos', 'Biodan\u00e7a para Crian\u00e7as'],
+    desc: 'Jornada anual de movimento, criatividade e transforma\u00e7\u00e3o pessoal com Florencia Serruya em Mendoza, Argentina.',
+    navHeading: 'Navega\u00e7\u00e3o', unitsHeading: 'Espa\u00e7os', contactHeading: 'Contato',
+    navLinks: ['In\u00edcio', 'M\u00e9todo', 'Sobre mim', 'Galeria', 'Projetos', 'Contato'],
+    unitLinks: ['Ser en el Cuerpo', 'Workshops e forma\u00e7\u00f5es', 'Companhia Intempo'],
     rights: 'Todos os direitos reservados.'
   };
-  TRANSLATIONS.pt.whatsapp = { tooltip: 'Entre em contato pelo WhatsApp', message: 'Ol\u00e1! Quero saber mais sobre Biodan\u00e7a no Alma en Movimiento' };
+  TRANSLATIONS.pt.whatsapp = { tooltip: 'Entre em contato pelo WhatsApp', message: 'Ol\u00e1! Quero reservar meu lugar no Ser en el Cuerpo' };
 
   // =====================================================
   // MAPEOS DE PAÍS → IDIOMA
@@ -631,10 +547,10 @@
 
     setText('.nav-brand-sub', pack.brandSub);
     setText('.nav-links .nav-link[href="#inicio"]', pack.nav.home);
-    setText('.nav-links .nav-link[href="#nosotros"]', pack.nav.about);
-    setText('.nav-links .nav-link[href="#alojamientos"]', pack.nav.units);
-    setText('.nav-links .nav-link[href="#experiencias"]', pack.nav.experiences);
+    setText('.nav-links .nav-link[href="#ser-en-el-cuerpo"]', pack.nav.method);
+    setText('.nav-links .nav-link[href="#sobre-mi"]', pack.nav.about);
     setText('.nav-links .nav-link[href="#galeria"]', pack.nav.gallery);
+    setText('.nav-links .nav-link[href="#proyectos"]', pack.nav.projects);
     setText('.nav-links .nav-link[href="#contacto"]', pack.nav.contact);
     setText('.nav-links .nav-cta', pack.nav.book);
     setAttr('#navHamburger', 'aria-label', pack.nav.menuAria || BASE_EN.nav.menuAria);
@@ -645,10 +561,10 @@
     var mobileLinks = document.querySelectorAll('#navMobile a');
     if (mobileLinks.length >= 7) {
       setText(mobileLinks[0], pack.nav.home);
-      setText(mobileLinks[1], pack.nav.about);
-      setText(mobileLinks[2], pack.nav.units);
-      setText(mobileLinks[3], pack.nav.experiences);
-      setText(mobileLinks[4], pack.nav.gallery);
+      setText(mobileLinks[1], pack.nav.method);
+      setText(mobileLinks[2], pack.nav.about);
+      setText(mobileLinks[3], pack.nav.gallery);
+      setText(mobileLinks[4], pack.nav.projects);
       setText(mobileLinks[5], pack.nav.contact);
       setText(mobileLinks[6], pack.nav.book);
     }
@@ -659,8 +575,6 @@
     setIconText('.hero-buttons .btn-primary', pack.hero.primary);
     setText('.hero-buttons .btn-outline', pack.hero.secondary);
     setText('.hero-scroll span', pack.hero.scroll);
-
-    setListText('.stat-label', [pack.stats.units, pack.stats.guests, pack.stats.rating, pack.stats.nature]);
 
     setText('.about-label', pack.about.label);
     setHTML('.about-title', pack.about.title);
@@ -674,44 +588,20 @@
       if (aboutFeatureDescs[i]) aboutFeatureDescs[i].textContent = feature.desc;
     });
 
-    setIconText('#alojamientos .section-label', pack.units.label);
-    setHTML('#alojamientos .section-title', pack.units.title);
-    setText('#alojamientos .section-subtitle', pack.units.subtitle);
-    var serviceNames = document.querySelectorAll('.service-name');
-    var serviceDescs = document.querySelectorAll('.service-desc');
-    var serviceCaps = document.querySelectorAll('.service-capacity');
-    pack.units.cards.forEach(function(card, i) {
-      if (serviceNames[i]) serviceNames[i].textContent = card.name;
-      if (serviceDescs[i]) serviceDescs[i].textContent = card.desc;
-      if (serviceCaps[i]) setIconText(serviceCaps[i], card.cap);
-    });
-
-    setIconText('#experiencias .section-label', pack.experiences.label);
-    setHTML('#experiencias .section-title', pack.experiences.title);
-    setText('#experiencias .section-subtitle', pack.experiences.subtitle);
-    var experienceTitles = document.querySelectorAll('.experience-title');
-    var experienceDescs = document.querySelectorAll('.experience-desc');
-    pack.experiences.cards.forEach(function(card, i) {
-      if (experienceTitles[i]) experienceTitles[i].textContent = card.title;
-      if (experienceDescs[i]) experienceDescs[i].textContent = card.desc;
-    });
-
-    setIconText('#proceso .section-label', pack.process.label);
-    setHTML('#proceso .section-title', pack.process.title);
-    setText('#proceso .section-subtitle', pack.process.subtitle);
-    var timelineTitles = document.querySelectorAll('.timeline-title');
-    var timelineDescs = document.querySelectorAll('.timeline-desc');
-    pack.process.steps.forEach(function(step, i) {
-      if (timelineTitles[i]) timelineTitles[i].textContent = step.title;
-      if (timelineDescs[i]) timelineDescs[i].textContent = step.desc;
+    setIconText('#proyectos .section-label', pack.projects.label);
+    setHTML('#proyectos .section-title', pack.projects.title);
+    setText('#proyectos .section-subtitle', pack.projects.subtitle);
+    var proyectoTitles = document.querySelectorAll('.proyecto-card-title');
+    var proyectoDescs = document.querySelectorAll('.proyecto-card-desc');
+    pack.projects.cards.forEach(function(card, i) {
+      if (proyectoTitles[i]) proyectoTitles[i].textContent = card.title;
+      if (proyectoDescs[i]) proyectoDescs[i].textContent = card.desc;
     });
 
     setText('.contact-form-title', pack.form.title);
     setText('label[for="nombre"]', pack.form.name);
     setText('label[for="email"]', pack.form.email);
     setText('label[for="telefono"]', pack.form.phone);
-    setText('label[for="checkin"]', pack.form.checkin);
-    setText('label[for="noches"]', pack.form.nights);
     setText('label[for="alojamiento"]', pack.form.unit);
     setText('label[for="mensaje"]', pack.form.message);
     setAttr('#nombre', 'placeholder', pack.form.phName);
@@ -721,16 +611,6 @@
     setText('#errorNombre', pack.form.errName);
     setText('#errorEmail', pack.form.errEmail);
     setText('#errorTelefono', pack.form.errPhone);
-    setText('#errorCheckin', pack.form.errCheckin);
-    setText('#errorNoches', pack.form.errNights);
-
-    var nochesSelect = document.getElementById('noches');
-    if (nochesSelect) {
-      var nochesOpts = nochesSelect.querySelectorAll('option');
-      pack.form.nightsOptions.forEach(function(text, i) {
-        if (nochesOpts[i]) nochesOpts[i].textContent = text;
-      });
-    }
 
     var alojSelect = document.getElementById('alojamiento');
     if (alojSelect) {
@@ -754,7 +634,7 @@
     if (footerHeadings[2]) footerHeadings[2].textContent = pack.footer.contactHeading;
     setListText('.footer-grid > div:nth-child(2) .footer-link', pack.footer.navLinks);
     setListText('.footer-grid > div:nth-child(3) .footer-link', pack.footer.unitLinks);
-    setText('.footer-bottom span', '\u00A9 2026 Alma en Movimiento. ' + pack.footer.rights);
+    setText('.footer-bottom span', '\u00A9 2026 Ser en el Cuerpo \u2014 Florencia Serruya. ' + pack.footer.rights);
 
     setText('.whatsapp-tooltip', pack.whatsapp.tooltip);
     setWhatsAppMessage(pack.whatsapp.message);
