@@ -62,10 +62,7 @@
         'Material of the annual journey and themes',
         'Integration of the experience into daily life'
       ],
-      onlineNote: 'Online sessions available \u2014 inquire via direct message',
-      healthFormDesc: 'Health form upload',
-      healthFormBtn: 'Complete form',
-      healthFormHuman: 'I am human'
+      onlineNote: 'Online sessions available \u2014 inquire via direct message'
     },
     about: {
       label: 'About me',
@@ -151,10 +148,7 @@
           'Material del recorrido anual y tem\u00e1ticas',
           'Integraci\u00f3n de lo vivido en la vida diaria'
         ],
-        onlineNote: 'Sesiones online disponibles \u2014 consult\u00e1 por mensaje directo',
-        healthFormDesc: 'Carga de ficha de salud',
-        healthFormBtn: 'Completar ficha',
-        healthFormHuman: 'Soy humano'
+        onlineNote: 'Sesiones online disponibles \u2014 consult\u00e1 por mensaje directo'
       }
     },
     pt: {
@@ -200,10 +194,7 @@
           'Material da jornada anual e temas',
           'Integra\u00e7\u00e3o do vivenciado na vida di\u00e1ria'
         ],
-        onlineNote: 'Sess\u00f5es online dispon\u00edveis \u2014 consulte por mensagem direta',
-        healthFormDesc: 'Carregamento da ficha de sa\u00fade',
-        healthFormBtn: 'Preencher ficha',
-        healthFormHuman: 'Sou humano'
+        onlineNote: 'Sess\u00f5es online dispon\u00edveis \u2014 consulte por mensagem direta'
       }
     }
   };
@@ -698,9 +689,6 @@
     setText('.metodo-precio-descuento', pack.method.pricing.discount);
     setListText('.metodo-beneficio span', pack.method.benefits);
     setText('.metodo-online-note', pack.method.onlineNote);
-    setText('.metodo-health-desc', pack.method.healthFormDesc);
-    setText('.metodo-health-btn .btn-text', pack.method.healthFormBtn);
-    setText('.metodo-health-check label', pack.method.healthFormHuman);
 
     setText('.about-label', pack.about.label);
     setHTML('.about-title', pack.about.title);
