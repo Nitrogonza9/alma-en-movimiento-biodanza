@@ -483,14 +483,18 @@ input, textarea, select { font: inherit; }
 .preloader::before {
   content: '';
   position: absolute;
-  inset: -3%;
+  inset: 0;
   background:
-    linear-gradient(140deg, rgba(8, 18, 14, 0.84), rgba(8, 18, 14, 0.52)),
-    radial-gradient(120% 85% at 78% 12%, rgba(196, 145, 58, 0.24), transparent 62%),
-    radial-gradient(95% 70% at 14% 82%, rgba(73, 122, 46, 0.24), transparent 66%),
+    linear-gradient(140deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.3)),
     url('Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg') center/cover no-repeat;
-  transform: scale(1.06);
-  filter: saturate(1.08) brightness(0.48) blur(1.4px);
+  filter: saturate(1.1) brightness(0.7) blur(2px);
+}
+[data-theme="dark"] .preloader::before,
+.theme-dark .preloader::before {
+  background:
+    linear-gradient(140deg, rgba(8, 18, 14, 0.7), rgba(8, 18, 14, 0.5)),
+    url('Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg') center/cover no-repeat;
+  filter: saturate(1.08) brightness(0.4) blur(4px);
 }
 .preloader::after {
   content: '';
@@ -1084,8 +1088,12 @@ input, textarea, select { font: inherit; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10,15,5,0.4) 0%, rgba(10,15,5,0.6) 50%, rgba(10,15,5,0.8) 100%);
+  background: linear-gradient(180deg, rgba(10,15,5,0.2) 0%, rgba(10,15,5,0.4) 50%, rgba(10,15,5,0.7) 100%);
   z-index: 1;
+}
+[data-theme="dark"] .hero-overlay,
+.theme-dark .hero-overlay {
+  background: linear-gradient(180deg, rgba(10,15,5,0.4) 0%, rgba(10,15,5,0.6) 50%, rgba(10,15,5,0.8) 100%);
 }
 .hero-overlay::after {
   content: '';
@@ -1106,18 +1114,12 @@ input, textarea, select { font: inherit; }
   max-width: 1400px;
   padding: var(--space-xl) clamp(1.5rem, 3vw, 3rem);
   border-radius: 26px;
-  background: linear-gradient(170deg, rgba(10, 15, 12, 0.22), rgba(10, 15, 12, 0.1));
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 .hero-content::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  border: 1px solid rgba(255,255,255,0.16);
-  background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0));
-  pointer-events: none;
+  content: none;
 }
 .hero-badge {
   display: inline-flex;
@@ -2404,20 +2406,46 @@ textarea.form-input {
 .metodo-genera {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: var(--space-xs);
+  gap: 0.85rem;
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 .metodo-genera-tag {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  padding: 0.4rem 0.85rem;
-  background: var(--clr-primary-ultra-light);
+  padding: 0.6rem 1.4rem;
+  background: linear-gradient(135deg, rgba(123, 44, 191, 0.08), rgba(157, 78, 221, 0.12));
   color: var(--clr-primary);
   font-size: var(--fs-xs);
   font-weight: 600;
-  border-radius: var(--radius-full);
+  border-radius: 40px;
   border: 1px solid rgba(123, 44, 191, 0.15);
+  box-shadow: 0 4px 15px rgba(123, 44, 191, 0.05);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: tagFloat 4s ease-in-out infinite;
+  animation-delay: calc(var(--tag-index, 0) * 0.4s);
+}
+.metodo-genera-tag:nth-child(2n) { animation-duration: 5s; animation-delay: 0.2s; }
+.metodo-genera-tag:nth-child(3n) { animation-duration: 4.5s; animation-delay: 0.5s; }
+
+@keyframes tagFloat {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  33% { transform: translateY(-4px) rotate(1deg); }
+  66% { transform: translateY(2px) rotate(-1deg); }
+}
+
+.metodo-genera-tag:hover {
+  transform: translateY(-6px) scale(1.05) !important;
+  background: linear-gradient(135deg, var(--clr-primary), var(--clr-accent));
+  color: var(--clr-white);
+  box-shadow: 0 10px 20px rgba(123, 44, 191, 0.2);
+  border-color: transparent;
+}
+
+[data-theme="dark"] .metodo-genera-tag {
+  background: linear-gradient(135deg, rgba(157, 78, 221, 0.15), rgba(123, 44, 191, 0.2));
+  color: var(--clr-accent-light);
+  border-color: rgba(157, 78, 221, 0.3);
 }
 .metodo-horarios {
   background: linear-gradient(165deg, rgba(255,255,255,0.96), rgba(248, 245, 238, 0.94));
@@ -2740,11 +2768,11 @@ textarea.form-input {
           <strong>Ser en el Cuerpo</strong> es un espacio de encuentro con vos mismo a trav&eacute;s del movimiento, la m&uacute;sica y la creatividad. Un recorrido anual donde integramos biodanza, danza contempor&aacute;nea, juego creativo, escritura e improvisaci&oacute;n para despertar tu expresi&oacute;n aut&eacute;ntica.
         </p>
         <div class="metodo-genera">
-          <span class="metodo-genera-tag">Expresi&oacute;n aut&eacute;ntica</span>
-          <span class="metodo-genera-tag">Herramientas para la vida</span>
-          <span class="metodo-genera-tag">V&iacute;nculos sanos</span>
-          <span class="metodo-genera-tag">Identidad</span>
-          <span class="metodo-genera-tag">Sanaci&oacute;n</span>
+          <span class="metodo-genera-tag" style="--tag-index: 1">Expresi&oacute;n aut&eacute;ntica</span>
+          <span class="metodo-genera-tag" style="--tag-index: 2">Herramientas para la vida</span>
+          <span class="metodo-genera-tag" style="--tag-index: 3">V&iacute;nculos sanos</span>
+          <span class="metodo-genera-tag" style="--tag-index: 4">Identidad</span>
+          <span class="metodo-genera-tag" style="--tag-index: 5">Sanaci&oacute;n</span>
         </div>
 
         <div class="metodo-horarios">
