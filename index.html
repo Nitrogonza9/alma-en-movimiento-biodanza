@@ -1086,9 +1086,33 @@ input, textarea, select { font: inherit; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: var(--clr-bg);
 }
-.hero::before, .hero::after {
-  content: none !important;
+.hero::before {
+  content: '';
+  position: absolute;
+  width: clamp(300px, 40vw, 600px);
+  height: clamp(300px, 40vw, 600px);
+  border-radius: 50%;
+  right: -5%;
+  top: 5%;
+  background: radial-gradient(circle, rgba(123, 44, 191, 0.08), transparent 70%);
+  filter: blur(40px);
+  z-index: 1;
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  width: clamp(250px, 35vw, 500px);
+  height: clamp(250px, 35vw, 500px);
+  border-radius: 50%;
+  left: -5%;
+  bottom: 5%;
+  background: radial-gradient(circle, rgba(255, 143, 179, 0.06), transparent 70%);
+  filter: blur(40px);
+  z-index: 1;
+  pointer-events: none;
 }
 .hero-bg {
   position: absolute;
@@ -1101,22 +1125,29 @@ input, textarea, select { font: inherit; }
   object-fit: cover;
   object-position: center 40%;
   transform: scale(1.05);
-  filter: none;
   animation: heroZoom 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 @keyframes heroZoom { to { transform: scale(1); } }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: transparent;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 50%, var(--clr-bg) 95%);
   z-index: 1;
 }
 [data-theme="dark"] .hero-overlay,
 .theme-dark .hero-overlay {
-  background: rgba(10, 15, 5, 0.5);
+  background: linear-gradient(180deg, rgba(10,15,5,0.4) 0%, rgba(10,15,5,0.6) 50%, rgba(10,15,5,0.8) 100%);
 }
 .hero-overlay::after {
-  content: none !important;
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: var(--ornament-svg);
+  background-size: 260px 260px;
+  background-repeat: repeat;
+  opacity: calc(var(--ornament-opacity) * 0.6);
+  animation: ornamentDrift 64s linear infinite;
 }
 .hero-content {
   position: relative;
@@ -2691,7 +2722,7 @@ textarea.form-input {
 }
 .proyecto-card-img {
   width: 100%;
-  height: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: var(--radius-md);
   margin-bottom: var(--space-md);
@@ -3030,17 +3061,17 @@ textarea.form-input {
     </div>
     <div class="proyectos-grid">
       <div class="proyecto-card reveal stagger-1">
-        <img class="proyecto-card-img" src="img/flor-studio-1.jpg" alt="Talleres y formaciones de danza" loading="lazy">
+        <img class="proyecto-card-img" src="Fotos/WhatsApp Image 2026-02-25 at 4.55.02 PM.jpeg" alt="Talleres y formaciones de danza" loading="lazy">
         <h3 class="proyecto-card-title">Talleres y formaciones</h3>
         <p class="proyecto-card-desc">Talleres complementarios de danza contempor&aacute;nea, movimiento consciente e improvisaci&oacute;n. Formaciones intensivas para quienes quieren profundizar en el lenguaje del cuerpo.</p>
       </div>
-      <div class="proyecto-card reveal stagger-2">
-        <img class="proyecto-card-img" src="img/flor-stage-2.jpg" alt="Cortometraje Identidad - Proyecto artístico" loading="lazy">
+      <div class="proyecto-card reveal stagger-2 cine-card">
+        <img class="proyecto-card-img" src="cine/WhatsApp Image 2026-02-25 at 6.15.57 PM.jpeg" alt="Cortometraje Identidad - Proyecto artístico" loading="lazy">
         <h3 class="proyecto-card-title">Cine y proyectos art&iacute;sticos</h3>
         <p class="proyecto-card-desc">Participaci&oacute;n en cortometrajes y proyectos audiovisuales. Directora del cortometraje ganador &ldquo;Identidad&rdquo;, que explora el cuerpo como territorio de memoria y transformaci&oacute;n.</p>
       </div>
       <div class="proyecto-card reveal stagger-3">
-        <img class="proyecto-card-img" src="img/flor-outdoor.jpg" alt="Colaboraciones, workshops y eventos" loading="lazy">
+        <img class="proyecto-card-img" src="Fotos/WhatsApp Image 2026-02-25 at 4.53.44 PM.jpeg" alt="Colaboraciones, workshops y eventos" loading="lazy">
         <h3 class="proyecto-card-title">Colaboraciones y eventos</h3>
         <p class="proyecto-card-desc">Workshops, eventos especiales y colaboraciones con otros artistas y espacios. Experiencias de movimiento en contextos diversos: festivales, encuentros y jornadas de bienestar.</p>
       </div>
@@ -3472,6 +3503,15 @@ window.scrollTo(0, 0);
     'fotosFlor/WhatsApp Image 2026-02-25 at 11.21.56 AM.jpeg'
   ];
 
+  var CINE_PHOTOS = [
+    'cine/WhatsApp Image 2026-02-25 at 6.15.56 PM (1).jpeg',
+    'cine/WhatsApp Image 2026-02-25 at 6.15.56 PM.jpeg',
+    'cine/WhatsApp Image 2026-02-25 at 6.15.57 PM (1).jpeg',
+    'cine/WhatsApp Image 2026-02-25 at 6.15.57 PM (2).jpeg',
+    'cine/WhatsApp Image 2026-02-25 at 6.15.57 PM.jpeg',
+    'cine/WhatsApp Image 2026-02-25 at 6.17.09 PM.jpeg'
+  ];
+
   var SITE_PHOTOS = [
     'Fotos/WhatsApp Image 2026-02-25 at 11.24.05 AM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 11.24.14 AM.jpeg',
@@ -3491,7 +3531,7 @@ window.scrollTo(0, 0);
     'Fotos/WhatsApp Image 2026-02-25 at 4.55.02 PM.jpeg'
   ];
 
-  var ROTATION_INTERVAL = 5000; // ms entre cada rotación
+  var ROTATION_INTERVAL = 5000; // ms entre cada rotaci├│n
   var ALT_TEXT = 'Florencia Serruya - Ser en el Cuerpo';
 
   // Fisher-Yates shuffle
@@ -3504,14 +3544,14 @@ window.scrollTo(0, 0);
     return a;
   }
 
-  // Slots que rotan (NO galería — esa tiene su propio carousel)
+  // Slots que rotan (NO galer├¡a ΓÇö esa tiene su propio carousel)
   function getGeneralSlots() {
     var slots = [];
     var hero = document.querySelector('.hero-bg img');
     if (hero) slots.push(hero);
     var metodo = document.querySelector('.metodo-image-wrap img');
     if (metodo) slots.push(metodo);
-    var proyectos = document.querySelectorAll('.proyecto-card-img');
+    var proyectos = document.querySelectorAll('.proyecto-card:not(.cine-card) .proyecto-card-img');
     proyectos.forEach(function(img) { slots.push(img); });
     return slots;
   }
@@ -3523,11 +3563,20 @@ window.scrollTo(0, 0);
     return slots;
   }
 
-  // Track qué foto tiene cada slot para no repetir
-  var generalSlotPhotos = []; // index en SITE_PHOTOS
-  var florSlotPhotos = []; // index en FLOR_PHOTOS
+  function getCineSlots() {
+    var slots = [];
+    var cine = document.querySelector('.cine-card .proyecto-card-img');
+    if (cine) slots.push(cine);
+    return slots;
+  }
+
+  // Track qu├⌐ foto tiene cada slot para no repetir
+  var generalSlotPhotos = []; 
+  var florSlotPhotos = []; 
+  var cineSlotPhotos = [];
   var availableGeneralPool = [];
   var availableFlorPool = [];
+  var availableCinePool = [];
 
   function rebuildPools() {
     // General
@@ -3543,6 +3592,13 @@ window.scrollTo(0, 0);
     availableFlorPool = [];
     for (var i = 0; i < FLOR_PHOTOS.length; i++) {
       if (!usedFlor[i]) availableFlorPool.push(i);
+    }
+    // Cine
+    var usedCine = {};
+    cineSlotPhotos.forEach(function(idx) { usedCine[idx] = true; });
+    availableCinePool = [];
+    for (var i = 0; i < CINE_PHOTOS.length; i++) {
+      if (!usedCine[i]) availableCinePool.push(i);
     }
   }
 
@@ -3591,10 +3647,20 @@ window.scrollTo(0, 0);
         florSlotPhotos[i] = FLOR_PHOTOS.indexOf(photo);
       });
     }
+    // Cine
+    var cSlots = getCineSlots();
+    if (cSlots.length) {
+      var shuffledC = shuffle(CINE_PHOTOS);
+      cSlots.forEach(function(img, i) {
+        var photo = shuffledC[i % shuffledC.length];
+        img.src = photo;
+        cineSlotPhotos[i] = CINE_PHOTOS.indexOf(photo);
+      });
+    }
     rebuildPools();
   }
 
-  // Galería: usar SITE_PHOTOS
+  // Galer├¡a: usar SITE_PHOTOS
   function buildGallery() {
     var track = document.querySelector('.carousel-track');
     if (!track) return;
@@ -3615,6 +3681,7 @@ window.scrollTo(0, 0);
   var rotationTimer;
   var currentGeneralTurn = 0;
   var currentFlorTurn = 0;
+  var currentCineTurn = 0;
 
   function rotateNext() {
     // Rotar General
@@ -3633,6 +3700,14 @@ window.scrollTo(0, 0);
       var nextF = getNextPhoto(florSlotPhotos[fIdx], FLOR_PHOTOS, availableFlorPool);
       crossfade(fSlots[fIdx], FLOR_PHOTOS[nextF], fIdx, FLOR_PHOTOS, florSlotPhotos);
     }
+    // Rotar Cine
+    var cSlots = getCineSlots();
+    if (cSlots.length > 0 && CINE_PHOTOS.length > cSlots.length) {
+      var cIdx = currentCineTurn % cSlots.length;
+      currentCineTurn++;
+      var nextC = getNextPhoto(cineSlotPhotos[cIdx], CINE_PHOTOS, availableCinePool);
+      crossfade(cSlots[cIdx], CINE_PHOTOS[nextC], cIdx, CINE_PHOTOS, cineSlotPhotos);
+    }
   }
 
   function startRotation() {
@@ -3640,7 +3715,7 @@ window.scrollTo(0, 0);
     rotationTimer = setInterval(rotateNext, ROTATION_INTERVAL);
   }
 
-  // Pausar cuando la pestaña no está visible
+  // Pausar cuando la pesta├▒a no est├í visible
   document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
       if (rotationTimer) { clearInterval(rotationTimer); rotationTimer = null; }
@@ -3649,14 +3724,16 @@ window.scrollTo(0, 0);
     }
   });
 
-  // Init cuando el DOM esté listo
+  // Init cuando el DOM est├⌐ listo
   function init() {
     buildGallery();
     assignInitial();
     var gSlots = getGeneralSlots();
     var fSlots = getFlorSlots();
-    if (SITE_PHOTOS.length > gSlots.length || FLOR_PHOTOS.length > fSlots.length) {
+    var cSlots = getCineSlots();
+    if (SITE_PHOTOS.length > gSlots.length || FLOR_PHOTOS.length > fSlots.length || CINE_PHOTOS.length > cSlots.length) {
       startRotation();
+    }
     }
 
     // Lógica de ficha de salud
