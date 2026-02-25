@@ -1121,16 +1121,14 @@ input, textarea, select { font: inherit; }
   object-fit: cover;
   object-position: center 40%;
   transform: scale(1.05);
-  filter: brightness(0.92) saturate(1.05);
+  filter: brightness(1) saturate(1);
   animation: heroZoom 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 @keyframes heroZoom { to { transform: scale(1); } }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: 
-    radial-gradient(circle at center, transparent 20%, var(--clr-bg) 100%),
-    linear-gradient(to bottom, var(--clr-bg) 0%, rgba(255,255,255,0.3) 50%, var(--clr-bg) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 60%, var(--clr-bg) 100%);
   z-index: 1;
 }
 [data-theme="dark"] .hero-overlay,
@@ -1155,6 +1153,15 @@ input, textarea, select { font: inherit; }
   width: 100%;
   max-width: 1200px;
   padding: var(--space-xl) clamp(1rem, 3vw, 2rem);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 32px;
+}
+[data-theme="dark"] .hero-content,
+.theme-dark .hero-content {
+  background: transparent;
+  backdrop-filter: none;
 }
 .hero-content::before {
   content: none;
