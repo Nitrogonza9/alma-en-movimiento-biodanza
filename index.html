@@ -1082,13 +1082,16 @@ input, textarea, select { font: inherit; }
   object-fit: cover;
   object-position: center 40%;
   transform: scale(1.05);
+  filter: brightness(0.92) saturate(1.05);
   animation: heroZoom 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 @keyframes heroZoom { to { transform: scale(1); } }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.7) 40%, rgba(255,255,255,0.95) 100%);
+  background: 
+    radial-gradient(circle at center, transparent 20%, var(--clr-bg) 100%),
+    linear-gradient(to bottom, var(--clr-bg) 0%, rgba(255,255,255,0.3) 50%, var(--clr-bg) 100%);
   z-index: 1;
 }
 [data-theme="dark"] .hero-overlay,
@@ -1111,12 +1114,8 @@ input, textarea, select { font: inherit; }
   z-index: 2;
   text-align: center;
   width: 100%;
-  max-width: 1400px;
-  padding: var(--space-xl) clamp(1.5rem, 3vw, 3rem);
-  border-radius: 26px;
-  background: transparent;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  max-width: 1200px;
+  padding: var(--space-xl) clamp(1rem, 3vw, 2rem);
 }
 .hero-content::before {
   content: none;
