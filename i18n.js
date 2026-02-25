@@ -35,6 +35,35 @@
       secondary: 'Discover the method',
       scroll: 'Discover more'
     },
+    method: {
+      label: 'Flagship project',
+      title: 'Ser en el <em>Cuerpo</em>',
+      subtitle: 'An annual journey that combines biodanza, conscious movement, creative play, writing and improvisation. Small groups with personalized guidance.',
+      desc: '<strong>Ser en el Cuerpo</strong> is a space to encounter yourself through movement, music and creativity. An annual journey where we integrate biodanza, contemporary dance, creative play, writing and improvisation to awaken your authentic expression.',
+      tags: ['Authentic expression', 'Tools for life', 'Healthy bonds', 'Identity', 'Healing'],
+      scheduleTitle: 'In-person schedules',
+      days: {
+        wed: 'Wednesday',
+        thu: 'Thursday',
+        mon: 'Monday'
+      },
+      locations: {
+        parana: 'Espacio Parana',
+        dorrego: 'Centro de Luz Yo Soy, Dorrego'
+      },
+      startInfo: 'Start: first week of March \u2014 Limited spots',
+      pricing: {
+        amount: '$50.000',
+        detail: 'Monthly fee',
+        discount: '10% discount paying in February'
+      },
+      benefits: [
+        'Health form for individual and group care',
+        'Material of the annual journey and themes',
+        'Integration of the experience into daily life'
+      ],
+      onlineNote: 'Online sessions available \u2014 inquire via direct message'
+    },
     about: {
       label: 'About me',
       title: 'Florencia <em>Serruya</em>',
@@ -91,6 +120,35 @@
         primary: 'Confirm\u00e1 tu lugar',
         secondary: 'Conocer el m\u00e9todo',
         scroll: 'Descubr\u00ed m\u00e1s'
+      },
+      method: {
+        label: 'Proyecto insignia',
+        title: 'Ser en el <em>Cuerpo</em>',
+        subtitle: 'Un recorrido anual que combina biodanza, movimiento consciente, juego creativo, escritura e improvisaci\u00f3n. Grupos reducidos con seguimiento personalizado.',
+        desc: '<strong>Ser en el Cuerpo</strong> es un espacio de encuentro con vos mismo a trav\u00e9s del movimiento, la m\u00fasica y la creatividad. Un recorrido anual donde integramos biodanza, danza contempor\u00e1nea, juego creativo, escritura e improvisaci\u00f3n para despertar tu expresi\u00f3n aut\u00e9ntica.',
+        tags: ['Expresi\u00f3n aut\u00e9ntica', 'Herramientas para la vida', 'V\u00ednculos sanos', 'Identidad', 'Sanaci\u00f3n'],
+        scheduleTitle: 'Horarios presenciales',
+        days: {
+          wed: 'Mi\u00e9rcoles',
+          thu: 'Jueves',
+          mon: 'Lunes'
+        },
+        locations: {
+          parana: 'Espacio Paran\u00e1',
+          dorrego: 'Centro de Luz Yo Soy, Dorrego'
+        },
+        startInfo: 'Inicio: primera semana de marzo \u2014 Cupos limitados',
+        pricing: {
+          amount: '$50.000',
+          detail: 'Cuota mensual',
+          discount: '10% dto. abonando en febrero'
+        },
+        benefits: [
+          'Ficha de salud para cuidado individual y grupal',
+          'Material del recorrido anual y tem\u00e1ticas',
+          'Integraci\u00f3n de lo vivido en la vida diaria'
+        ],
+        onlineNote: 'Sesiones online disponibles \u2014 consult\u00e1 por mensaje directo'
       }
     },
     pt: {
@@ -108,6 +166,35 @@
         primary: 'Reserve seu lugar',
         secondary: 'Conhecer o m\u00e9todo',
         scroll: 'Descubra mais'
+      },
+      method: {
+        label: 'Projeto insignia',
+        title: 'Ser en el <em>Cuerpo</em>',
+        subtitle: 'Uma jornada anual que combina biodan\u00e7a, movimento consciente, jogo criativo, escrita e improvisa\u00e7\u00e3o. Grupos reduzidos com acompanhamento personalizado.',
+        desc: '<strong>Ser en el Cuerpo</strong> \u00e9 um espa\u00e7o de encontro consigo mesmo atrav\u00e9s do movimento, da m\u00fasica e da criatividade. Uma jornada anual onde integramos biodan\u00e7a, dan\u00e7a contempor\u00e2nea, jogo criativo, escrita e improvisa\u00e7\u00e3o para despertar sua express\u00e3o aut\u00eantica.',
+        tags: ['Express\u00e3o aut\u00eantica', 'Ferramentas para a vida', 'V\u00ednculos saud\u00e1veis', 'Identidade', 'Cura'],
+        scheduleTitle: 'Hor\u00e1rios presenciais',
+        days: {
+          wed: 'Quarta-feira',
+          thu: 'Quinta-feira',
+          mon: 'Segunda-feira'
+        },
+        locations: {
+          parana: 'Espacio Paran\u00e1',
+          dorrego: 'Centro de Luz Yo Soy, Dorrego'
+        },
+        startInfo: 'In\u00edcio: primeira semana de mar\u00e7o \u2014 Vagas limitadas',
+        pricing: {
+          amount: '$50.000',
+          detail: 'Mensalidade',
+          discount: '10% de desconto pagando em fevereiro'
+        },
+        benefits: [
+          'Ficha de sa\u00fade para cuidado individual e grupal',
+          'Material da jornada anual e temas',
+          'Integra\u00e7\u00e3o do vivenciado na vida di\u00e1ria'
+        ],
+        onlineNote: 'Sess\u00f5es online dispon\u00edveis \u2014 consulte por mensagem direta'
       }
     }
   };
@@ -575,6 +662,33 @@
     setIconText('.hero-buttons .btn-primary', pack.hero.primary);
     setText('.hero-buttons .btn-outline', pack.hero.secondary);
     setText('.hero-scroll span', pack.hero.scroll);
+
+    setIconText('#ser-en-el-cuerpo .section-label', pack.method.label);
+    setHTML('#ser-en-el-cuerpo .section-title', pack.method.title);
+    setText('#ser-en-el-cuerpo .section-subtitle', pack.method.subtitle);
+    setHTML('.metodo-desc', pack.method.desc);
+    setListText('.metodo-genera-tag', pack.method.tags);
+    setText('.metodo-horarios-title', pack.method.scheduleTitle);
+    
+    var scheduleItems = document.querySelectorAll('.metodo-horario-item');
+    if (scheduleItems.length >= 3) {
+      // Wed
+      setText(scheduleItems[0].querySelector('.metodo-horario-dia'), pack.method.days.wed);
+      setText(scheduleItems[0].querySelector('.metodo-horario-lugar'), pack.method.locations.parana);
+      // Thu
+      setText(scheduleItems[1].querySelector('.metodo-horario-dia'), pack.method.days.thu);
+      setText(scheduleItems[1].querySelector('.metodo-horario-lugar'), pack.method.locations.parana);
+      // Mon
+      setText(scheduleItems[2].querySelector('.metodo-horario-dia'), pack.method.days.mon);
+      setText(scheduleItems[2].querySelector('.metodo-horario-lugar'), pack.method.locations.dorrego);
+    }
+
+    setIconText('.metodo-inicio', pack.method.startInfo);
+    setText('.metodo-precio-monto', pack.method.pricing.amount);
+    setText('.metodo-precio-detail', pack.method.pricing.detail);
+    setText('.metodo-precio-descuento', pack.method.pricing.discount);
+    setListText('.metodo-beneficio span', pack.method.benefits);
+    setText('.metodo-online-note', pack.method.onlineNote);
 
     setText('.about-label', pack.about.label);
     setHTML('.about-title', pack.about.title);
