@@ -1087,28 +1087,8 @@ input, textarea, select { font: inherit; }
   justify-content: center;
   overflow: hidden;
 }
-.hero::before {
-  content: '';
-  position: absolute;
-  width: clamp(260px, 34vw, 520px);
-  height: clamp(260px, 34vw, 520px);
-  border-radius: 50%;
-  right: -8%;
-  top: 10%;
-  background: radial-gradient(circle, rgba(212, 168, 90, 0.22), transparent 68%);
-  filter: blur(1px);
-  z-index: 1;
-}
-.hero::after {
-  content: '';
-  position: absolute;
-  width: clamp(220px, 28vw, 420px);
-  height: clamp(220px, 28vw, 420px);
-  border-radius: 50%;
-  left: -7%;
-  bottom: 6%;
-  background: radial-gradient(circle, rgba(74, 122, 46, 0.2), transparent 70%);
-  z-index: 1;
+.hero::before, .hero::after {
+  content: none !important;
 }
 .hero-bg {
   position: absolute;
@@ -1121,30 +1101,22 @@ input, textarea, select { font: inherit; }
   object-fit: cover;
   object-position: center 40%;
   transform: scale(1.05);
-  filter: brightness(1) saturate(1);
+  filter: none;
   animation: heroZoom 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 @keyframes heroZoom { to { transform: scale(1); } }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 60%, var(--clr-bg) 100%);
+  background: transparent;
   z-index: 1;
 }
 [data-theme="dark"] .hero-overlay,
 .theme-dark .hero-overlay {
-  background: linear-gradient(180deg, rgba(10,15,5,0.4) 0%, rgba(10,15,5,0.6) 50%, rgba(10,15,5,0.8) 100%);
+  background: rgba(10, 15, 5, 0.5);
 }
 .hero-overlay::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image: var(--ornament-svg);
-  background-size: 260px 260px;
-  background-repeat: repeat;
-  opacity: calc(var(--ornament-opacity) * 0.82);
-  animation: ornamentDrift 64s linear infinite;
+  content: none !important;
 }
 .hero-content {
   position: relative;
@@ -1153,10 +1125,6 @@ input, textarea, select { font: inherit; }
   width: 100%;
   max-width: 1200px;
   padding: var(--space-xl) clamp(1rem, 3vw, 2rem);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 32px;
 }
 [data-theme="dark"] .hero-content,
 .theme-dark .hero-content {
