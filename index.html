@@ -480,21 +480,32 @@ input, textarea, select { font: inherit; }
   text-align: center;
   overflow: hidden;
 }
-.preloader::before {
+.preloader-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.preloader-bg img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1.1) brightness(0.7) blur(2px);
+}
+.preloader-bg::after {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(140deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.3)),
-    url('Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg') center/cover no-repeat;
-  filter: saturate(1.1) brightness(0.7) blur(2px);
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.3));
 }
-[data-theme="dark"] .preloader::before,
-.theme-dark .preloader::before {
-  background:
-    linear-gradient(140deg, rgba(8, 18, 14, 0.7), rgba(8, 18, 14, 0.5)),
-    url('Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg') center/cover no-repeat;
+[data-theme="dark"] .preloader-bg img,
+.theme-dark .preloader-bg img {
   filter: saturate(1.08) brightness(0.4) blur(4px);
+}
+[data-theme="dark"] .preloader-bg::after,
+.theme-dark .preloader-bg::after {
+  background: linear-gradient(140deg, rgba(8, 18, 14, 0.7), rgba(8, 18, 14, 0.5));
 }
 .preloader::after {
   content: '';
@@ -616,9 +627,11 @@ input, textarea, select { font: inherit; }
   .preloader.hidden {
     opacity: 0 !important;
   }
-  .preloader::before,
   .preloader::after {
     content: none !important;
+    display: none !important;
+  }
+  .preloader-bg {
     display: none !important;
   }
   .preloader-shell {
@@ -2733,6 +2746,9 @@ textarea.form-input {
 
 <!-- PRELOADER -->
 <div class="preloader" id="preloader">
+  <div class="preloader-bg" id="preloaderBg">
+    <img src="Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg" alt="">
+  </div>
   <div class="preloader-shell">
     <div class="preloader-flag" id="preloaderFlag" aria-hidden="true">🌍</div>
     <div class="preloader-country" id="preloaderCountry">Detectando país e idioma...</div>
@@ -3450,6 +3466,24 @@ if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
 window.scrollTo(0, 0);
+
+// ===== PRELOADER RANDOM BACKGROUND =====
+(function() {
+  var PRELOADER_PHOTOS = [
+    'Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 11.24.05 AM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 11.24.14 AM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 4.48.32 PM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 4.48.58 PM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 4.49.34 PM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 4.50.18 PM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 4.50.37 PM.jpeg'
+  ];
+  var bg = document.getElementById('preloaderBg');
+  if (!bg) return;
+  var img = bg.querySelector('img');
+  if (img) img.src = PRELOADER_PHOTOS[Math.floor(Math.random() * PRELOADER_PHOTOS.length)];
+})();
 
 // ===== PRE-CARGAR IMAGEN HERO =====
 (function() {
