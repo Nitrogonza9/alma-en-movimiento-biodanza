@@ -572,7 +572,7 @@ input, textarea, select { font: inherit; }
 .preloader-country {
   max-width: 76ch;
   color: rgba(255,255,255,0.92);
-  font-size: clamp(0.72rem, 1.15vw, 0.95rem);
+  font-size: var(--fs-xs);
   line-height: 1.52;
   letter-spacing: 0.075em;
   font-weight: 500;
@@ -590,7 +590,7 @@ input, textarea, select { font: inherit; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .preloader-text {
   font-family: var(--ff-heading);
-  font-size: clamp(1.05rem, 2.1vw, 1.6rem);
+  font-size: var(--fs-lg);
   color: var(--clr-white);
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -781,7 +781,7 @@ input, textarea, select { font: inherit; }
 .theme-dark .nav-brand-name { color: var(--clr-white); }
 .nav.scrolled .nav-brand-name { color: var(--clr-dark); }
 .nav-brand-sub {
-  font-size: 0.65rem;
+  font-size: var(--fs-xs);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--clr-text-light);
@@ -840,7 +840,7 @@ input, textarea, select { font: inherit; }
   border: none;
   background: transparent;
   color: var(--clr-text);
-  font-size: 0.86rem;
+  font-size: var(--fs-sm);
   line-height: 1;
   padding: 0;
   width: 18px;
@@ -884,7 +884,7 @@ input, textarea, select { font: inherit; }
   border-radius: 10px;
   background: transparent;
   color: rgba(244, 250, 243, 0.96);
-  font-size: 0.92rem;
+  font-size: var(--fs-sm);
   font-family: var(--ff-body);
   display: flex;
   align-items: center;
@@ -949,7 +949,7 @@ input, textarea, select { font: inherit; }
   transform: translateY(-1px);
   border-color: var(--clr-accent);
 }
-.theme-toggle-icon { font-size: 1rem; line-height: 1; }
+.theme-toggle-icon { font-size: var(--fs-base); line-height: 1; }
 .nav.scrolled .theme-toggle {
   background: var(--theme-toggle-bg-scrolled);
   border-color: var(--clr-border);
@@ -1071,7 +1071,7 @@ input, textarea, select { font: inherit; }
   .theme-dark .nav .nav-brand-name { color: var(--clr-white); }
   [data-theme="dark"] .nav .nav-hamburger span,
   .theme-dark .nav .nav-hamburger span { background: var(--clr-white); }
-  .nav-brand-name { font-size: 0.75rem; white-space: normal; line-height: 1.2; }
+  .nav-brand-name { font-size: var(--fs-xs); white-space: normal; line-height: 1.2; }
   .nav-brand-icon { width: 30px; height: 30px; }
   .lang-switcher {
     margin-left: auto;
@@ -1195,7 +1195,7 @@ input, textarea, select { font: inherit; }
 .hero-badge svg { width: 14px; height: 14px; }
 .hero-title {
   font-family: var(--ff-heading);
-  font-size: clamp(3rem, 2.2rem + 4vw, 5.2rem);
+  font-size: var(--fs-3xl);
   font-weight: 700;
   color: var(--clr-dark);
   line-height: 1.1;
@@ -2235,7 +2235,7 @@ textarea.form-input {
   .container,
   .container-wide { padding: 0 1rem; }
   .hero-title { font-size: var(--fs-2xl); }
-  .hero-badge { font-size: 0.6rem; padding: 0.35rem 0.8rem; }
+  .hero-badge { font-size: var(--fs-xs); padding: 0.35rem 0.8rem; }
   .hero-subtitle { font-size: var(--fs-sm); }
   .btn { padding: 0.75rem 1.3rem; font-size: var(--fs-xs); }
   .section-title { font-size: var(--fs-xl); }
