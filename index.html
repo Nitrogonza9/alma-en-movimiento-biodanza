@@ -105,7 +105,7 @@
     "jobTitle": "Profesora de danza contemporánea, facilitadora de biodanza, creadora de Ser en el Cuerpo"
   },
   "sameAs": [
-    "https://www.instagram.com/almaenmovimientobiodanza",
+    "https://www.instagram.com/florserruya27_",
     "https://api.whatsapp.com/send?phone=5492616118455"
   ]
 }
@@ -342,9 +342,9 @@ input, textarea, select { font: inherit; }
 /* ===== UTILITY ===== */
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 0 clamp(1rem, 1vw, 1.25rem);
+  padding: 0 clamp(1.5rem, 3vw, 3.5rem);
 }
 .container-wide {
   width: 100%;
@@ -1096,8 +1096,8 @@ input, textarea, select { font: inherit; }
   height: 100dvh;
   display: flex;
   align-items: center;
-  gap: clamp(2rem, 4vw, 5rem);
-  padding: 0 clamp(2rem, 5vw, 6rem);
+  gap: clamp(1.5rem, 3vw, 3.5rem);
+  padding: 0 calc(max(0px, (100vw - 1600px) / 2) + clamp(1.5rem, 3vw, 3.5rem));
   overflow: hidden;
 }
 .hero::before {
@@ -1126,8 +1126,8 @@ input, textarea, select { font: inherit; }
 .hero-bg {
   position: relative;
   flex-shrink: 0;
-  width: clamp(340px, 46vw, 680px);
-  height: clamp(440px, 74vh, 700px);
+  width: clamp(360px, 52vw, 760px);
+  height: clamp(460px, 78vh, 760px);
   border-radius: var(--radius-xl);
   overflow: hidden;
   z-index: 2;
@@ -1340,7 +1340,7 @@ input, textarea, select { font: inherit; }
     min-height: auto;
     flex-direction: column;
     justify-content: flex-start;
-    padding: calc(var(--space-sm) + 70px) 1.5rem 2rem;
+    padding: calc(var(--space-sm) + 70px) clamp(1.5rem, 3vw, 3.5rem) 2rem;
     gap: 1.5rem;
   }
   .hero-bg {
@@ -1434,7 +1434,7 @@ input, textarea, select { font: inherit; }
 }
 .about-image {
   position: relative;
-  aspect-ratio: 3/4;
+  aspect-ratio: 4/5;
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-xl);
@@ -1443,7 +1443,7 @@ input, textarea, select { font: inherit; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 35%;
+  object-position: center center;
   transition: transform var(--transition-slow);
 }
 .about-image:hover img { transform: scale(1.03); }
@@ -1507,7 +1507,7 @@ input, textarea, select { font: inherit; }
 
 @media (max-width: 800px) {
   .about-grid { grid-template-columns: 1fr; gap: var(--space-lg); }
-  .about-image { aspect-ratio: 3/4; max-height: 420px; margin: 0 auto; }
+  .about-image { aspect-ratio: 4/5; max-height: 420px; margin: 0 auto; }
   .about-image-wrap::before,
   .about-image-wrap::after { display: none; }
 }
@@ -3340,6 +3340,9 @@ textarea.form-input {
       <div class="reveal reveal-left">
         <h2 class="contact-form-title">Confirm&aacute; tu lugar</h2>
         <form id="contactForm" novalidate>
+          <input type="hidden" name="_subject" value="Nueva consulta - Ser en el Cuerpo">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
           <div class="form-row">
             <div class="form-group">
               <label class="form-label" for="nombre">Nombre completo</label>
@@ -3423,11 +3426,15 @@ textarea.form-input {
               <div class="contact-item-value">Mi&eacute; 20:15 &mdash; Espacio Paran&aacute;<br>Jue 10:30 &mdash; Espacio Paran&aacute;<br>Lun 20:15 &mdash; Centro de Luz, Dorrego</div>
             </div>
           </div>
-        </div>
-        <div class="contact-socials">
-          <a href="#" class="contact-social" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Instagram</div>
+              <div class="contact-item-value"><a href="https://www.instagram.com/florserruya27_" target="_blank" rel="noopener">@florserruya27_</a></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -3969,12 +3976,27 @@ window.scrollTo(0, 0);
       btnSubmit.classList.add('loading');
       btnSubmit.disabled = true;
 
-      setTimeout(function() {
-        form.style.display = 'none';
-        formSuccess.classList.add('visible');
+      var formData = new FormData(form);
+      fetch('https://formsubmit.co/ajax/afserruya@gmail.com', {
+        method: 'POST',
+        body: formData
+      })
+      .then(function(response) { return response.json(); })
+      .then(function(data) {
+        if (data.success) {
+          form.style.display = 'none';
+          formSuccess.classList.add('visible');
+        } else {
+          alert('Error al enviar. Intentalo de nuevo o contactanos por WhatsApp.');
+        }
         btnSubmit.classList.remove('loading');
         btnSubmit.disabled = false;
-      }, 1500);
+      })
+      .catch(function() {
+        alert('Error de conexion. Intentalo de nuevo o contactanos por WhatsApp.');
+        btnSubmit.classList.remove('loading');
+        btnSubmit.disabled = false;
+      });
     });
   }
 

@@ -95,7 +95,7 @@
       errName: 'Please enter your name', errEmail: 'Please enter a valid email', errPhone: 'Please enter a valid phone',
       unitOptions: ['Select...', 'Ser en el Cuerpo', 'Workshops & training', 'General inquiry'],
       submit: 'Send inquiry', sending: 'Sending...', successTitle: 'Inquiry sent', successText: 'Thank you for your interest. I will reply shortly by email or WhatsApp.',
-      infoTitle: 'Contact information', infoLabels: ['Location', 'WhatsApp', 'Email', 'Class schedule']
+      infoTitle: 'Contact information', infoLabels: ['Location', 'WhatsApp', 'Email', 'Class schedule', 'Instagram']
     },
     footer: {
       desc: 'Annual journey of movement, creativity and personal transformation with Florencia Serruya in Mendoza, Argentina.',
@@ -238,7 +238,7 @@
     unitOptions: ['Seleccionar...', 'Ser en el Cuerpo', 'Talleres y formaciones', 'Consulta general'],
     submit: 'Enviar consulta', sending: 'Enviando...',
     successTitle: 'Consulta enviada', successText: 'Gracias por tu inter\u00e9s. Te responder\u00e9 a la brevedad por email o WhatsApp.',
-    infoTitle: 'Informaci\u00f3n de contacto', infoLabels: ['Ubicaci\u00f3n', 'WhatsApp', 'Email', 'Horarios de clases']
+    infoTitle: 'Informaci\u00f3n de contacto', infoLabels: ['Ubicaci\u00f3n', 'WhatsApp', 'Email', 'Horarios de clases', 'Instagram']
   };
   TRANSLATIONS.es.footer = {
     desc: 'Recorrido anual de movimiento, creatividad y transformaci\u00f3n personal con Florencia Serruya en Mendoza, Argentina.',
@@ -279,7 +279,7 @@
     unitOptions: ['Selecionar...', 'Ser en el Cuerpo', 'Workshops e forma\u00e7\u00f5es', 'Consulta geral'],
     submit: 'Enviar consulta', sending: 'Enviando...',
     successTitle: 'Consulta enviada', successText: 'Obrigado pelo seu interesse. Responderei em breve por email ou WhatsApp.',
-    infoTitle: 'Informa\u00e7\u00f5es de contato', infoLabels: ['Localiza\u00e7\u00e3o', 'WhatsApp', 'Email', 'Hor\u00e1rios das aulas']
+    infoTitle: 'Informa\u00e7\u00f5es de contato', infoLabels: ['Localiza\u00e7\u00e3o', 'WhatsApp', 'Email', 'Hor\u00e1rios das aulas', 'Instagram']
   };
   TRANSLATIONS.pt.footer = {
     desc: 'Jornada anual de movimento, criatividade e transforma\u00e7\u00e3o pessoal com Florencia Serruya em Mendoza, Argentina.',
