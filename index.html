@@ -1054,6 +1054,23 @@ input, textarea, select { font: inherit; }
 @media (max-width: 900px) {
   .nav-links { display: none; }
   .nav-hamburger { display: flex; }
+  .nav {
+    background: rgba(255, 255, 255, 0.98) !important;
+    box-shadow: var(--nav-scrolled-shadow);
+    border-bottom: 1px solid var(--clr-border);
+  }
+  .nav .nav-brand-name { color: var(--clr-dark); }
+  .nav .nav-hamburger span { background: var(--clr-dark); }
+  .nav .nav-link { color: var(--clr-text); }
+  [data-theme="dark"] .nav,
+  .theme-dark .nav {
+    background: rgba(11, 18, 14, 0.98) !important;
+    border-bottom-color: rgba(255,255,255,0.08);
+  }
+  [data-theme="dark"] .nav .nav-brand-name,
+  .theme-dark .nav .nav-brand-name { color: var(--clr-white); }
+  [data-theme="dark"] .nav .nav-hamburger span,
+  .theme-dark .nav .nav-hamburger span { background: var(--clr-white); }
   .nav-brand-name { font-size: 0.75rem; white-space: normal; line-height: 1.2; }
   .nav-brand-icon { width: 30px; height: 30px; }
   .lang-switcher {
@@ -1069,16 +1086,6 @@ input, textarea, select { font: inherit; }
     width: 36px;
     height: 36px;
     margin-right: 0.35rem;
-  }
-  .hero {
-    flex-direction: column;
-    justify-content: center;
-    padding: 5rem 1.5rem 2rem;
-    gap: 1.5rem;
-  }
-  .hero-bg {
-    width: clamp(240px, 70vw, 380px);
-    height: clamp(240px, 40vh, 360px);
   }
 }
 
@@ -1324,6 +1331,24 @@ input, textarea, select { font: inherit; }
 @keyframes scrollPulse {
   0%, 100% { opacity: 0.4; transform: scaleY(1); }
   50% { opacity: 1; transform: scaleY(1.2); }
+}
+
+/* ===== HERO MOBILE OVERRIDE (after base styles to ensure cascade) ===== */
+@media (max-width: 900px) {
+  .hero {
+    height: auto;
+    min-height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: calc(var(--space-sm) + 70px) 1.5rem 2rem;
+    gap: 1.5rem;
+  }
+  .hero-bg {
+    width: clamp(260px, 85vw, 420px);
+    height: clamp(220px, 50vw, 360px);
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /* ===== STATS BAR ===== */
@@ -2842,7 +2867,7 @@ textarea.form-input {
       <em>Cuerpo</em>
     </h1>
     <p class="hero-subtitle">
-      Un recorrido anual de movimiento, creatividad y transformaci&oacute;n personal. Profesora de danza contempor&aacute;nea, facilitadora de biodanza y creadora de experiencias de movimiento y creatividad.
+      Un recorrido anual de movimiento, creatividad y transformaci&oacute;n personal. Un m&eacute;todo propio que entrelaza biodanza, movimiento consciente, juego creativo, escritura y din&aacute;micas de improvisaci&oacute;n para despertar lo que tu cuerpo ya sabe.
     </p>
     <div class="hero-buttons">
       <a href="https://wa.me/5492616118455?text=Hola!%20Quiero%20confirmar%20mi%20lugar%20en%20Ser%20en%20el%20Cuerpo" class="btn btn-primary" target="_blank" rel="noopener">
@@ -2869,7 +2894,7 @@ textarea.form-input {
         Proyecto insignia
       </span>
       <h2 class="section-title">Ser en el <em>Cuerpo</em></h2>
-      <p class="section-subtitle">Un recorrido anual que combina biodanza, movimiento consciente, juego creativo, escritura e improvisaci&oacute;n. Grupos reducidos con seguimiento personalizado.</p>
+      <p class="section-subtitle">Grupos reducidos con cuidado individual y seguimiento personalizado. Genera expresi&oacute;n aut&eacute;ntica, v&iacute;nculos m&aacute;s sanos, fortalecimiento de la identidad y la transformaci&oacute;n de las memorias de dolor. Accesible desde cualquier lugar del mundo a trav&eacute;s de sesiones online.</p>
     </div>
     <div class="metodo-grid">
       <div class="reveal reveal-left">
@@ -2879,7 +2904,7 @@ textarea.form-input {
       </div>
       <div class="metodo-content reveal reveal-right">
         <p class="metodo-desc">
-          <strong>Ser en el Cuerpo</strong> es un espacio de encuentro con vos mismo a trav&eacute;s del movimiento, la m&uacute;sica y la creatividad. Un recorrido anual donde integramos biodanza, danza contempor&aacute;nea, juego creativo, escritura e improvisaci&oacute;n para despertar tu expresi&oacute;n aut&eacute;ntica.
+          <strong>Ser en el Cuerpo</strong> es un espacio de encuentro con vos mismo a trav&eacute;s del movimiento, la m&uacute;sica y la creatividad. Un m&eacute;todo que integra biodanza, movimiento consciente, juego creativo, escritura e improvisaci&oacute;n para que descubras herramientas reales para tu vida cotidiana. Cada sesi&oacute;n es una invitaci&oacute;n a habitar tu cuerpo con mayor libertad y presencia.
         </p>
         <div class="metodo-genera">
           <span class="metodo-genera-tag" style="--tag-index: 1">Expresi&oacute;n aut&eacute;ntica</span>
