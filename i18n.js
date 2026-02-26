@@ -30,7 +30,7 @@
     hero: {
       badge: 'Florencia Serruya',
       title: 'Ser en el <em>Cuerpo</em>',
-      subtitle: 'An annual journey of movement, creativity and personal transformation. Contemporary dance teacher, biodanza facilitator and creator of movement and creativity experiences.',
+      subtitle: 'Movement, creativity and personal transformation throughout a full year. A unique method that weaves biodanza, conscious movement, creative play, writing and improvisation dynamics to awaken what your body already knows.',
       primary: 'Reserve your spot',
       secondary: 'Discover the method',
       scroll: 'Discover more'
@@ -38,8 +38,8 @@
     method: {
       label: 'Flagship project',
       title: 'Ser en el <em>Cuerpo</em>',
-      subtitle: 'An annual journey that combines biodanza, conscious movement, creative play, writing and improvisation. Small groups with personalized guidance.',
-      desc: '<strong>Ser en el Cuerpo</strong> is a space to encounter yourself through movement, music and creativity. An annual journey where we integrate biodanza, contemporary dance, creative play, writing and improvisation to awaken your authentic expression.',
+      subtitle: 'Small groups with individual care and personalized guidance. Generates authentic expression, healthier bonds, identity strengthening and the transformation of painful memories. Accessible from anywhere in the world through online sessions.',
+      desc: '<strong>Ser en el Cuerpo</strong> is a space to encounter yourself through movement, music and creativity. A method that integrates biodanza, conscious movement, creative play, writing and improvisation so you can discover real tools for your daily life. Each session is an invitation to inhabit your body with greater freedom and presence.',
       tags: ['Authentic expression', 'Tools for life', 'Healthy bonds', 'Identity', 'Healing'],
       scheduleTitle: 'In-person schedules',
       days: {
@@ -119,7 +119,7 @@
       hero: {
         badge: 'Florencia Serruya',
         title: 'Ser en el <em>Cuerpo</em>',
-        subtitle: 'Un recorrido anual de movimiento, creatividad y transformaci\u00f3n personal. Profesora de danza contempor\u00e1nea, facilitadora de biodanza y creadora de experiencias de movimiento y creatividad.',
+        subtitle: 'Movimiento, creatividad y transformaci\u00f3n personal a lo largo de todo un a\u00f1o. Un m\u00e9todo propio que entrelaza biodanza, movimiento consciente, juego creativo, escritura y din\u00e1micas de improvisaci\u00f3n para despertar lo que tu cuerpo ya sabe.',
         primary: 'Confirm\u00e1 tu lugar',
         secondary: 'Conocer el m\u00e9todo',
         scroll: 'Descubr\u00ed m\u00e1s'
@@ -127,8 +127,8 @@
       method: {
         label: 'Proyecto insignia',
         title: 'Ser en el <em>Cuerpo</em>',
-        subtitle: 'Un recorrido anual que combina biodanza, movimiento consciente, juego creativo, escritura e improvisaci\u00f3n. Grupos reducidos con seguimiento personalizado.',
-        desc: '<strong>Ser en el Cuerpo</strong> es un espacio de encuentro con vos mismo a trav\u00e9s del movimiento, la m\u00fasica y la creatividad. Un recorrido anual donde integramos biodanza, danza contempor\u00e1nea, juego creativo, escritura e improvisaci\u00f3n para despertar tu expresi\u00f3n aut\u00e9ntica.',
+        subtitle: 'Grupos reducidos con cuidado individual y seguimiento personalizado. Genera expresi\u00f3n aut\u00e9ntica, v\u00ednculos m\u00e1s sanos, fortalecimiento de la identidad y la transformaci\u00f3n de las memorias de dolor. Accesible desde cualquier lugar del mundo a trav\u00e9s de sesiones online.',
+        desc: '<strong>Ser en el Cuerpo</strong> es un espacio de encuentro con vos mismo a trav\u00e9s del movimiento, la m\u00fasica y la creatividad. Un m\u00e9todo que integra biodanza, movimiento consciente, juego creativo, escritura e improvisaci\u00f3n para que descubras herramientas reales para tu vida cotidiana. Cada sesi\u00f3n es una invitaci\u00f3n a habitar tu cuerpo con mayor libertad y presencia.',
         tags: ['Expresi\u00f3n aut\u00e9ntica', 'Herramientas para la vida', 'V\u00ednculos sanos', 'Identidad', 'Sanaci\u00f3n'],
         scheduleTitle: 'Horarios presenciales',
         days: {
@@ -168,7 +168,7 @@
       hero: {
         badge: 'Florencia Serruya',
         title: 'Ser en el <em>Cuerpo</em>',
-        subtitle: 'Uma jornada anual de movimento, criatividade e transforma\u00e7\u00e3o pessoal. Professora de dan\u00e7a contempor\u00e2nea, facilitadora de biodan\u00e7a e criadora de experi\u00eancias de movimento e criatividade.',
+        subtitle: 'Movimento, criatividade e transforma\u00e7\u00e3o pessoal ao longo de todo um ano. Um m\u00e9todo pr\u00f3prio que entrelan\u00e7a biodan\u00e7a, movimento consciente, jogo criativo, escrita e din\u00e2micas de improvisa\u00e7\u00e3o para despertar o que seu corpo j\u00e1 sabe.',
         primary: 'Reserve seu lugar',
         secondary: 'Conhecer o m\u00e9todo',
         scroll: 'Descubra mais'
@@ -176,8 +176,8 @@
       method: {
         label: 'Projeto insignia',
         title: 'Ser en el <em>Cuerpo</em>',
-        subtitle: 'Uma jornada anual que combina biodan\u00e7a, movimento consciente, jogo criativo, escrita e improvisa\u00e7\u00e3o. Grupos reduzidos com acompanhamento personalizado.',
-        desc: '<strong>Ser en el Cuerpo</strong> \u00e9 um espa\u00e7o de encontro consigo mesmo atrav\u00e9s do movimento, da m\u00fasica e da criatividade. Uma jornada anual onde integramos biodan\u00e7a, dan\u00e7a contempor\u00e2nea, jogo criativo, escrita e improvisa\u00e7\u00e3o para despertar sua express\u00e3o aut\u00eantica.',
+        subtitle: 'Grupos reduzidos com cuidado individual e acompanhamento personalizado. Gera express\u00e3o aut\u00eantica, v\u00ednculos mais saud\u00e1veis, fortalecimento da identidade e a transforma\u00e7\u00e3o das mem\u00f3rias de dor. Acess\u00edvel de qualquer lugar do mundo atrav\u00e9s de sess\u00f5es online.',
+        desc: '<strong>Ser en el Cuerpo</strong> \u00e9 um espa\u00e7o de encontro consigo mesmo atrav\u00e9s do movimento, da m\u00fasica e da criatividade. Um m\u00e9todo que integra biodan\u00e7a, movimento consciente, jogo criativo, escrita e improvisa\u00e7\u00e3o para que voc\u00ea descubra ferramentas reais para sua vida cotidiana. Cada sess\u00e3o \u00e9 um convite para habitar seu corpo com maior liberdade e presen\u00e7a.',
         tags: ['Express\u00e3o aut\u00eantica', 'Ferramentas para a vida', 'V\u00ednculos saud\u00e1veis', 'Identidade', 'Cura'],
         scheduleTitle: 'Hor\u00e1rios presenciais',
         days: {
