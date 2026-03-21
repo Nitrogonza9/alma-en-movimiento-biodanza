@@ -947,8 +947,8 @@ input, textarea, select { font: inherit; }
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: calc(70px + var(--space-lg)) clamp(1.5rem, 3vw, 3.5rem) var(--space-xl);
-  max-width: 800px;
+  padding: calc(70px + var(--space-xl)) clamp(1.5rem, 3vw, 3.5rem) var(--space-xl);
+  max-width: 920px;
   margin: 0 auto;
 }
 .hero-content::before {
@@ -958,18 +958,18 @@ input, textarea, select { font: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.45rem 1.1rem;
+  padding: 0.55rem 1.3rem;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: var(--radius-full);
-  font-size: var(--fs-xs);
+  font-size: var(--fs-sm);
   font-weight: 600;
   color: rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
   opacity: 0;
   transform: translateY(14px);
   animation: heroFadeUp 0.9s cubic-bezier(0.2, 0.75, 0.26, 1) 0.2s forwards;
@@ -977,11 +977,11 @@ input, textarea, select { font: inherit; }
 .hero-badge svg { width: 14px; height: 14px; }
 .hero-title {
   font-family: var(--ff-heading);
-  font-size: var(--fs-3xl);
+  font-size: clamp(3rem, 2.2rem + 4vw, 5rem);
   font-weight: 700;
   color: #ffffff;
-  line-height: 1.1;
-  margin-bottom: var(--space-sm);
+  line-height: 1.08;
+  margin-bottom: var(--space-md);
   opacity: 0;
   transform: translateY(18px);
   animation: heroFadeUp 1s cubic-bezier(0.2, 0.75, 0.26, 1) 0.36s forwards;
@@ -994,10 +994,10 @@ input, textarea, select { font: inherit; }
   text-shadow: 0 2px 20px rgba(255, 143, 179, 0.3);
 }
 .hero-subtitle {
-  font-size: var(--fs-lg);
-  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(1.2rem, 1rem + 0.8vw, 1.6rem);
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.6;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -1086,7 +1086,7 @@ input, textarea, select { font: inherit; }
 }
 .hero-scroll {
   position: absolute;
-  bottom: var(--space-lg);
+  bottom: var(--space-xl);
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -1094,20 +1094,22 @@ input, textarea, select { font: inherit; }
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: var(--fs-xs);
-  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.4);
 }
 .hero-scroll-line {
-  width: 1px;
-  height: 40px;
-  background: linear-gradient(to bottom, var(--clr-accent), transparent);
+  width: 2px;
+  height: 48px;
+  background: linear-gradient(to bottom, var(--clr-accent-light), transparent);
   animation: scrollPulse 2s ease-in-out infinite;
 }
 @keyframes scrollPulse {
-  0%, 100% { opacity: 0.4; transform: scaleY(1); }
-  50% { opacity: 1; transform: scaleY(1.2); }
+  0%, 100% { opacity: 0.5; transform: scaleY(1); }
+  50% { opacity: 1; transform: scaleY(1.3); }
 }
 
 /* ===== HERO MOBILE OVERRIDE (after base styles to ensure cascade) ===== */
