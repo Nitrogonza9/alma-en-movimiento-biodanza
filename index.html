@@ -3473,7 +3473,8 @@ window.scrollTo(0, 0);
     'cine/WhatsApp Image 2026-02-25 at 6.17.09 PM.jpeg'
   ];
 
-  var SITE_PHOTOS = [
+  // Fotos que bancan fullscreen en hero/metodo/proyectos (horizontales, buena composición)
+  var HERO_PHOTOS = [
     'Fotos/WhatsApp Image 2026-02-25 at 11.24.05 AM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 11.24.14 AM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 4.48.06 PM.jpeg',
@@ -3489,7 +3490,11 @@ window.scrollTo(0, 0);
     'Fotos/WhatsApp Image 2026-02-25 at 4.53.44 PM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 4.54.00 PM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 4.55.01 PM.jpeg',
-    'Fotos/WhatsApp Image 2026-02-25 at 4.55.02 PM.jpeg',
+    'Fotos/WhatsApp Image 2026-02-25 at 4.55.02 PM.jpeg'
+  ];
+
+  // Todas las fotos (hero + clase/taller) para la galería carousel
+  var SITE_PHOTOS = HERO_PHOTOS.concat([
     'Fotos/flor-sitio-01.jpeg',
     'Fotos/flor-sitio-02.jpeg',
     'Fotos/flor-sitio-03.jpeg',
@@ -3500,7 +3505,7 @@ window.scrollTo(0, 0);
     'Fotos/flor-sitio-08.jpeg',
     'Fotos/flor-sitio-09.jpeg',
     'Fotos/flor-sitio-10.jpeg'
-  ];
+  ]);
 
   var ROTATION_INTERVAL = 5000; // ms entre cada rotaci\u00f3n
   var ALT_TEXT = 'Florencia Serruya - Ser en el Cuerpo';
@@ -3555,7 +3560,7 @@ window.scrollTo(0, 0);
     var usedGeneral = {};
     generalSlotPhotos.forEach(function(idx) { usedGeneral[idx] = true; });
     availableGeneralPool = [];
-    for (var i = 0; i < SITE_PHOTOS.length; i++) {
+    for (var i = 0; i < HERO_PHOTOS.length; i++) {
       if (!usedGeneral[i]) availableGeneralPool.push(i);
     }
     // Flor
@@ -3602,11 +3607,11 @@ window.scrollTo(0, 0);
     // General
     var gSlots = getGeneralSlots();
     if (gSlots.length) {
-      var shuffledG = shuffle(SITE_PHOTOS);
+      var shuffledG = shuffle(HERO_PHOTOS);
       gSlots.forEach(function(img, i) {
         var photo = shuffledG[i % shuffledG.length];
         img.src = photo;
-        generalSlotPhotos[i] = SITE_PHOTOS.indexOf(photo);
+        generalSlotPhotos[i] = HERO_PHOTOS.indexOf(photo);
       });
     }
     // Flor
@@ -3658,11 +3663,11 @@ window.scrollTo(0, 0);
   function rotateNext() {
     // Rotar General
     var gSlots = getGeneralSlots();
-    if (gSlots.length > 0 && SITE_PHOTOS.length > gSlots.length) {
+    if (gSlots.length > 0 && HERO_PHOTOS.length > gSlots.length) {
       var gIdx = currentGeneralTurn % gSlots.length;
       currentGeneralTurn++;
-      var nextG = getNextPhoto(generalSlotPhotos[gIdx], SITE_PHOTOS, availableGeneralPool);
-      crossfade(gSlots[gIdx], SITE_PHOTOS[nextG], gIdx, SITE_PHOTOS, generalSlotPhotos);
+      var nextG = getNextPhoto(generalSlotPhotos[gIdx], HERO_PHOTOS, availableGeneralPool);
+      crossfade(gSlots[gIdx], HERO_PHOTOS[nextG], gIdx, HERO_PHOTOS, generalSlotPhotos);
     }
     // Rotar Flor
     var fSlots = getFlorSlots();
