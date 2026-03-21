@@ -2764,6 +2764,67 @@ textarea.form-input {
 @media (max-width: 800px) {
   .proyectos-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== EL CAMINO ===== */
+.camino-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  max-width: 960px;
+  margin: 0 auto;
+}
+.camino-card {
+  text-align: center;
+  padding: var(--space-lg) var(--space-md);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(165deg, rgba(255,255,255,0.92), rgba(248, 245, 238, 0.88));
+  border: 1px solid var(--clr-border);
+  box-shadow: 0 8px 20px rgba(16, 24, 17, 0.05);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+.camino-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(16, 24, 17, 0.1);
+  border-color: var(--clr-primary-light);
+}
+.camino-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--clr-primary-ultra-light), rgba(157, 78, 221, 0.12));
+  color: var(--clr-primary);
+}
+.camino-icon svg {
+  width: 28px;
+  height: 28px;
+}
+.camino-card-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--clr-dark);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.01em;
+}
+.camino-card-desc {
+  font-size: var(--fs-sm);
+  color: var(--clr-text-light);
+  line-height: 1.65;
+}
+[data-theme="dark"] .camino-card {
+  background: var(--surface-bg);
+  border-color: var(--clr-border);
+}
+[data-theme="dark"] .camino-icon {
+  background: linear-gradient(135deg, rgba(157, 78, 221, 0.18), rgba(199, 125, 255, 0.1));
+}
+@media (max-width: 800px) {
+  .camino-grid { grid-template-columns: 1fr; max-width: 400px; }
+}
 </style>
 </head>
 
@@ -2867,7 +2928,7 @@ textarea.form-input {
       <em>Cuerpo</em>
     </h1>
     <p class="hero-subtitle">
-      Movimiento, creatividad y transformaci&oacute;n personal a lo largo de todo un a&ntilde;o. Un m&eacute;todo propio que entrelaza biodanza, movimiento consciente, juego creativo, escritura y din&aacute;micas de improvisaci&oacute;n para despertar lo que tu cuerpo ya sabe.
+      Un espacio de movimiento vivencial para habitar el cuerpo y despertar la vida.
     </p>
     <div class="hero-buttons">
       <a href="https://wa.me/5492616118455?text=Hola!%20Quiero%20confirmar%20mi%20lugar%20en%20Ser%20en%20el%20Cuerpo" class="btn btn-primary" target="_blank" rel="noopener">
@@ -2882,6 +2943,42 @@ textarea.form-input {
   <div class="hero-scroll">
     <span>Descubr&iacute; m&aacute;s</span>
     <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- EL CAMINO -->
+<section class="section-padding section-alt" id="el-camino">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Propuesta
+      </span>
+      <h2 class="section-title">El camino en Ser en el <em>Cuerpo</em></h2>
+    </div>
+    <div class="camino-grid">
+      <div class="camino-card reveal stagger-1">
+        <div class="camino-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/><path d="M8 12a4 4 0 0 1 8 0"/></svg>
+        </div>
+        <h3 class="camino-card-title">Explorar</h3>
+        <p class="camino-card-desc">Clases y experiencias de movimiento vivencial.</p>
+      </div>
+      <div class="camino-card reveal stagger-2">
+        <div class="camino-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="6"/></svg>
+        </div>
+        <h3 class="camino-card-title">Profundizar</h3>
+        <p class="camino-card-desc">Talleres y encuentros especiales.</p>
+      </div>
+      <div class="camino-card reveal stagger-3">
+        <div class="camino-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+        </div>
+        <h3 class="camino-card-title">Formarse</h3>
+        <p class="camino-card-desc">Formaci&oacute;n en herramientas de movimiento terap&eacute;utico.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -3574,7 +3671,17 @@ window.scrollTo(0, 0);
     'Fotos/WhatsApp Image 2026-02-25 at 4.53.44 PM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 4.54.00 PM.jpeg',
     'Fotos/WhatsApp Image 2026-02-25 at 4.55.01 PM.jpeg',
-    'Fotos/WhatsApp Image 2026-02-25 at 4.55.02 PM.jpeg'
+    'Fotos/WhatsApp Image 2026-02-25 at 4.55.02 PM.jpeg',
+    'Fotos/flor-sitio-01.jpeg',
+    'Fotos/flor-sitio-02.jpeg',
+    'Fotos/flor-sitio-03.jpeg',
+    'Fotos/flor-sitio-04.jpeg',
+    'Fotos/flor-sitio-05.jpeg',
+    'Fotos/flor-sitio-06.jpeg',
+    'Fotos/flor-sitio-07.jpeg',
+    'Fotos/flor-sitio-08.jpeg',
+    'Fotos/flor-sitio-09.jpeg',
+    'Fotos/flor-sitio-10.jpeg'
   ];
 
   var ROTATION_INTERVAL = 5000; // ms entre cada rotaci\u00f3n

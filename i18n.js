@@ -30,7 +30,7 @@
     hero: {
       badge: 'Florencia Serruya',
       title: 'Ser en el <em>Cuerpo</em>',
-      subtitle: 'Movement, creativity and personal transformation throughout a full year. A unique method that weaves biodanza, conscious movement, creative play, writing and improvisation dynamics to awaken what your body already knows.',
+      subtitle: 'A space for experiential movement to inhabit the body and awaken life.',
       primary: 'Reserve your spot',
       secondary: 'Discover the method',
       scroll: 'Discover more'
@@ -78,6 +78,15 @@
         { title: 'Intempo Company', desc: 'Director and choreographer of the Intempo dance company, with performances at venues and festivals.' }
       ]
     },
+    camino: {
+      label: 'Our approach',
+      title: 'The path in Ser en el <em>Cuerpo</em>',
+      cards: [
+        { title: 'Explore', desc: 'Classes and experiential movement experiences.' },
+        { title: 'Deepen', desc: 'Workshops and special gatherings.' },
+        { title: 'Train', desc: 'Training in therapeutic movement tools.' }
+      ]
+    },
     projects: {
       label: 'Other work',
       title: 'Beyond the <em>method</em>',
@@ -119,7 +128,7 @@
       hero: {
         badge: 'Florencia Serruya',
         title: 'Ser en el <em>Cuerpo</em>',
-        subtitle: 'Movimiento, creatividad y transformaci\u00f3n personal a lo largo de todo un a\u00f1o. Un m\u00e9todo propio que entrelaza biodanza, movimiento consciente, juego creativo, escritura y din\u00e1micas de improvisaci\u00f3n para despertar lo que tu cuerpo ya sabe.',
+        subtitle: 'Un espacio de movimiento vivencial para habitar el cuerpo y despertar la vida.',
         primary: 'Confirm\u00e1 tu lugar',
         secondary: 'Conocer el m\u00e9todo',
         scroll: 'Descubr\u00ed m\u00e1s'
@@ -168,7 +177,7 @@
       hero: {
         badge: 'Florencia Serruya',
         title: 'Ser en el <em>Cuerpo</em>',
-        subtitle: 'Movimento, criatividade e transforma\u00e7\u00e3o pessoal ao longo de todo um ano. Um m\u00e9todo pr\u00f3prio que entrelan\u00e7a biodan\u00e7a, movimento consciente, jogo criativo, escrita e din\u00e2micas de improvisa\u00e7\u00e3o para despertar o que seu corpo j\u00e1 sabe.',
+        subtitle: 'Um espa\u00e7o de movimento vivencial para habitar o corpo e despertar a vida.',
         primary: 'Reserve seu lugar',
         secondary: 'Conhecer o m\u00e9todo',
         scroll: 'Descubra mais'
@@ -220,6 +229,15 @@
       { title: 'Compa\u00f1\u00eda Intempo', desc: 'Directora y core\u00f3grafa de la compa\u00f1\u00eda de danza Intempo, con presentaciones en escenarios y festivales.' }
     ]
   };
+  TRANSLATIONS.es.camino = {
+    label: 'Propuesta',
+    title: 'El camino en Ser en el <em>Cuerpo</em>',
+    cards: [
+      { title: 'Explorar', desc: 'Clases y experiencias de movimiento vivencial.' },
+      { title: 'Profundizar', desc: 'Talleres y encuentros especiales.' },
+      { title: 'Formarse', desc: 'Formaci\u00f3n en herramientas de movimiento terap\u00e9utico.' }
+    ]
+  };
   TRANSLATIONS.es.projects = {
     label: 'Otros trabajos',
     title: 'M\u00e1s all\u00e1 del <em>m\u00e9todo</em>',
@@ -259,6 +277,15 @@
       { title: 'Dan\u00e7a contempor\u00e2nea', desc: 'Professora formada em t\u00e9cnicas de dan\u00e7a contempor\u00e2nea, improvisa\u00e7\u00e3o e composi\u00e7\u00e3o coreogr\u00e1fica.' },
       { title: 'Biodan\u00e7a', desc: 'Facilitadora de Biodan\u00e7a Sistema Rolando Toro, integrando m\u00fasica, movimento e encontro para o desenvolvimento humano.' },
       { title: 'Companhia Intempo', desc: 'Diretora e core\u00f3grafa da companhia de dan\u00e7a Intempo, com apresenta\u00e7\u00f5es em palcos e festivais.' }
+    ]
+  };
+  TRANSLATIONS.pt.camino = {
+    label: 'Proposta',
+    title: 'O caminho em Ser en el <em>Cuerpo</em>',
+    cards: [
+      { title: 'Explorar', desc: 'Aulas e experi\u00eancias de movimento vivencial.' },
+      { title: 'Aprofundar', desc: 'Workshops e encontros especiais.' },
+      { title: 'Formar-se', desc: 'Forma\u00e7\u00e3o em ferramentas de movimento terap\u00eautico.' }
     ]
   };
   TRANSLATIONS.pt.projects = {
@@ -701,6 +728,16 @@
     setText('.metodo-health-desc', pack.method.healthFormDesc);
     setText('.metodo-health-btn .btn-text', pack.method.healthFormBtn);
     setText('.metodo-health-check label', pack.method.healthFormHuman);
+
+    // Camino
+    setIconText('#el-camino .section-label', pack.camino.label);
+    setHTML('#el-camino .section-title', pack.camino.title);
+    var caminoTitles = document.querySelectorAll('.camino-card-title');
+    var caminoDescs = document.querySelectorAll('.camino-card-desc');
+    pack.camino.cards.forEach(function(card, i) {
+      if (caminoTitles[i]) caminoTitles[i].textContent = card.title;
+      if (caminoDescs[i]) caminoDescs[i].textContent = card.desc;
+    });
 
     setText('.about-label', pack.about.label);
     setHTML('.about-title', pack.about.title);
