@@ -55,7 +55,7 @@
       pricing: {
         amount: '$50.000',
         detail: 'Monthly fee',
-        discount: '10% discount paying in February'
+        discount: 'Payment due from the 1st to the 10th of each month. After that date, a 10% surcharge applies.'
       },
       benefits: [
         'Health form for individual and group care',
@@ -82,10 +82,21 @@
       label: 'Our approach',
       title: 'The path in Ser en el <em>Cuerpo</em>',
       cards: [
-        { title: 'Explore', desc: 'Classes and experiential movement experiences.' },
-        { title: 'Deepen', desc: 'Workshops and special gatherings.' },
+        { title: 'Explore', desc: 'Classes and experiential movement experiences to begin connecting with the body.' },
+        { title: 'Deepen', desc: 'Workshops and special gatherings to expand the body experience.' },
         { title: 'Train', desc: 'Training in therapeutic movement tools.' }
-      ]
+      ],
+      ctaPrimary: 'I want to participate',
+      ctaSecondary: 'Get information'
+    },
+    online: {
+      label: 'Online',
+      title: 'Ser en el Cuerpo \u2014 <em>Online</em>',
+      desc: 'A process of movement and group experience in a small group to explore the body, movement and presence from anywhere.',
+      duration: 'Duration: 6 online sessions',
+      note: 'This process can also serve as an entry point for those who later want to deepen into the training.',
+      ctaPrimary: 'Reserve your spot',
+      ctaSecondary: 'Get information'
     },
     projects: {
       label: 'Other work',
@@ -153,7 +164,7 @@
         pricing: {
           amount: '$50.000',
           detail: 'Cuota mensual',
-          discount: '10% dto. abonando en febrero'
+          discount: 'Se abona del 1 al 10 de cada mes. Luego de esa fecha tiene un recargo del 10%.'
         },
         benefits: [
           'Ficha de salud para cuidado individual y grupal',
@@ -202,7 +213,7 @@
         pricing: {
           amount: '$50.000',
           detail: 'Mensalidade',
-          discount: '10% de desconto pagando em fevereiro'
+          discount: 'Pagamento do dia 1 ao 10 de cada m\u00eas. Ap\u00f3s essa data, aplica-se um acr\u00e9scimo de 10%.'
         },
         benefits: [
           'Ficha de sa\u00fade para cuidado individual e grupal',
@@ -233,10 +244,21 @@
     label: 'Propuesta',
     title: 'El camino en Ser en el <em>Cuerpo</em>',
     cards: [
-      { title: 'Explorar', desc: 'Clases y experiencias de movimiento vivencial.' },
-      { title: 'Profundizar', desc: 'Talleres y encuentros especiales.' },
+      { title: 'Explorar', desc: 'Clases y experiencias de movimiento vivencial para comenzar a conectar con el cuerpo.' },
+      { title: 'Profundizar', desc: 'Talleres y encuentros especiales para ampliar la experiencia corporal.' },
       { title: 'Formarse', desc: 'Formaci\u00f3n en herramientas de movimiento terap\u00e9utico.' }
-    ]
+    ],
+    ctaPrimary: 'Quiero participar',
+    ctaSecondary: 'Recibir informaci\u00f3n'
+  };
+  TRANSLATIONS.es.online = {
+    label: 'Online',
+    title: 'Ser en el Cuerpo \u2014 <em>Online</em>',
+    desc: 'Un proceso de movimiento y vivencia en grupo peque\u00f1o para explorar el cuerpo, el movimiento y la presencia desde cualquier lugar.',
+    duration: 'Duraci\u00f3n: 6 encuentros online',
+    note: 'Este proceso tambi\u00e9n puede funcionar como puerta de entrada para quienes luego quieran profundizar en la formaci\u00f3n.',
+    ctaPrimary: 'Reservar mi lugar',
+    ctaSecondary: 'Recibir informaci\u00f3n'
   };
   TRANSLATIONS.es.projects = {
     label: 'Otros trabajos',
@@ -283,10 +305,21 @@
     label: 'Proposta',
     title: 'O caminho em Ser en el <em>Cuerpo</em>',
     cards: [
-      { title: 'Explorar', desc: 'Aulas e experi\u00eancias de movimento vivencial.' },
-      { title: 'Aprofundar', desc: 'Workshops e encontros especiais.' },
+      { title: 'Explorar', desc: 'Aulas e experi\u00eancias de movimento vivencial para come\u00e7ar a conectar com o corpo.' },
+      { title: 'Aprofundar', desc: 'Workshops e encontros especiais para ampliar a experi\u00eancia corporal.' },
       { title: 'Formar-se', desc: 'Forma\u00e7\u00e3o em ferramentas de movimento terap\u00eautico.' }
-    ]
+    ],
+    ctaPrimary: 'Quero participar',
+    ctaSecondary: 'Receber informa\u00e7\u00e3o'
+  };
+  TRANSLATIONS.pt.online = {
+    label: 'Online',
+    title: 'Ser en el Cuerpo \u2014 <em>Online</em>',
+    desc: 'Um processo de movimento e viv\u00eancia em grupo pequeno para explorar o corpo, o movimento e a presen\u00e7a de qualquer lugar.',
+    duration: 'Dura\u00e7\u00e3o: 6 encontros online',
+    note: 'Este processo tamb\u00e9m pode funcionar como porta de entrada para quem depois quiser aprofundar na forma\u00e7\u00e3o.',
+    ctaPrimary: 'Reservar meu lugar',
+    ctaSecondary: 'Receber informa\u00e7\u00e3o'
   };
   TRANSLATIONS.pt.projects = {
     label: 'Outros trabalhos',
@@ -738,6 +771,19 @@
       if (caminoTitles[i]) caminoTitles[i].textContent = card.title;
       if (caminoDescs[i]) caminoDescs[i].textContent = card.desc;
     });
+    var caminoCtaPrimary = document.querySelector('.camino-cta .btn-primary');
+    var caminoCtaSecondary = document.querySelector('.camino-cta .btn-outline');
+    if (caminoCtaPrimary) setIconText('.camino-cta .btn-primary', pack.camino.ctaPrimary);
+    if (caminoCtaSecondary) setText('.camino-cta .btn-outline', pack.camino.ctaSecondary);
+
+    // Online
+    setIconText('#online .section-label', pack.online.label);
+    setHTML('.online-title', pack.online.title);
+    setText('.online-desc', pack.online.desc);
+    setText('.online-detail span', pack.online.duration);
+    setText('.online-note', pack.online.note);
+    setIconText('.online-cta .btn-primary', pack.online.ctaPrimary);
+    setText('.online-cta .btn-outline', pack.online.ctaSecondary);
 
     setText('.about-label', pack.about.label);
     setHTML('.about-title', pack.about.title);

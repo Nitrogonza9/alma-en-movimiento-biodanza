@@ -2825,6 +2825,57 @@ textarea.form-input {
 @media (max-width: 800px) {
   .camino-grid { grid-template-columns: 1fr; max-width: 400px; }
 }
+
+/* ===== CAMINO CTA ===== */
+.camino-cta {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+/* ===== ONLINE SECTION ===== */
+.online-block {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.online-title {
+  margin-bottom: var(--space-md);
+}
+.online-desc {
+  font-size: var(--fs-md);
+  color: var(--clr-text);
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+}
+.online-detail {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--fs-base);
+  font-weight: 600;
+  color: var(--clr-primary);
+  margin-bottom: var(--space-md);
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-full);
+  background: var(--clr-primary-ultra-light);
+  border: 1px solid rgba(157, 78, 221, 0.15);
+}
+.online-note {
+  font-size: var(--fs-sm);
+  color: var(--clr-text-light);
+  line-height: 1.65;
+  font-style: italic;
+  margin-bottom: var(--space-lg);
+}
+.online-cta {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
 </style>
 </head>
 
@@ -2962,14 +3013,14 @@ textarea.form-input {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/><path d="M8 12a4 4 0 0 1 8 0"/></svg>
         </div>
         <h3 class="camino-card-title">Explorar</h3>
-        <p class="camino-card-desc">Clases y experiencias de movimiento vivencial.</p>
+        <p class="camino-card-desc">Clases y experiencias de movimiento vivencial para comenzar a conectar con el cuerpo.</p>
       </div>
       <div class="camino-card reveal stagger-2">
         <div class="camino-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="6"/></svg>
         </div>
         <h3 class="camino-card-title">Profundizar</h3>
-        <p class="camino-card-desc">Talleres y encuentros especiales.</p>
+        <p class="camino-card-desc">Talleres y encuentros especiales para ampliar la experiencia corporal.</p>
       </div>
       <div class="camino-card reveal stagger-3">
         <div class="camino-icon">
@@ -2978,6 +3029,15 @@ textarea.form-input {
         <h3 class="camino-card-title">Formarse</h3>
         <p class="camino-card-desc">Formaci&oacute;n en herramientas de movimiento terap&eacute;utico.</p>
       </div>
+    </div>
+    <div class="camino-cta reveal">
+      <a href="https://wa.me/5492616118455?text=Hola!%20Quiero%20participar%20en%20Ser%20en%20el%20Cuerpo" class="btn btn-primary" target="_blank" rel="noopener">
+        Quiero participar
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#contacto" class="btn btn-outline">
+        Recibir informaci&oacute;n
+      </a>
     </div>
   </div>
 </section>
@@ -3039,7 +3099,7 @@ textarea.form-input {
           <div>
             <div class="metodo-precio-monto">$50.000</div>
             <div class="metodo-precio-detail">Cuota mensual</div>
-            <div class="metodo-precio-descuento">10% dto. abonando en febrero</div>
+            <div class="metodo-precio-descuento">Se abona del 1 al 10 de cada mes. Luego de esa fecha tiene un recargo del 10%.</div>
           </div>
         </div>
 
@@ -3073,6 +3133,34 @@ textarea.form-input {
             <span class="btn-text">Completar ficha</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SER EN EL CUERPO - ONLINE -->
+<section class="section-padding section-alt" id="online">
+  <div class="container">
+    <div class="online-block reveal">
+      <div class="online-content">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Online
+        </span>
+        <h2 class="section-title online-title">Ser en el Cuerpo &mdash; <em>Online</em></h2>
+        <p class="online-desc">Un proceso de movimiento y vivencia en grupo peque&ntilde;o para explorar el cuerpo, el movimiento y la presencia desde cualquier lugar.</p>
+        <div class="online-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;flex-shrink:0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Duraci&oacute;n: 6 encuentros online</span>
+        </div>
+        <p class="online-note">Este proceso tambi&eacute;n puede funcionar como puerta de entrada para quienes luego quieran profundizar en la formaci&oacute;n.</p>
+        <div class="online-cta">
+          <a href="https://wa.me/5492616118455?text=Hola!%20Quiero%20info%20sobre%20Ser%20en%20el%20Cuerpo%20Online" class="btn btn-primary" target="_blank" rel="noopener">
+            Reservar mi lugar
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contacto" class="btn btn-outline">Recibir informaci&oacute;n</a>
         </div>
       </div>
     </div>
